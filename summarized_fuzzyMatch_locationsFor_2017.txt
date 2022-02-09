@@ -1,0 +1,45 @@
+Location	NumTimesListed
+clay head trail	52
+mansion beach	28
+rodman's hollow	26
+'the maze'	23
+enchanted forest	20
+hodge family wildlife preserve	17
+bi greenway	15
+scotch beach	14
+nathan mott park	12
+mohegan trail	11
+win dodge	10
+fresh pond greenway	10
+fresh swamp	10
+beacon hill	8
+ocean view pavilion	6
+andy's way	6
+mohegan bluffs	5
+turnip farm	5
+harrison loop	5
+loffredo loop	4
+payne overlook	4
+black rock	4
+settler's rock	4
+meadow hill	3
+sachern pond	3
+payne farm trail	2
+lewis-dickens farm	2
+north light	2
+southeast light	2
+greenway trail off payne road	1
+greenway trail entrance on payne's rd.	1
+greenway trail on old mill road in a tree just past entrance.	1
+greenway trail off cooneymus rd.	1
+beach ave greenway trail	1
+greenway trail between payne rd and westshore rd. found under small bridge	1
+rock wall on clayheads trail	1
+trail at the fresh pond preserve	1
+main trail off of cooneymas in rock wall	1
+trail to fresh pond preserve	1
+great salt pond	1
+greenway across from fresh pond on lakeside dr.	1
+fresh pond trail up in tree	1
+beach avenue trail stone walll	1
+greenway trail off old mill rd	1

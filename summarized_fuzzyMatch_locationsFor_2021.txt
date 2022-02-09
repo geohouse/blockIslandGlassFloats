@@ -1,0 +1,50 @@
+Location	NumTimesListed
+rodman's hollow	42
+'the maze'	29
+clay head trail	25
+mohegan trail	18
+mansion beach	16
+scotch beach	10
+hodge family wildlife preserve	10
+fresh pond greenway	10
+mohegan bluffs	8
+settler's rock	7
+great salt pond	7
+andy's way	7
+nathan mott park	7
+enchanted forest	6
+sachern pond	6
+loffredo loop	5
+bi greenway	5
+turnip farm	5
+meadow hill	5
+lewis-dickens farm	5
+new harbor	4
+win dodge	4
+payne overlook	4
+black rock	4
+harrison loop	4
+north light	4
+ocean view pavilion	3
+southeast light	3
+fresh swamp	3
+beacon hill	3
+greenway across from rodman's at bench overlook	1
+greenway trail entrance lakeside druve	1
+greenway trail on lakeside dr.	1
+payne farm trail	1
+rock wall off of fresh pond trail	1
+side of trail on fresh pond trail	1
+rock wall near fresh pond	1
+rodmans hollow, on the side of the trail	1
+in the center of a tree on the greenway trail	1
+entering rodham's hollow from trail by lake	1
+in a tree on the great pond hiking trail	1
+dory's cove under stump on the beach	1
+long lot trail @ long lot pond	1
+lewis dicken's farm trail	1
+near the entrance of the fresh pond trail	1
+hodge preserve, in the bushes in circle part of trail	1
+beach ave trail hanging from a string on a tree by the water	1
+beach access trail to old harbor in town	1
+south side of center road on greenway trail	1

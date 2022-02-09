@@ -3,6 +3,9 @@
 # Call as: 
 # > py "C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIslandGlassFloats_locationParse.py"
 
+# Uses fuzzy matching with fuzzywuzzy package to try and standardize the names
+from fuzzywuzzy import process as fuzzProcess
+
 print("test")
 
 yearList = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
@@ -10,12 +13,30 @@ currYear = ''
 
 masterLocationList = ["rodman's hollow", "enchanted forest", "mohegan bluffs", "north light",
 "settler's rock", "clay head trail", "'the maze'", "sachern pond", "hodge family wildlife preserve",
-"mansion beach", "andy's way", "scotch beach", "new harbor", "great salt pond", "harrison loop"]
+"mansion beach", "andy's way", "scotch beach", "new harbor", "great salt pond", "harrison loop",
+"bi greenway", "nathan mott park", "turnip farm", "loffredo loop", "meadow hill", "ocean view pavilion",
+"southeast light", "payne overlook", "mohegan trail", "black rock", "lewis-dickens farm",
+"win dodge", "fresh pond greenway", "fresh swamp", "payne farm trail", "beacon hill"]
 
 locationDict = {}
+fuzzMatchedDict = {}
+
+def getNearestFuzzyMatch(inputLocationName):
+    # Check if all matches are equally bad; in this case, do not output anything
+    allLocationsScored = fuzzProcess.extract(inputLocationName, masterLocationList)
+    # Extract just the scores (not the words matching the scores)
+    allScoresOnly = [score[1] for score in allLocationsScored]
+    if all(x == allScoresOnly[0] for x in allScoresOnly):
+        return([])
+    else:
+        # else return only the word with the highest match
+        bestLocationMatch = fuzzProcess.extractOne(inputLocationName, masterLocationList)
+        bestLocationName = bestLocationMatch[0]
+        bestLocationScore = bestLocationMatch[1]
+        return([bestLocationName,str(bestLocationScore)])
 
 def makeOutputFile(year, locDict):
-    outputFileName = 'summarizedLocationsFor_' + year + '.txt'
+    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
@@ -45,7 +66,20 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
         splitLine = stripLine.split(' - ')
         # This is a line that contains a location description where a float was found
         if len(splitLine) >= 3:
-            floatLocation = splitLine[2].lower()
+            floatLocation_initial = splitLine[2].lower()
+            floatLocation_fuzzMatched = getNearestFuzzyMatch(floatLocation_initial)
+            # If the fuzzy matching failed to return a clear best match, just use the 
+            # initial location entry instead
+            if floatLocation_fuzzMatched == []:
+                floatLocation = floatLocation_initial
+            else:
+                floatLocation = floatLocation_fuzzMatched[0]
+                floatLocationScore = floatLocation_fuzzMatched[1]
+                # For testing the fuzzy matching only, add output match characteristics to a dict
+                # for later output to a file for diagnostics
+                if floatLocation_initial not in fuzzMatchedDict.keys():
+                    fuzzMatchedDict[floatLocation_initial] = [floatLocation, floatLocationScore]
+
             if floatLocation in locationDict.keys():
                 locationDict[floatLocation] += 1
             else:
@@ -53,7 +87,10 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
     # Write the last year's of entries to a file
     makeOutputFile(currYear, locationDict)
 
-
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes.txt", 'w') as fuzzyOutFile:
+    fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
+    for key in fuzzMatchedDict:
+        fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
 
 
 #print(floatLocation)

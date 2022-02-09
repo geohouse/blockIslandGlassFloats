@@ -1,0 +1,16 @@
+Location	NumTimesListed
+enchanted forest	33
+clay head trail	26
+mansion beach	19
+mohegan bluffs	8
+north light	8
+scotch beach	7
+great salt pond	5
+turnip farm	4
+'the maze'	4
+payne overlook	3
+andy's way	3
+win dodge	2
+bi greenway	2
+settler's rock	1
+new harbor	1
