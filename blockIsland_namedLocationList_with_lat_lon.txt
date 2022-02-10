@@ -1,0 +1,61 @@
+location	lat	lon
+abrams animal farm		
+andy's way		
+baby beach		
+ballard's beach		
+ball o' brien park		
+balls point		
+beacon hill		
+bi greenway		
+black rock beach		
+block island state airport		
+charlestown beach		
+clay head trail		
+cooneymus beach		
+cow cove		
+crescent beach		
+dickens point		
+dinhgy beach		
+dorry's cove beach		
+enchanted forest		
+fred benson town beach		
+fresh pond greenway		
+fresh swamp		
+grace's cove		
+great salt pond		
+harrison loop		
+hodge family wildlife preserve		
+hodge property		
+lewis-dickens farm		
+lewis point		
+loffredo loop		
+logwood cove		
+mansion beach		
+martin's point		
+meadow hill		
+mohegan bluffs		
+mohegan trail		
+mosquito beach		
+nathan mott park		
+new harbor		
+new shoreham		
+north light		
+ocean view pavilion		
+old harbor point		
+payne farm trail		
+payne overlook		
+rodman's hollow		
+sachem pond		
+sacred labyrinth		
+scotch beach		
+settler's rock		
+southeast light		
+southwest point		
+spring pond		
+surf beach		
+the maze'		
+tilson cove		
+turnip farm		
+vaill beach		
+west beach		
+win dodge		

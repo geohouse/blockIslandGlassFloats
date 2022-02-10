@@ -1,39 +1,67 @@
 Location	NumTimesListed
-rodman's hollow	23
-mansion beach	22
-clay head trail	19
-andy's way	16
-enchanted forest	15
-north light	13
-mohegan bluffs	12
-scotch beach	11
-beacon hill	8
-great salt pond	8
+rodman's hollow	17
+clay head trail	15
+enchanted forest	12
+dorry's cove beach	11
+mohegan bluffs	11
+north light	11
+andy's way	7
 win dodge	7
-'the maze'	6
-bi greenway	5
-turnip farm	5
+grace's cove	7
+beacon hill	6
 harrison loop	5
-payne farm trail	4
-nathan mott park	4
+turnip farm	5
+cooneymus beach	5
+vaill beach	5
+mansion beach	5
+west beach	4
+bi greenway	4
+ball o' brien park	4
+the maze'	4
+baby beach	4
+black rock beach	4
 meadow hill	3
-sachern pond	3
+dickens point	3
+great salt pond	3
 hodge family wildlife preserve	3
-black rock	3
+abrams animal farm	2
 fresh pond greenway	2
+old harbor point	2
 southeast light	2
 ocean view pavilion	2
-settler's rock	2
+crescent beach	2
+fred benson town beach	2
 hodge family preserve on the side of trail in the grass	2
+balls point	2
+cow cove	2
+block island state airport	2
+ballard's beach	1
 greenway trail off old mill road	1
 fresh swamp	1
+payne farm trail	1
+mohegan bluff beach	1
+town beach entrance	1
+gracy's cove, entrance to a walkway, on top of sign	1
+new harbor	1
 stonewall near middle earth on greenway trail	1
+greenway trail off cooneymus	1
 mohegan trail	1
 clayhead trail at beach end	1
-cooneymus beach/ dory's cove in driftwood log	1
+sand bank cove on ground surrounded by rocks by clay cave	1
+a few hundred yards north of cooneymus rd beach access	1
 winfield dodge farm hidden in a rock fence	1
-lewis-dickens farm	1
-new harbor	1
-in a tree	1
+beach at northern light	1
+clay head beach-lobster trap	1
+driftwood-clay head beach	1
+lewis point	1
+surf beach	1
+charlestown beach	1
+beach	1
+dories cove beach	1
+in rock wall at vaills beach road	1
+vail beach, in a old lobster trap, 10/10/13	1
+mosquito beach	1
+dorry's cove-in a bleach bottle	1
 greenway trail in tree near cooneymus rd	1
-inside lobster trap on dorry's cove beach	1
+near bonnell beach	1
+maze beach	1

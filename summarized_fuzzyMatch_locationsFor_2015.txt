@@ -1,51 +1,105 @@
 Location	NumTimesListed
-clay head trail	46
-rodman's hollow	37
-hodge family wildlife preserve	33
-bi greenway	30
-'the maze'	19
-mansion beach	16
-enchanted forest	15
-scotch beach	14
-lewis-dickens farm	10
+bi greenway	35
+clay head trail	30
+rodman's hollow	28
+hodge family wildlife preserve	24
+the maze'	12
+enchanted forest	11
 fresh pond greenway	9
-andy's way	9
-black rock	9
-harrison loop	8
 turnip farm	8
-nathan mott park	8
-north light	7
-beacon hill	7
-win dodge	6
-southeast light	6
-great salt pond	6
+dickens point	8
+grace's cove	7
+baby beach	7
+andy's way	7
+fresh swamp	7
+harrison loop	6
+cooneymus beach	6
+hodge property	6
+ball o' brien park	6
+mansion beach	5
+win dodge	5
 ocean view pavilion	5
-mohegan bluffs	5
-fresh swamp	5
-mohegan trail	4
-sachern pond	4
-payne overlook	4
-new harbor	3
-loffredo loop	3
+beacon hill	5
+north light	5
+nathan mott park	5
+block island state airport	5
+cow cove	4
+lewis point	4
+mohegan bluffs	4
+mohegan trail	3
+great salt pond	3
+west beach	3
+dorry's cove beach	3
+spring pond	3
 settler's rock	3
+southeast light	3
+mosquito beach	2
+martin's point	2
+beach	2
+black rock beach	2
+payne overlook	2
 meadow hill	2
+north west dump beach	1
 old mill greenway trail next to stone wall	1
+logwood cove	1
+entrance to beach in wall across from beachhead	1
+new shoreham	1
+on old mill trail next to cooneymus rd in a stone wall	1
 greenway trail crossing cooneymus rd	1
+rodman's hallow side path	1
+dorys cove on the sand	1
+vaill beach	1
+loffredo loop	1
+not sure	1
+old mill road trail to rodmans hollow eye level in branches!	1
 entering rodman's west of fresh pond	1
 ??	1
 greenway trail in a small tree	1
+gracies cove beach	1
+bic trail off beach ave	1
+wooden crate on beach near bluffs	1
+potts and kettel beach	1
+old harbor point	1
 short trail near town beach pavilion	1
+greenway beach road	1
 beach trail under tree in bush	1
 payne farm trail	1
+beach avenue traik	1
+vail beach/black rock on beach above tide line	1
+ballard's beach	1
+across from the beach head	1
+the cannon where the farmer's market is	1
+fish tote on sw corner beach	1
+dorreys cove in abig pile of clay dirt	1
 beach s/o dories cove road	1
-on beach, southeast of little sachem pond under a mesh screen	1
+old mill road greenway trail	1
+dump beach	1
+sachem pond	1
 clayhead trail on log at beach	1
+charlestown beach	1
+dump beach- in upright log	1
+greenway trail old town rd	1
 beach ave greenway trail on ground under grass	1
+surf beach	1
+charleston beach near inlet	1
 under tree deep in the grass fresh pond trail	1
+balls point	1
+beach ave greenway	1
+sacred labyrinth	1
+lewis-dickens farm	1
+snake hole rd beach	1
 "the greenway" greenway trail	1
+wall by peter wood's house	1
+fred benson town beach	1
+emily dickens trail/stonewall	1
 greenway trail in tuft of tall grass	1
+southwest point	1
+lake side dr across from fresh pond	1
 greenway trail (lakeside drive)	1
 head of the trail at dickens farm . in the map holder.	1
 greenway across from fresh pond	1
 greenway trail off old mill in the brush near a rock wall	1
 in the grass on louis dickens trail	1
+elizabeth dickens trailhead at dicken's road	1
+beach ave	1
+the crest of black rock loop	1

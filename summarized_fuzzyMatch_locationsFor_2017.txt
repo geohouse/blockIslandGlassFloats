@@ -1,45 +1,89 @@
 Location	NumTimesListed
-clay head trail	52
-mansion beach	28
-rodman's hollow	26
-'the maze'	23
-enchanted forest	20
-hodge family wildlife preserve	17
-bi greenway	15
-scotch beach	14
-nathan mott park	12
-mohegan trail	11
+clay head trail	42
+rodman's hollow	23
+enchanted forest	15
+bi greenway	13
+the maze'	13
+hodge family wildlife preserve	11
 win dodge	10
-fresh pond greenway	10
 fresh swamp	10
+fresh pond greenway	9
+nathan mott park	9
+mohegan trail	9
 beacon hill	8
+sacred labyrinth	7
 ocean view pavilion	6
-andy's way	6
-mohegan bluffs	5
-turnip farm	5
-harrison loop	5
+west beach	6
+harrison loop	6
+mansion beach	6
+andy's way	5
+ball o' brien park	5
+block island state airport	5
 loffredo loop	4
 payne overlook	4
-black rock	4
-settler's rock	4
-meadow hill	3
-sachern pond	3
+dorry's cove beach	4
+old harbor point	4
+mohegan bluffs	4
+baby beach	4
+martin's point	4
+cooneymus beach	4
+fred benson town beach	3
+settler's rock	3
+hodge property	3
+scotch beach	3
 payne farm trail	2
+charlestown beach	2
 lewis-dickens farm	2
-north light	2
-southeast light	2
+spring pond	2
+surf beach	2
+balls point	2
+turnip farm	2
+abrams animal farm	2
+crescent beach	2
+dump beach	2
 greenway trail off payne road	1
+bonnell beach champlain road behind plack	1
+beach avenue trail	1
 greenway trail entrance on payne's rd.	1
+elizabeth dickens trail in a pricker bush, halloween day , 2017	1
+elizabeth dickens trail, sw- in clump of tall grass	1
+north light	1
 greenway trail on old mill road in a tree just past entrance.	1
+champlin rd beach before the coast guard station	1
+beach ave bridge at corn neck rd	1
+black rock rd. down from 1st trail head under tree	1
 greenway trail off cooneymus rd.	1
+black rock beach	1
+lewis point	1
+dorry's cove-by driftwood	1
+southeast light	1
+harrison trail at west side road, in stone wall	1
+dickens point	1
+charleston beach behind driftwood	1
 beach ave greenway trail	1
 greenway trail between payne rd and westshore rd. found under small bridge	1
 rock wall on clayheads trail	1
+under the stairs in crescent/kid beach	1
 trail at the fresh pond preserve	1
+bonnell beach pathway	1
+on beach at end of scotch rd	1
+under stairs to beach on cornneck road	1
+southwest point	1
+bluffs beach by the driftwood hut	1
+tilson cove	1
+black rock road west loop	1
 main trail off of cooneymas in rock wall	1
 trail to fresh pond preserve	1
+logwood cove	1
+behind harbor bay and harbor pond marker	1
+dump beach walking toward beane point	1
 great salt pond	1
 greenway across from fresh pond on lakeside dr.	1
+ballard's beach	1
 fresh pond trail up in tree	1
 beach avenue trail stone walll	1
+meadow hill	1
 greenway trail off old mill rd	1
+dump beach under tall grass	1
+transfer station beach	1
+beach entrance found 5/5/19!	1

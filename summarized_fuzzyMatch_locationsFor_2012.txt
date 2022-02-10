@@ -1,16 +1,27 @@
 Location	NumTimesListed
-enchanted forest	33
+enchanted forest	28
 clay head trail	26
-mansion beach	19
-mohegan bluffs	8
+mansion beach	9
 north light	8
-scotch beach	7
-great salt pond	5
+grace's cove	7
+mohegan bluffs	6
+dorry's cove beach	6
+west beach	5
+beach	4
 turnip farm	4
-'the maze'	4
-payne overlook	3
-andy's way	3
-win dodge	2
+the maze'	3
+crescent beach	3
+cow cove	2
 bi greenway	2
-settler's rock	1
-new harbor	1
+clayhead trail beach	2
+moheagan bluffs beach	1
+payne overlook	1
+the bluffs beach (stairs)	1
+coast guard channel beach	1
+andy's way	1
+lewis point	1
+scotch beach	1
+block island state airport	1
+southwest point	1
+graces cove, just past the driftwood fort	1
+inside fort at gracies cove	1

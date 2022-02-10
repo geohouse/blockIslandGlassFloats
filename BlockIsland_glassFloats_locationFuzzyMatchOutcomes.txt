@@ -1,15 +1,12 @@
 originalEntry	fuzzyMatchedEntry	fuzzyMatchScore
-lewis-dickens trail in tall grass	clay head trail	86
-bunnell beach	mansion beach	62
-on a rock in the water off of spring street	settler's rock	86
-beach ave. trails	clay head trail	62
+bunnell beach	fred benson town beach	86
+on a rock in the water off of spring street	black rock beach	86
+beach ave. trails	baby beach	86
 leffredo loop	loffredo loop	92
-woods pond	great salt pond	86
-martin lots under the rock wall	settler's rock	86
+woods pond	fresh pond greenway	86
+martin lots under the rock wall	black rock beach	86
 hyland trail	mohegan trail	72
-grace cove beach- in a log	mansion beach	86
 ocean view path near ballards	ocean view pavilion	86
-trail on beach road	scotch beach	86
 in a boot	new harbor	53
 win dodge preserve	win dodge	90
 clay head trail. in between a tree.	clay head trail	90
@@ -17,42 +14,37 @@ dodge preserve	hodge family wildlife preserve	86
 mohegan bluffs overlook	mohegan bluffs	90
 se lighthouse	southeast light	57
 overlook mohegan	payne overlook	69
-cooneymous trail	payne farm trail	56
+cooneymous trail	cooneymus beach	71
 greenway near bench	bi greenway	86
 2nd bluffs	mohegan bluffs	71
 fresh swamp	fresh swamp	100
-magellan's tree trail	settler's rock	86
 scotch beach path	scotch beach	95
-maze in a tree	'the maze'	86
-the maze behind stone wall!	'the maze'	90
+maze in a tree	the maze'	86
+the maze behind stone wall!	the maze'	90
 long lots	great salt pond	50
-the greenway between old mill road and cooneymus road in a wall behind a rock.	settler's rock	86
-main trail between cooneymus and old mil road on ground in brush	clay head trail	86
 greenway trail off beacon hill	beacon hill	90
 tree, near enchanted forest	enchanted forest	90
-the maze	'the maze'	100
-on the hiking path near little sachem pond	'the maze'	86
-near fresh pond in long stone wall adjacent to field	sachern pond	86
+the maze	the maze'	100
+on the hiking path near little sachem pond	sachem pond	90
 greenaway trail behind stone wall	clay head trail	86
-long lots/the maze	'the maze'	90
-fresh pond behind wall at base of tree	sachern pond	86
-in a tree near the gazebo	'the maze'	86
+long lots/the maze	the maze'	90
+in a tree near the gazebo	the maze'	86
 turnip farm	turnip farm	100
-beach across from beachhead (maybe baby beach)	mansion beach	86
+beach across from beachhead (maybe baby beach)	baby beach	90
 greenway north of beacon hill	beacon hill	90
 mazzur trail	mohegan trail	64
 marsh hollow entrance-left in bike basket	rodman's hollow	86
 mott nature trail	mohegan trail	60
 loffredo loop	loffredo loop	100
-black rock road	black rock	90
+black rock road	black rock beach	77
 rodman's hollow	rodman's hollow	100
-fresh pond in grass	sachern pond	86
+fresh pond in grass	fresh swamp	86
 rodman's hollow-on the side of the jones trail	rodman's hollow	90
 fresh pond	fresh pond greenway	90
 rodman's hollow in a tree	rodman's hollow	90
-fresh pond preserve	sachern pond	86
+fresh pond preserve	fresh swamp	86
 rodman's hollow short loop	rodman's hollow	90
-rodman hollow side of trail	rodman's hollow	86
+rodman hollow side of trail	clay head trail	86
 rodman's hollow, near peckham farm	rodman's hollow	90
 entrance to rodman's hollow from fresh pond	rodman's hollow	90
 fresh pond trail heading to rodman's hollow in a grouping of stones	rodman's hollow	90
@@ -63,17 +55,14 @@ rodman's hollow: fresh pond trail	rodman's hollow	90
 rodman's hollow behind the bench.	rodman's hollow	90
 roadman's hollow	rodman's hollow	97
 fresh pond area	fresh pond greenway	82
-pilot hill rd & spring st	meadow hill	86
+pilot hill rd & spring st	beacon hill	86
 greenway/rodman's	andy's way	86
-rodmans hollow scenic overlook, searched for 2099 days.	rodman's hollow	86
+rodmans hollow scenic overlook, searched for 2099 days.	payne overlook	86
 greenway off of payne road	bi greenway	86
-1661 farm	lewis-dickens farm	86
-rat island	great salt pond	64
-andys way on the beach	'the maze'	86
+1661 farm	abrams animal farm	86
+rat island	block island state airport	86
 pilot hill road & mohegan trail	mohegan trail	90
-lobster pot christmas tree	harrison loop	46
-megan's bluff, next to the 2nd tree on the right.	rodman's hollow	86
-inside rusty can, inside hollow tree on beach	rodman's hollow	86
+lobster pot christmas tree	balls point	50
 andys way rock wall	andy's way	86
 old bluffs overlook	payne overlook	69
 meadow hill	meadow hill	100
@@ -82,28 +71,28 @@ clayhead	clay head trail	79
 dorrys pathway	andy's way	58
 clayhead trail from corn neck road	clay head trail	86
 breed land trail	mohegan trail	62
-the maze at clayhead	'the maze'	90
-maze	'the maze'	90
+the maze at clayhead	the maze'	90
+maze	the maze'	90
 nathan mott trail	nathan mott park	79
-lobster pot in the maze	'the maze'	90
+lobster pot in the maze	the maze'	90
 rodmans hollow trail	mohegan trail	86
-clayhead train / the maze	'the maze'	90
+clayhead train / the maze	the maze'	90
 nathan mott	nathan mott park	95
 nathan mott park	nathan mott park	100
-lewis dickens trail	lewis-dickens farm	81
-middle pond trail	mohegan trail	60
-west beach trail	clay head trail	58
+lewis dickens trail	lewis point	86
+middle pond trail	sachem pond	86
+west beach trail	west beach	90
 enchanted forest	enchanted forest	100
-black rock trail	black rock	90
-cooneymus road	andy's way	42
+black rock trail	black rock beach	75
+cooneymus road	cooneymus beach	76
 gift	north light	51
 martins trail	mohegan trail	69
 old mill loop- tree	loffredo loop	55
 main trail, crossing conneymus	clay head trail	86
 lakeshore drive	new harbor	49
-across from fresh pond	sachern pond	86
+across from fresh pond	fresh swamp	86
 near north lighthouse	north light	90
-dickens trail entrance	mohegan trail	86
+dickens trail entrance	dickens point	86
 hodge family preserve, re-hid at avonlea for a new found friend to find.	hodge family wildlife preserve	86
 north side of clayhead trail!	clay head trail	87
 win dodge	win dodge	100
@@ -113,72 +102,65 @@ old mill trail	clay head trail	59
 fresh swamp payne farm trail	fresh swamp	90
 mansion beach foundation	mansion beach	90
 at the base of a bush on lewis dickens farm preserve	lewis-dickens farm	90
-inside a log	mansion beach	46
+inside a log	harrison loop	46
 between scotch and mansion beach	mansion beach	90
 hodge family wildlife preserve	hodge family wildlife preserve	100
-the sacred labyrinth	'the maze'	86
-labyrinth	clay head trail	42
+the sacred labyrinth	sacred labyrinth	95
+labyrinth	sacred labyrinth	90
 rodman's hollow in the grass	rodman's hollow	90
 mohegan bluff lookout	mohegan bluffs	86
 lofreddo loop	loffredo loop	92
-mott property	nathan mott park	48
+mott property	hodge property	74
 harrison trail in a tree	clay head trail	86
 lewis-dickens farm nature preserve	lewis-dickens farm	90
-old pet cemetery	'the maze'	45
+old pet cemetery	old harbor point	48
 trail	clay head trail	90
-cannon @ legion park	ocean view pavilion	47
+cannon @ legion park	ball o' brien park	58
 dodge cemetery	win dodge	86
-in a tree off of old mill road	beacon hill	47
+in a tree off of old mill road	old harbor point	86
 martin trails	mohegan trail	69
-nestled between a piece of driftwood and sea grass at grace's cove	rodman's hollow	86
+nestled between a piece of driftwood and sea grass at grace's cove	grace's cove	90
 clay head trail	clay head trail	100
 in a tree on turnip farm trail	turnip farm	90
 trailhead on greenway near cooneymus	bi greenway	86
-old mill loop of nathanial mott park	harrison loop	86
-beach ave trail	clay head trail	64
-gracies cove, in the bike rack	'the maze'	86
+beach ave trail	baby beach	86
 window sill in mystic, ct	meadow hill	58
-trail on beach rd	mansion beach	67
-visitor center	enchanted forest	45
-trim's pond	fresh pond greenway	86
+trail on beach rd	baby beach	86
+visitor center	tilson cove	48
+trim's pond	dorry's cove beach	86
 southeast lighthouse fence post	southeast light	90
 harrison loop	harrison loop	100
 marsh hawk hollow	rodman's hollow	62
 old mill loop	loffredo loop	59
 great salt pond	great salt pond	100
-in tree on black rock rd.	black rock	90
-in the park across the across the power company	'the maze'	86
+in tree on black rock rd.	black rock beach	86
+in the park across the across the power company	ball o' brien park	86
 greenway trail near turnip farm	turnip farm	90
-fresh pond in stump	sachern pond	86
+fresh pond in stump	fresh swamp	86
 payne's overlook	payne overlook	95
 hodge preserve trail map stand	clay head trail	86
 old mill road	hodge family wildlife preserve	53
-cannon at legion park	north light	50
+cannon at legion park	ball o' brien park	56
 hodges	hodge family wildlife preserve	75
 fire department	fresh pond greenway	47
 path to clayhead trail	mohegan trail	86
-hollowed out log on west side beach	mansion beach	86
 mohegan bluffs	mohegan bluffs	100
-the beach ?	scotch beach	76
-beach avenue trail	scotch beach	86
-hodge preserve,in a tree	hodge family wildlife preserve	70
+hodge preserve,in a tree	hodge property	86
 mohegan bluffs stairway	mohegan bluffs	90
-west beach road	scotch beach	59
-golden grove / settlers rock	settler's rock	86
+west beach road	west beach	90
+golden grove / settlers rock	black rock beach	86
 path near scotch beach	scotch beach	90
-hodge preserve trailside	hodge family wildlife preserve	74
-west beach, 50m north of the fence end in a hoary mugwort plant	north light	86
-beach in front of the national	'the maze'	86
-dickens trail	lewis-dickens farm	66
+hodge preserve trailside	hodge property	86
+west beach, 50m north of the fence end in a hoary mugwort plant	west beach	90
+dickens trail	dickens point	69
 southeast lighthouse	southeast light	86
-fred benson town beach in the rocks	'the maze'	86
-town fountain	mohegan trail	46
+fred benson town beach in the rocks	fred benson town beach	90
+town fountain	fred benson town beach	86
 clayhead trail	clay head trail	97
-south east lighthouse rock	settler's rock	86
-indian monument across from hog pen!	nathan mott park	50
-found on dinghy beach and rehidden.	mansion beach	86
-sea breeze inn	great salt pond	46
-legion park in a tree	'the maze'	45
+south east lighthouse rock	black rock beach	86
+indian monument across from hog pen!	hodge property	51
+sea breeze inn	sacred labyrinth	47
+legion park in a tree	ball o' brien park	55
 path to andy's way	andy's way	90
 new harbor road bridge	new harbor	90
 fence in front of hodge family wildlife preserve	hodge family wildlife preserve	90
@@ -187,55 +169,48 @@ base of the dunes on the beach at end of clayhead trail	clay head trail	87
 tree in front of harbor church	new harbor	86
 greenaway by peter woods house	bi greenway	70
 stone wall ocean ave before depot	ocean view pavilion	86
-crescent beach (across from oyster store)	mansion beach	86
-dinghy beach	mansion beach	64
+crescent beach (across from oyster store)	crescent beach	90
+dinghy beach	dinhgy beach	92
 andy's way path	andy's way	90
-west beach	scotch beach	73
+west beach	west beach	100
 path to scotch beach	scotch beach	90
 great salt pond near the channel	great salt pond	90
-across the channel from the coast guard station	'the maze'	86
-mary macgill store	meadow hill	47
-crescent beach between town and scotch	mansion beach	86
-path leading to public beach	mansion beach	86
+across the channel from the coast guard station	the maze'	86
+mary macgill store	grace's cove	47
+crescent beach between town and scotch	crescent beach	90
 mohegan bluff near overlook	mohegan bluffs	86
 rodmans hollow	rodman's hollow	97
-pebbly beach	mansion beach	56
+pebbly beach	dorry's cove beach	86
 greenway trail	bi greenway	80
-spring pond area	great salt pond	62
-island cemetery, next to a grave	'the maze'	45
-vfw park	nathan mott park	86
+spring pond area	spring pond	95
+island cemetery, next to a grave	grace's cove	57
+vfw park	ball o' brien park	86
 clayhead trail in tree nook!	clay head trail	86
-walkers welcome	settler's rock	41
-hodge preserve ,in a tree	hodge family wildlife preserve	70
+walkers welcome	grace's cove	52
+hodge preserve ,in a tree	hodge property	86
 tree in harrison trail	harrison loop	86
-tom's point under bench	rodman's hollow	86
-jetty rocks near crescent beach and ferry	mansion beach	86
-dinghey beach	mansion beach	62
+jetty rocks near crescent beach and ferry	crescent beach	90
+dinghey beach	dinhgy beach	88
 entrance of path to scotch beach	scotch beach	90
-stairs at the beach next to the surf hotsl	'the maze'	86
-‘rona orb in the lobster trap tree	'the maze'	86
+‘rona orb in the lobster trap tree	the maze'	86
 ocean house	ocean view pavilion	86
 elizabeth dickens trail	clay head trail	86
-overlook west of southwest light house	north light	86
-beginning of bean's point	rodman's hollow	86
-inside a log at the point	'the maze'	86
-clay head maze	'the maze'	86
-between gracies and dory's	rodman's hollow	86
+clay head maze	the maze'	86
 old mill near nathan mottt	nathan mott park	86
-grace cove	payne overlook	50
-near chef statue, under boat	'the maze'	45
+grace cove	grace's cove	95
+sachem pond/ hodge family preserve rock wall	sachem pond	90
+near chef statue, under boat	sachem pond	50
 greenway trail near harrison loop	harrison loop	90
-dickenson trail	lewis-dickens farm	58
+dickenson trail	dickens point	71
 greenway next to beacon hollow farm off beacon hill road	beacon hill	90
-turnip trail in a tree	turnip farm	86
-cooneymus cove	payne overlook	43
+turnip trail in a tree	mohegan trail	86
+cooneymus cove	cow cove	86
 community garden mosaic near ocean view pavilion	ocean view pavilion	90
-stonewall on backside of graveyard	black rock	54
-middle earth, inside a pile of rocks	black rock	54
+stonewall on backside of graveyard	vaill beach	58
+middle earth, inside a pile of rocks	settler's rock	51
 meadow hill trail	meadow hill	90
 greenway trails, on the back side of a tree, in a hollowed out piece where another limb use to be	fresh pond greenway	86
 beach at north light in driftwood	north light	90
-stevens cove(location correction)	win dodge	50
 john dodge cemetery	win dodge	86
 meadow hill trail apple tree	meadow hill	90
 tree near horse farm	turnip farm	86
@@ -243,12 +218,11 @@ greenway	bi greenway	95
 in my bike helmet at scotch beach	scotch beach	90
 martin trail	mohegan trail	72
 beacon hill trail	beacon hill	90
-beacon hill trail / enchanted forest in a tree trunk!	enchanted forest	90
-enchanted forest beacon hill	enchanted forest	90
+beacon hill trail / enchanted forest in a tree trunk!	beacon hill	90
+enchanted forest beacon hill	beacon hill	90
 beacon hill and old milll trail	beacon hill	90
 fresh swamp trail	fresh swamp	90
-o'brien park, little free library box	nathan mott park	86
-beach ave	mansion beach	67
+o'brien park, little free library box	ball o' brien park	86
 ocean pavilion	ocean view pavilion	95
 harrison loop in a tree	harrison loop	90
 legion way in a tree	andy's way	86
@@ -256,24 +230,24 @@ enchanted forest in tree	enchanted forest	90
 log wood cove (west side beach between north light and dump))	north light	90
 hygeia house side driveway	bi greenway	45
 on the floor of our jeep in the parking lot at nathan mott park	nathan mott park	90
-center	enchanted forest	60
+center	crescent beach	68
 mansion beach parking area	mansion beach	90
-dory's beach	scotch beach	58
-grace's cove	great salt pond	52
-grace's beach	mansion beach	62
+dory's beach	dorry's cove beach	86
+grace's cove	grace's cove	100
+grace's beach	fred benson town beach	86
 beacon hill rd., trail	beacon hill	90
 top of stairs at mohegan bluffs	mohegan bluffs	90
 beacon hill greenway	beacon hill	90
 greenway trail across from rodman's hollow	rodman's hollow	90
-old mill to cooneymus behind rock wall.	settler's rock	86
-in shrub near rebeccas restaurant	enchanted forest	45
+old mill to cooneymus behind rock wall.	black rock beach	86
+in shrub near rebeccas restaurant	new shoreham	52
 greenway trail. nathan mott park	nathan mott park	90
-old mill	hodge family wildlife preserve	64
+old mill	old harbor point	86
 north light beach	north light	90
 turnip trail	turnip farm	70
 beacon hill road greenway	beacon hill	90
 loffredo loop on trail to dodge cemetary	loffredo loop	90
-solveiken property	sachern pond	40
+solveiken property	hodge property	69
 green way off cooneymus rd. in tall grass	andy's way	86
 gaffney trail	mohegan trail	69
 greenway south beacon hill	beacon hill	90
@@ -281,138 +255,120 @@ enchanted forest old milll rd	enchanted forest	90
 loffredo loop, in the tall grass	loffredo loop	90
 in a clump of golden rod gaffney trail	clay head trail	86
 greenway between old mill road and dodge cemetery	bi greenway	86
-turnip farm, loffredo loop in a tree at sunset!	turnip farm	90
+turnip farm, loffredo loop in a tree at sunset!	loffredo loop	90
 mohegan bluffs lookout trail	mohegan bluffs	90
-old mill road, in a bush	meadow hill	47
-dickens path in tree	lewis-dickens farm	53
+old mill road, in a bush	old harbor point	86
+dickens path in tree	dickens point	86
 in a tree enchanted forest	enchanted forest	90
 bottom of broken stairs by overlook	payne overlook	86
 long lot trail	mohegan trail	59
 dickens farm	lewis-dickens farm	90
 andy's way behind a log	andy's way	90
 winfield dodge farm	turnip farm	86
-end of a fallen tree in the maze	'the maze'	90
+end of a fallen tree in the maze	the maze'	90
 dodge cemetery greenway	bi greenway	86
 north light	north light	100
-gracie cove	payne overlook	48
+gracie cove	grace's cove	87
 nathan mott park trail, in large tree	nathan mott park	90
 win dodge preserve, with gods blessing	win dodge	90
-the maze in a kalmia latifolia	'the maze'	90
+the maze in a kalmia latifolia	the maze'	90
 enchanted forrest	enchanted forest	97
 in notch of trees on hyland trail	clay head trail	86
-sandy point	sachern pond	61
-trims pond behind stone wall	sachern pond	86
-dump beach	mansion beach	64
-across from cemetery	settler's rock	45
+sandy point	balls point	64
+trims pond behind stone wall	great salt pond	86
+across from cemetery	abrams animal farm	45
 mansion beach access road	mansion beach	90
-ball o'brien park	nathan mott park	48
+ball o'brien park	ball o' brien park	97
 hodge family preserve	hodge family wildlife preserve	95
 trustrum dodge memorial	win dodge	86
 andy's way in the grass to the left once on beach	andy's way	90
 motts trail: brick wall entrance	clay head trail	86
 nathan mott trail in a tree.	clay head trail	86
 tree on legion way outside of oark	andy's way	86
-near beach ave bridge in water	mansion beach	86
-sachem pond	sachern pond	87
+sachem pond	sachem pond	100
 walkway to scotch beach	scotch beach	90
 andy's way	andy's way	100
-clayhead maze	'the maze'	86
+clayhead maze	the maze'	86
 long lot trail off corn neck	clay head trail	86
-beach entrance at the end of ocean avenue	'the maze'	86
 rodman's hollow, in a tree!	rodman's hollow	90
-longwood cove	loffredo loop	44
-sacred labyrinth	sachern pond	41
-north point block island	north light	86
-legion park	nathan mott park	50
+longwood cove	logwood cove	96
+sacred labyrinth	sacred labyrinth	100
+legion park	ball o' brien park	86
 rodmans hollow, in a tree	rodman's hollow	86
 meadow hills	meadow hill	96
 pilot hill road	meadow hill	51
 mansion beach	mansion beach	100
 highland trail	mohegan trail	74
-airport diner	new harbor	58
+airport diner	block island state airport	86
 ocean view pavillion in a pile of bricks	ocean view pavilion	86
-west side	southeast light	50
-beach avenue bridge	scotch beach	86
+west side	west beach	63
 cannon	mansion beach	60
-long lot, the maze	'the maze'	90
+long lot, the maze	the maze'	90
 fresh pond trail	fresh pond greenway	74
-hygeia house yard	'the maze'	43
-garden in downtown	win dodge	50
-rodman's in a tree above some soiled boxers	rodman's hollow	86
-clayhead beach lean-to, under a rock	settler's rock	86
-benson beach	mansion beach	80
-the maze in a pine tree	'the maze'	90
-the maze in a tree	'the maze'	90
+hygeia house yard	hodge property	45
+garden in downtown	fred benson town beach	50
+benson beach	dorry's cove beach	86
+the maze in a pine tree	the maze'	90
+the maze in a tree	the maze'	90
 on private trail headed to clayhead trail	clay head trail	87
-maze/ clayhead	'the maze'	86
+maze/ clayhead	the maze'	86
 inside tree. long lott trail	clay head trail	86
 trail leading into maze	clay head trail	86
-island cemetery	hodge family wildlife preserve	45
+island cemetery	block island state airport	86
 long lot trail @ mazewe were	clay head trail	86
 long lot trail in a tree	clay head trail	86
 long trail pond	clay head trail	57
 old mill greenway	bi greenway	86
-dorry's cove entryway	settler's rock	86
-somewhere in the maze...	'the maze'	90
-public beach access	scotch beach	86
-dorry's cove grass	andy's way	86
-in driftwood at dorrie's cove	rodman's hollow	86
-dorrie's cove	enchanted forest	46
-rock wall in the maze	'the maze'	90
-dorry's cove	andy's way	45
-trail running from connecticut ave to middle of old town road	clay head trail	86
-long lot path in a stone wall	harrison loop	46
-lewis dickens preserve	lewis-dickens farm	80
-dory's cove	andy's way	48
+somewhere in the maze...	the maze'	90
+dorrie's cove	cow cove	86
+rock wall in the maze	the maze'	90
+dorry's cove	dorry's cove beach	90
+long lot path in a stone wall	martin's point	51
+lewis dickens preserve	dickens point	86
+dory's cove	dorry's cove beach	86
 win dodge preserve behind tree in leaves	win dodge	90
-between graces cove and dories cove	enchanted forest	50
-dories cove beach	scotch beach	62
 a kind local	great salt pond	49
-south of beach at dorrys cove	mansion beach	86
-path to baby beach	scotch beach	86
-between winn dodge and lewis dickens preserve in a tree stump	hodge family wildlife preserve	86
+path to baby beach	baby beach	90
 win dodge preserve trail	win dodge	90
 win dodge foundation trail under a tree in the brush	win dodge	90
 the maze on clay head trail	clay head trail	90
 clay head trail in the maze, in tree	clay head trail	90
-lewis trail off cooneymus	clay head trail	86
-red bird parking lot	harrison loop	52
-maze, in a tree	'the maze'	86
-dorry's cove, next to a rock	rodman's hollow	86
+red bird parking lot	spring pond	58
+maze, in a tree	the maze'	86
 long lots trail/clayhead trail	clay head trail	87
 behind a rock on clayhead trail	clay head trail	87
-dories cove	enchanted forest	49
+dories cove	dorry's cove beach	86
 turnip trail between some rocks	clay head trail	86
 rodman's hollow / on trail to old mill road	rodman's hollow	90
-beach near crescent beach cottages, between scotch and mansion. we re-hid it.	mansion beach	86
-scotch beach near crescent beach cottages	scotch beach	90
+beach near crescent beach cottages, between scotch and mansion. we re-hid it.	crescent beach	90
+scotch beach near crescent beach cottages	crescent beach	90
 mohegan bluffe	mohegan bluffs	93
 mohegan bluff	mohegan bluffs	96
 green gables	bi greenway	58
 hanted forest	enchanted forest	90
-graces cove	hodge family wildlife preserve	48
+graces cove	grace's cove	96
 mansion beach entrance walkway	mansion beach	90
-martins lot	harrison loop	58
+martins lot	martin's point	80
 under a canon near rustic rides	mansion beach	49
 new loop at clay head trail in a tree	clay head trail	90
 clay head trail at maze entrance trail marker	clay head trail	90
-cooneymus	payne overlook	38
+cooneymus	cooneymus beach	90
 north light house beach, under/ behind a log	north light	90
-trail to beach at the end of black rock rd	black rock	90
 payne farm trail	payne farm trail	100
+entangled in fishermen's nets and rope on ballard's beach	ballard's beach	90
 rock wall leading to greenway near rodman's hollow on cooneymus rd.	rodman's hollow	90
-coast guard beach	scotch beach	62
+coast guard beach	baby beach	86
 lewis dickens farm trail	lewis-dickens farm	95
-grace's cove, under a rock cairn	rodman's hollow	86
+grace's cove, under a rock cairn	grace's cove	90
 nathan motts sign	nathan mott park	73
 300 yards into greenway trail off beacon hill	beacon hill	90
-rodmans hollow/jones trail	rodman's hollow	86
-pilot hill road pond	sachern pond	86
+rodmans hollow/jones trail	clay head trail	86
+pilot hill road pond	beacon hill	86
 mohegan trail walking path	mohegan trail	90
-bench near old mill marker	meadow hill	55
+bench near old mill marker	old harbor point	86
 stone wall at andy's way	andy's way	90
 wind dodge cemetery	win dodge	86
-southwest point beach	mansion beach	86
+southwest point beach	southwest point	95
 beacon hill rd greenway	beacon hill	90
 nathan mott park (behind a rock in crevice)	nathan mott park	90
 new trail off carey lot	clay head trail	86
@@ -424,26 +380,20 @@ lewis dickens farm	lewis-dickens farm	100
 hyland trail in drain pipe	clay head trail	86
 andy's way beach	andy's way	90
 long lot trail- stone wall	clay head trail	86
-martin lot	harrison loop	61
+martin lot	martin's point	75
 hollow	rodman's hollow	90
-west side beach under logs	mansion beach	86
-in a log on the beach near the northern lighthouse	'the maze'	86
-the point	sachern pond	57
-west end beach, cuttyhunk island, ma	mansion beach	86
-under a piece of driftwood at the poiny	'the maze'	86
+the point	martin's point	86
+under a piece of driftwood at the poiny	the maze'	86
 rodman hallow	rodman's hollow	86
-state beach, in an overturned lifeguard chair	mansion beach	86
 rodman's hollow bluffs lookout	rodman's hollow	90
-end of elizabeth dickens trail	clay head trail	86
 walkers way	andy's way	57
-cooneymus road -thru turns stile	settler's rock	49
-rock wall in middle earth	settler's rock	86
-beane point	beacon hill	55
+cooneymus road -thru turns stile	cooneymus beach	86
+rock wall in middle earth	black rock beach	86
+beane point	balls point	73
 greenway trail, uphill trail off of beacon hill rd.	beacon hill	90
 mohican bluff	mohegan bluffs	81
-found between old mill road trail on way to cemetery etary in a tree	clay head trail	86
 north lighthouse	north light	81
-dingy dock	win dodge	53
+dingy dock	dinhgy beach	64
 clay head trail (pumpkin)	clay head trail	90
 between mansion and scotch buried in sand (pumpkin)	mansion beach	86
 pettit lot	great salt pond	45
@@ -452,77 +402,65 @@ greenway lakeside drive	bi greenway	86
 bluffs	mohegan bluffs	90
 attwood overlook	payne overlook	69
 trail across from smiling through	clay head trail	86
-grace's cove beach	andy's way	86
+grace's cove beach	grace's cove	90
 nathan mott park/ loredo loop	nathan mott park	90
 end of hyland trail	clay head trail	59
 clayhead green trail	mohegan trail	86
-dingy beach	mansion beach	67
-inside the cannon!	'the maze'	86
-end of coast guard beach under a log in a fort	mansion beach	86
-harrison loop trail between island cemetery and beacon hill rd	harrison loop	90
-jim gaffney walk by fresh pond	sachern pond	86
-coastguard beach	scotch beach	64
+dingy beach	dinhgy beach	96
+inside the cannon!	the maze'	86
+harrison loop trail between island cemetery and beacon hill rd	beacon hill	90
+coastguard beach	baby beach	86
 the maze (north of clay head trail) in a hollowed tree limb	clay head trail	90
-west beach in a tire	mansion beach	86
-dorrys cove	enchanted forest	42
+west beach in a tire	west beach	90
+dorrys cove	dorry's cove beach	86
 rodman's hollow behind a trail sign	rodman's hollow	90
-on beach behind dump in weeds	mansion beach	86
-park across from block island power	nathan mott park	86
-sandy point , block island	sachern pond	52
+park across from block island power	ball o' brien park	86
 american legion memorial pole	mansion beach	49
-vaill beach trail	clay head trail	62
-in plants at esta's park	rodman's hollow	86
+vaill beach trail	vaill beach	90
 bird bath on trail behind claveras	clay head trail	86
 magellan's tree	andy's way	86
-black rock trails	black rock	90
+black rock trails	black rock beach	73
 end of win dodge in stone wall heading out to dickens farm road	win dodge	90
-walking path	mansion beach	48
-rodman hollow near black rock path	black rock	90
+walking path	dinhgy beach	50
+rodman hollow near black rock path	black rock beach	86
 jones trail rodman's hollow	rodman's hollow	90
-fresh pond reserve	sachern pond	86
+fresh pond reserve	fresh swamp	86
 rothman's hollow	rodman's hollow	90
 trail off west side rd., heading into rodman's hollow	rodman's hollow	90
 rodman's hallow	rodman's hollow	93
 fresh pond greenway	fresh pond greenway	100
 rodman's hollow, at intersection of coastal trail	rodman's hollow	90
-black rock bluff	black rock	90
+black rock bluff	black rock beach	75
 jones trail in rodman's hollow	rodman's hollow	90
 fresh pond greenway in depression in tree	fresh pond greenway	90
 rodman hallows	rodman's hollow	86
 rodman's hollow short loop at the base of a tree	rodman's hollow	90
-south east beach	scotch beach	71
-n end of fresh pond	sachern pond	86
-rodman hollow-jones trail	rodman's hollow	86
+south east beach	baby beach	86
+n end of fresh pond	fresh swamp	86
+rodman hollow-jones trail	clay head trail	86
 rock wall rodman's hollow	rodman's hollow	90
 rodman hollow	rodman's hollow	95
 between vail beach and mohegan bluffs in the seaweed	mohegan bluffs	90
 indian cemetary	nathan mott park	52
-transfer station beach	mansion beach	86
-northlight house beach	mansion beach	86
-fred benson beach	mansion beach	67
-path off ocean ave.	'the maze'	48
-site of the spring street pump house plaque	'the maze'	86
+fred benson beach	fred benson town beach	95
+path off ocean ave.	the maze'	48
+site of the spring street pump house plaque	spring pond	86
 solvieken dog water fountain	win dodge	50
 mohegan trail/pilot hill intersection in a tree	mohegan trail	90
-esta's park	nathan mott park	59
-beach at transfer station	mansion beach	86
-west side beach	scotch beach	59
-near beach	mansion beach	64
+esta's park	ball o' brien park	86
+west side beach	baby beach	86
 rodman's hollow trailhead	rodman's hollow	90
-corn neck rd in yellow moss rock wall next	settler's rock	86
-martins trail rock wall	settler's rock	86
-in wall at hodge preserve	hodge family wildlife preserve	72
-fresh pond rock wall	sachern pond	86
-gracies cove	payne overlook	46
-inside cannon at cemetery on west side rd	mansion beach	46
-martin lots in stonewall	win dodge	50
+corn neck rd in yellow moss rock wall next	black rock beach	86
+martins trail rock wall	clay head trail	86
+in wall at hodge preserve	hodge property	86
+fresh pond rock wall	fresh swamp	86
+gracies cove	grace's cove	92
+inside cannon at cemetery on west side rd	west beach	86
+martin lots in stonewall	martin's point	86
 indian grave yard	win dodge	50
-martin's lot. in wall at ground level	rodman's hollow	86
-trails off connecticut ave	mohegan trail	46
+trails off connecticut ave	tilson cove	58
 haunted trail	mohegan trail	69
-drift wood coast guard beach	mansion beach	86
-square stone wall off of cooneymus	loffredo loop	56
-grass coast guard beach	mansion beach	86
+square stone wall off of cooneymus	cooneymus beach	86
 592 old mill road trail	clay head trail	86
 meadow hill greenway	meadow hill	90
 square stone wall in greenway off cooneymus rd	bi greenway	86
@@ -530,298 +468,276 @@ win dodge, in tree by trail sign	win dodge	90
 winfield dodge foundation	win dodge	86
 greenway trail off of beacon hill rd	beacon hill	90
 access path to scotch beach	scotch beach	90
-sacred labrynth	andy's way	43
+sacred labrynth	sacred labyrinth	90
 old mill in a rock pile	settler's rock	86
-beach	mansion beach	90
-behind a post on 2nd beach path north of fred benson beach	north light	86
-inside muffler at beach on west beach rd	mansion beach	86
+in a tree	ball o' brien park	53
+inside muffler at beach on west beach rd	west beach	90
 entrance to payne farm trail	payne farm trail	90
-black rock	black rock	100
+black rock	black rock beach	90
 on beach to the left off path from andy's way	andy's way	90
-the vale, bi	'the maze'	86
-a few miles off the bluffs, on the beach	mohegan bluffs	86
-grass diamond by second bluffs off pilot hill.	mohegan bluffs	86
-foundation off of cooneymus rd.	harrison loop	49
-2nd cliff path	'the maze'	43
+the vale, bi	the maze'	86
+grass diamond by second bluffs off pilot hill.	beacon hill	86
+foundation off of cooneymus rd.	cooneymus beach	86
+2nd cliff path	the maze'	43
 near lewis-dickens farm sign	lewis-dickens farm	90
-in pile of rocks at entry to dickens road trail	clay head trail	86
-dory cove beach	scotch beach	59
-near the statue of hebe (cupbearer to the gods at mount olympus)	'the maze'	86
+dory cove beach	dorry's cove beach	91
+near the statue of hebe (cupbearer to the gods at mount olympus)	the maze'	86
 comings greenway	bi greenway	80
 rebecca statue	settler's rock	48
 win dodge preserve (in rock wall near foundation)	win dodge	90
 clay head trails	clay head trail	97
 win dodge in the wall	win dodge	90
-dorries cove	enchanted forest	48
+dorries cove	cow cove	86
 school	rodman's hollow	60
 win dodge presv.	win dodge	90
-pots and kettles	settler's rock	47
+path to west beach (breed's lot)	west beach	90
+pots and kettles	dickens point	52
 swamp/ we love you	fresh swamp	86
 wedged in dune fencing at edge of second mohegan bluffs	mohegan bluffs	90
-mosquito beach	scotch beach	62
-north end clay head red trail	north light	86
+mosquito beach	mosquito beach	100
+north end clay head red trail	clay head trail	86
 beach at the end of clayhead trail	clay head trail	87
-brick chimney on west beach	mansion beach	86
-west beach, northern section	mansion beach	86
+brick chimney on west beach	west beach	90
+west beach, northern section	west beach	90
 in stone wall on greenway off beacon hill rd.	beacon hill	90
 marsh trail off beacon hill road	beacon hill	90
-green hill beach ri	scotch beach	86
 enchanted forest/old mill behind a tree	enchanted forest	90
-near dinghy beach	mansion beach	60
+near dinghy beach	baby beach	86
 in a tree stump on nathan mottt trail	clay head trail	86
-hidden on a support beam of a gazebo	'the maze'	53
-crescent beach access- north of benson	north light	86
-ballard's beach jetty	settler's rock	86
-enchanted forest (near beacon hill trail in hollowed out tree trunk)	enchanted forest	90
+hidden on a support beam of a gazebo	surf beach	54
+crescent beach access- north of benson	crescent beach	90
+ballard's beach jetty	ballard's beach	95
+enchanted forest (near beacon hill trail in hollowed out tree trunk)	beacon hill	90
 beacon hill	beacon hill	100
 mohegan bluffs overlook behind bike rack	mohegan bluffs	90
 hyland trail deadend	mohegan trail	86
-state beach	scotch beach	70
-old mill road path	sachern pond	43
+state beach	block island state airport	86
+old mill road path	old harbor point	53
 meadow hill greenway trail	meadow hill	90
-ocean ave across the street from the power station in the small park in a tree.	nathan mott park	86
-wrack line, cow cove	new harbor	45
+ocean ave across the street from the power station in the small park in a tree.	ball o' brien park	86
+wrack line, cow cove	cow cove	90
 turnip farm parking lot puddle	turnip farm	90
 painted rock	payne overlook	62
 dickens preserve	hodge family wildlife preserve	86
-block island historical society	andy's way	45
+block island historical society	block island state airport	63
 dingy beach in great salt pond	great salt pond	90
 rodman's hollow by loop trail	rodman's hollow	90
 green way trail	andy's way	86
 long lot connector to clayhead trail	clay head trail	87
-kings lot	southeast light	48
-path of old hotel	payne overlook	49
+kings lot	martin's point	52
+path of old hotel	old harbor point	52
 our bike helmet at the fresh swamp trail- someone so kind left it for us!!!so	fresh swamp	90
-in a tree on a walking path off beach avenue	mansion beach	86
 sunfish at andy's way	andy's way	90
 turnip farm trail off of old mill road	turnip farm	90
-vail beach	mansion beach	70
+vail beach	vaill beach	95
 greenway off of cooneymas	bi greenway	86
-greenway in a rock wall where you have to step over to cross into next area	settler's rock	86
+greenway in a rock wall where you have to step over to cross into next area	bi greenway	86
 neptune house bush by flag pole	new harbor	45
 rodman's hollow, in a tree	rodman's hollow	90
 greenway trail between beacon hill rd. & old mill rd.	beacon hill	90
-in town	sachern pond	51
+in town	fred benson town beach	86
 jones trail, rodman's hollow	rodman's hollow	90
 mohegan bluffs stairs	mohegan bluffs	90
 2nd bluffs near railing	mohegan bluffs	86
 circle of rocks on mansion beach	mansion beach	90
-west beach in a chimney	mansion beach	86
-dodge farm	lewis-dickens farm	86
-grace's cove on top of the fort	rodman's hollow	86
+west beach in a chimney	west beach	90
+dodge farm	abrams animal farm	86
+grace's cove on top of the fort	grace's cove	90
 harrison trail	harrison loop	74
 mohegan stairs	mohegan trail	81
 second bluffs trail	mohegan bluffs	57
-across from doc willis' farm	turnip farm	86
-middle earth	mansion beach	48
+across from doc willis' farm	abrams animal farm	86
+middle earth	vaill beach	52
 the greenway off of beacon hill road	beacon hill	90
-cooneymus beach next to waterfall	mansion beach	86
-site of old mill and the sands' land (across from town hall)	'the maze'	86
+cooneymus beach next to waterfall	cooneymus beach	90
+site of old mill and the sands' land (across from town hall)	fred benson town beach	86
 old mill rd greenway	bi greenway	86
 in water hogpen new harbor	new harbor	90
-hodge preserve pond	sachern pond	86
-dicken's point	sachern pond	54
-crook of tree at mitchell farm	turnip farm	86
+hodge preserve pond	hodge family wildlife preserve	86
+dicken's point	dickens point	96
+crook of tree at mitchell farm	abrams animal farm	86
 drift wood tipi near north light	north light	90
-rodman's hollow black rock beach overlook	rodman's hollow	90
+rodman's hollow black rock beach overlook	black rock beach	90
 murphy's trail	mohegan trail	59
 sign at southeast lighthouse	southeast light	90
-bike rack across from baby beach	mansion beach	86
-water street park bench across from peppered cat	nathan mott park	86
-high street stone wall	great salt pond	49
-rock wall near block island school	settler's rock	86
+bike rack across from baby beach	baby beach	90
+water street park bench across from peppered cat	ball o' brien park	86
+high street stone wall	new shoreham	50
+rock wall near block island school	black rock beach	86
 john e pond	fresh pond greenway	86
-island cemetary	andy's way	48
+island cemetary	block island state airport	86
 near harborside inn	new harbor	72
-wwi memorial	meadow hill	43
+wwi memorial	lewis point	43
 memorial bench in old harbor	new harbor	86
 playground book box	payne overlook	46
-jetty beach, below spring house	mansion beach	86
 marsh trail off beacon hill	beacon hill	90
 in tree on clayhead trail	clay head trail	87
-dorry's cove, under seas grass and sticks	rodman's hollow	86
-behind the surf restaurant	'the maze'	86
+behind the surf restaurant	surf beach	86
 second bluffs	mohegan bluffs	67
-fresh pond behind a tree	sachern pond	86
+fresh pond behind a tree	fresh swamp	86
 peckham farm road	turnip farm	86
 north light upper path	north light	90
-jane lane	payne overlook	50
+jane lane	payne farm trail	50
 off payne's rd trail	andy's way	86
 nathan mott park in hollowed out log	nathan mott park	90
 win dodge rock wall	win dodge	90
 behind rocks on harrison trail before middle earth	clay head trail	86
 fresh pond preserve greenway	fresh pond greenway	95
-fresh pond canoe launch at waters bank in grass	sachern pond	86
-stone wall near beachead picnic area	sachern pond	52
+stone wall near beachead picnic area	ballard's beach	66
 greenway by fresh pond	fresh pond greenway	95
-“ball o brian” beach by gsp	mansion beach	86
 old mill rd trail under a bridge	clay head trail	86
-ball o'brien: in the leaves on the ground on the trail to the right	clay head trail	86
-dickens point	lewis-dickens farm	66
-playground	fresh pond greenway	45
+ball o'brien: in the leaves on the ground on the trail to the right	ball o' brien park	86
+dickens point	dickens point	100
+playground	sacred labyrinth	48
 jim gaffney trail	mohegan trail	67
 hyland trail under tree near a stone wall covered with branches	clay head trail	86
 hyland trail in a tree	mohegan trail	86
 loffredo loop...in the branches of the big beautiful tree :)	loffredo loop	90
-behind rock wall on the maze trail	'the maze'	90
+behind rock wall on the maze trail	the maze'	90
 rodman's hollow stuck in a tree on the rough road	rodman's hollow	90
-the maze, behind a small tree	'the maze'	90
+the maze, behind a small tree	the maze'	90
 nathan mott park on 7/29	nathan mott park	90
-hodge family wildlife reserve (in a tree)	hodge family wildlife preserve	83
-the maze, in a rock wall	'the maze'	90
+hodge family wildlife reserve (in a tree)	hodge property	86
+the maze, in a rock wall	the maze'	90
 rodman jollow	rodman's hollow	86
-the maze, in a giant rhododendron bush	'the maze'	90
-fred benson town beach	mansion beach	86
+the maze, in a giant rhododendron bush	the maze'	90
+fred benson town beach	fred benson town beach	100
 marsh hollow	rodman's hollow	74
-kids beach	mansion beach	64
 andies way	andy's way	80
-by the water bottle refill station on corn neck road	'the maze'	86
+by the water bottle refill station on corn neck road	the maze'	86
 nathan mott park (big tree)	nathan mott park	90
 the enchanted forrest, high up in a tree	enchanted forest	86
 hodge	hodge family wildlife preserve	90
-the cannon	'the maze'	56
-spring street gallery	'the maze'	45
-logwood cove- in a log	win dodge	53
+the cannon	the maze'	56
+spring street gallery	spring pond	86
+logwood cove- in a log	logwood cove	90
 gafney trail	mohegan trail	72
 on the beach at the north lighthouse	north light	90
 meadow greenway	bi greenway	80
-fred benson snack bar	black rock	53
+fred benson snack bar	fred benson town beach	70
 dunn bridge	win dodge	50
-baby beach	mansion beach	64
+baby beach	baby beach	100
 short trail off of mohegan trail	mohegan trail	90
 enchanted forest behind a rock wall	enchanted forest	90
 turnip farm behind small road sign at an intersection	turnip farm	90
 scotch beach- last beach access	scotch beach	90
-ball o'brien park tennis courts	nathan mott park	86
-2018 bi triathalon last beach access near a log had to dig will be re-hidden	mansion beach	86
-fred j benson beach building behind a piling	mansion beach	86
-the hyland trail	'the maze'	86
+ball o'brien park tennis courts	ball o' brien park	86
+the hyland trail	the maze'	86
 murphy trail	mohegan trail	64
 west of north light	north light	90
 bluffs, under some rocks	mohegan bluffs	86
 fresh swamp trail- in tree branches	fresh swamp	90
 site of ocean view hotel under wooden boardwalk.	ocean view pavilion	86
-inlet beach of salt pond	sachern pond	86
 john r. dodge cemetery	win dodge	86
-dorys cove in a lobster trap	win dodge	48
 none given	fresh pond greenway	54
-tree by fresh pond	sachern pond	86
-locker room chamber of commerce	black rock	54
-carey lot by the bear (??)	'the maze'	86
+tree by fresh pond	fresh swamp	86
+locker room chamber of commerce	cow cove	56
+grace's cove beach under a log (had to dig a little)	grace's cove	90
+carey lot by the bear (??)	the maze'	86
 behind mohegan bluff monument stone	mohegan bluffs	86
-visitor center atm	'the maze'	48
+visitor center atm	the maze'	48
 path to dodge cemetary in a tree	win dodge	86
 clayhead trail head information center	clay head trail	86
-in a bush in the little park near the ferry dock	'the maze'	86
-in a tree at the ocean view foundation	'the maze'	86
-path in front of water street inn	bi greenway	47
+in a bush in the little park near the ferry dock	ball o' brien park	86
+in a tree at the ocean view foundation	ocean view pavilion	86
+path in front of water street inn	martin's point	51
 settlers rock	settler's rock	96
-harrison trail in tree near west side rd	clay head trail	86
 haunted forest	enchanted forest	87
-crescent beach walkover	mansion beach	86
+crescent beach walkover	crescent beach	90
 mohegan bluffs under bench	mohegan bluffs	90
-carey lot	'the maze'	45
-pilot hill	meadow hill	57
-base of stonewall by bonnell beach sign	mansion beach	86
-outside beachhead	scotch beach	55
+carey lot	charlestown beach	50
+pilot hill	beacon hill	57
+outside beachhead	surf beach	63
 hodge preserve	hodge family wildlife preserve	86
 mohegan bluff sign	mohegan bluffs	88
-southwest point	southeast light	73
+southwest point	southwest point	100
 in grass behind the turnip farm sign	turnip farm	90
 greenway path off of old mill rd	bi greenway	86
 in tree off airport trail	clay head trail	86
-in a tree trunk	bi greenway	46
+in a tree trunk	fred benson town beach	47
 rodman's holkow	rodman's hollow	93
 rodman's hollow, in a pine tree trunk	rodman's hollow	90
-hodge property	hodge family wildlife preserve	86
-long lot trail, somewhere in the maze	'the maze'	90
+hodge property	hodge property	100
+long lot trail, somewhere in the maze	the maze'	90
 harrison trail before middle earth in tree notch	clay head trail	86
-under a bench across from town hall	meadow hill	58
-middle earth (??)	mansion beach	48
+under a bench across from town hall	fred benson town beach	86
+middle earth (??)	vaill beach	52
 marsh hawk hollow in a tree stump	rodman's hollow	86
 under a log, greenway, beacon hill	beacon hill	90
 rocks by bike rack at the top of the mohegan bluffs	mohegan bluffs	90
 the dedicated to anne dupont trail	clay head trail	86
 rodman's hollows in tree	rodman's hollow	90
 rodman's hollow in a dead tree stump	rodman's hollow	90
-in a tree by stop sign on old town road	rodman's hollow	51
-the narragansett inn	'the maze'	86
+in a tree by stop sign on old town road	fred benson town beach	86
+the narragansett inn	the maze'	86
 laredo loop	loffredo loop	83
 hiking trail	mohegan trail	64
-jetty across from the national in the rocks	'the maze'	86
-walking trail near the labyrinth	clay head trail	86
-american legion park	nathan mott park	56
-tree	hodge family wildlife preserve	68
-mailbox at labyrinth	mansion beach	41
+jetty across from the national in the rocks	the maze'	86
+american legion park	ball o' brien park	56
+tree	bi greenway	68
+mailbox at labyrinth	sacred labyrinth	68
 rodmans hollow behind concrete sign	rodman's hollow	86
 great salt pond coast	great salt pond	95
 airport greenway trail	bi greenway	86
 tree stump mansion beach parking lot	mansion beach	90
 hodge wildlife preserve	hodge family wildlife preserve	95
-under the beach ave bridge	'the maze'	86
-just off trail that turns right near rodman hollow parking lot	rodman's hollow	86
+just off trail that turns right near rodman hollow parking lot	clay head trail	86
 path to mohegan bluff overlook	mohegan bluffs	86
-fresh pond overlook	sachern pond	86
-path to coast guard beach	mansion beach	86
-path off of old town rd across from mill pond	sachern pond	86
+fresh pond overlook	fresh swamp	86
 greenway off old mill road	bi greenway	86
 ocean view pavilion	ocean view pavilion	100
 greenway-fresh swamp trail	fresh swamp	90
-conneymus beach	scotch beach	59
-greenway trail old mill	clay head trail	86
-under a rock below middle earth sign	settler's rock	86
+conneymus beach	cooneymus beach	93
+greenway trail old mill	bi greenway	86
+under a rock below middle earth sign	black rock beach	86
 trail off payne road	mohegan trail	86
-under cannon	sachern pond	40
-block island cemetery	black rock	51
+under cannon	fred benson town beach	43
+block island cemetery	block island state airport	69
 nathan mott greenway- stonewall	bi greenway	86
 nathan mott park trail	nathan mott park	95
-the canon at the veterans' monument	'the maze'	86
-block island school	settler's rock	46
+the canon at the veterans' monument	the maze'	86
+block island school	block island state airport	73
 hodge family wildlife reserve	hodge family wildlife preserve	98
 in tree on hiking trail	clay head trail	86
 winn dodge preserve	hodge family wildlife preserve	86
-cooneymus beach behind a huge rock	settler's rock	86
-veteran's park cannon	settler's rock	86
+cooneymus beach behind a huge rock	cooneymus beach	90
+veteran's park cannon	andy's way	86
 winfield dodge	win dodge	86
 winfield dodge preserve	win dodge	86
 rodman's hollow,on ground...1/4 mi. from entrance	rodman's hollow	90
-cooneymus beach	scotch beach	59
-in a stone wall near lewis farm	turnip farm	86
-american legion	sachern pond	52
-greenway trail off old mill	clay head trail	86
+cooneymus beach	cooneymus beach	100
+american legion	harrison loop	50
 greenway south off old mill rd	bi greenway	86
 foundation at winn dodge	win dodge	86
-unknown	bi greenway	30
-under bench at end of pilot hill road	meadow hill	86
+unknown	fred benson town beach	51
+under bench at end of pilot hill road	beacon hill	86
 nathan mott park in a tree!	nathan mott park	90
-stone wall	beacon hill	48
+stone wall	charlestown beach	54
 behind tree rodman's hollow short loop	rodman's hollow	90
 clayhead trail, 1.7 miles in	clay head trail	86
-greenway trail by airport	clay head trail	86
+greenway trail by airport	bi greenway	86
 north end block island	north light	86
 beacon hill road greenway trail	beacon hill	90
 beacon hill doc willis's stone wall	beacon hill	90
-coast guard beach walkway	mansion beach	86
 enchanted forest bi	enchanted forest	95
 hole in manisses cemetery sign	win dodge	48
 harrison loop in the base of a tree	harrison loop	90
-rodman hollow trail map case	rodman's hollow	86
-charleston beach	mansion beach	69
+rodman hollow trail map case	clay head trail	86
+charleston beach	charlestown beach	97
 fresh pond trails	fresh swamp	86
-marsh hawk hollow trail	rodman's hollow	86
-path off of old mill road	sachern pond	43
-stonewall just beyond cemetery from west side road	enchanted forest	50
+marsh hawk hollow trail	clay head trail	86
+path off of old mill road	old harbor point	86
+stonewall just beyond cemetery from west side road	west beach	86
 on clay head trail in tall grass near the north end of the trail	clay head trail	90
 rodman's hollow long loop	rodman's hollow	90
 beacon hill greenway trail, in a stone wall	beacon hill	90
-driftwood near jetty at charleston beach	mansion beach	86
-barlow's pt.	rodman's hollow	44
-charleston beach under driftwood	mansion beach	86
+driftwood near jetty at charleston beach	charlestown beach	87
+barlow's pt.	dorry's cove beach	86
 clayhead trl	clay head trail	89
-fresh pond in a tree	sachern pond	86
-snake hole	rodman's hollow	50
+fresh pond in a tree	fresh swamp	86
+snake hole	new harbor	50
 rodman's holow	rodman's hollow	97
-post office	loffredo loop	48
+post office	dickens point	55
 nathan mott park, stone wall	nathan mott park	90
 fresh pond tree	fresh pond greenway	82
 airport trail- hidden in a stump	clay head trail	86
@@ -830,399 +746,351 @@ cemetery	settler's rock	45
 near bottom of "lonely stairs" in a wall near a tree with signs like: hogwarts, winterfell, etc. off beacon hill road	beacon hill	60
 under signage tree in the enchanted loop	enchanted forest	86
 sign tree in nathan mott park	nathan mott park	90
-airport (in bushes)	mansion beach	45
+airport (in bushes)	block island state airport	55
 loffredo loop on my birthday!!	loffredo loop	90
 wedged between tree trunks at turnip farm on lofferdo loop and westside rd,	turnip farm	90
 dodge cemetary	win dodge	86
 ct ave greenway trail	bi greenway	86
 tree notch near middle earth	scotch beach	52
 payne farm/ fresh swamp	fresh swamp	90
-black rock weather station	black rock	90
+black rock weather station	black rock beach	86
 greenway spur near beacon hill	beacon hill	90
 lighthouse	southeast light	60
-fresh pond tree near cemetery	sachern pond	86
-old mill rd by horses in rock wall	settler's rock	86
-in freshly cut grass at fresh pond	sachern pond	86
-dorie's cove	enchanted forest	48
+old mill rd by horses in rock wall	black rock beach	86
+dorie's cove	cow cove	86
 liotto	harrison loop	54
 path in rodman's hollow	rodman's hollow	90
 trail to north lighthouse	north light	90
-middle earth(??)	mansion beach	48
-artin's trail	mohegan trail	62
-hodge nature preserve	hodge family wildlife preserve	76
-greenway trail off ct ave.	clay head trail	86
+middle earth(??)	vaill beach	52
+artin's trail	martin's point	67
+hodge nature preserve	hodge property	86
+greenway trail off ct ave.	bi greenway	86
 path to north light	north light	90
 greenway-fresh swamp	fresh swamp	90
 ragged sailor building alley under hydrangeas	new harbor	51
 clay head trailside	clay head trail	88
 in a tree along clayhead trail	clay head trail	87
 tree on harrison trail before middle earth	clay head trail	86
-tree trunk	turnip farm	46
+tree trunk	ball o' brien park	48
 end of rodman's hollow trail at black rock point in a hold under a rock	rodman's hollow	90
 fresh pound	fresh pond greenway	86
 old mill rd	hodge family wildlife preserve	55
-blockislanf	black rock	48
+blockislanf	block island state airport	82
 marsh hawk hollow in stone wall	rodman's hollow	86
 nathan mott trail stone wallcorner	clay head trail	86
 ocean view pavillion	ocean view pavilion	97
 behind 'god bless usa" sign at sit your butt or take a putt	win dodge	50
-greenway trail (tree stump)	clay head trail	86
-bonnell beach champlain road behind plack	mansion beach	86
-elizabeth dickens trail in a pricker bush, halloween day , 2017	clay head trail	86
-elizabeth dickens trail, sw- in clump of tall grass	clay head trail	86
+greenway trail (tree stump)	bi greenway	86
 lewis-dickens farm trail	lewis-dickens farm	95
 win dodge preserve, tree, near entrance	win dodge	90
-bingo prize	hodge family wildlife preserve	40
+bingo prize	ball o' brien park	50
 farmer's market	andy's way	86
 winn dodge	win dodge	95
-beach ave loop	mansion beach	56
+beach ave loop	fred benson town beach	86
 maze trail	clay head trail	86
-spring street gallery in the tree poetry box	'the maze'	86
-sit your butt or take a putt	'the maze'	45
+spring street gallery in the tree poetry box	spring pond	86
+sit your butt or take a putt	surf beach	45
 2nd bluff	mohegan bluffs	70
-the hodge family preserve	'the maze'	86
-champlin rd beach before the coast guard station	'the maze'	86
-across from the labyrinth	'the maze'	86
+the hodge family preserve	hodge family wildlife preserve	86
+across from the labyrinth	sacred labyrinth	86
 greenway trail enchanted forest	enchanted forest	90
-inside cannon (baby size float)	mansion beach	49
-sunset beach	scotch beach	67
+inside cannon (baby size float)	baby beach	86
+sunset beach	dorry's cove beach	86
 enchanted forest path in branches up high	enchanted forest	90
-beach ave bridge at corn neck rd	mansion beach	86
 roiles harbor beach off clayhead trail	clay head trail	87
-black rock rd. down from 1st trail head under tree	black rock	90
 beacon hill greenway trail	beacon hill	90
-charlestown beach	mansion beach	67
+charlestown beach	charlestown beach	100
 rodman's hollow, heading towards fresh pond	rodman's hollow	90
 clayhead trail, base of a tree	clay head trail	86
 shoreline just e. of settler's rock	settler's rock	90
 mott trail	clay head trail	86
 beginning of greenway: enchanted forest	enchanted forest	90
-rodmans hollow short loop	rodman's hollow	86
+rodmans hollow short loop	harrison loop	86
 under bridge on clayhead trail	clay head trail	87
 nathan mott greenway	bi greenway	86
 nathan mott memorial park	nathan mott park	86
 enchanted forest in an old log	enchanted forest	90
-at the labyrinth behind the painted rock in the sculpture garden. it was a rainy day.	settler's rock	86
+at the labyrinth behind the painted rock in the sculpture garden. it was a rainy day.	black rock beach	86
 head of nathan mott trail	clay head trail	86
 win-dodge in a tree	win dodge	90
 dodge family wildlife preserve	hodge family wildlife preserve	97
 clayead trail	clay head trail	93
-the maze, inside cedar tree	'the maze'	90
-near the pavilion	'the maze'	86
-the maze, at base of tree	'the maze'	90
-library, front yard	black rock	45
-tennis courts	turnip farm	42
+the maze, inside cedar tree	the maze'	90
+near the pavilion	the maze'	86
+the maze, at base of tree	the maze'	90
+library, front yard	abrams animal farm	43
+tennis courts	lewis point	50
 enchanted forest, inside tree trunk at a dead end	enchanted forest	90
 alleyl by rebecca's	andy's way	86
 clayhead trail in tree	mohegan trail	86
 clay head trail in a tree	clay head trail	90
-martin lots near old mill red.	meadow hill	55
-dorry's cove-by driftwood	rodman's hollow	86
+martin lots near old mill red.	martin's point	86
 southeast light house	southeast light	95
 greenway between old mill and cooneymus	bi greenway	86
-labrynth	clay head trail	45
-harrison trail at west side road, in stone wall	clay head trail	86
+labrynth	sacred labyrinth	68
 cannon base	mansion beach	58
-dory's cove beach	andy's way	86
-gifted by clever friends	fresh swamp	40
+dory's cove beach	dorry's cove beach	97
+gifted by clever friends	dickens point	46
 fresh pond trail off of rodman's hollow in large tree at path intersection	rodman's hollow	90
 under some trail shrubbery at an intersection somewhere between enchanted forest and turnip farm	enchanted forest	90
 rodmans hollow area	rodman's hollow	82
 payne rd greenway	bi greenway	86
 inside tree-greenway	bi greenway	86
-charleston beach behind driftwood	mansion beach	86
 rocks mansion beach foundation	mansion beach	90
-beans point	mansion beach	55
+beans point	balls point	82
 mansion beach by rocks	mansion beach	90
-fence line at strings and things	enchanted forest	45
+fence line at strings and things	spring pond	66
 in a rock wall on clayhead trail	clay head trail	87
 ocean ave	ocean view pavilion	86
-peter woods greenway park in tree	bi greenway	86
-on side road under a hollow of a tree leading into the maze	'the maze'	90
-under the stairs in crescent/kid beach	'the maze'	86
+peter woods greenway park in tree	ball o' brien park	86
+on side road under a hollow of a tree leading into the maze	the maze'	90
 settler's rock shoreline	settler's rock	90
 greenway off lakeside dr.	bi greenway	86
-beach road trail	clay head trail	58
-bonnell beach pathway	mansion beach	86
-crescent beach	scotch beach	69
+beach road trail	baby beach	86
+crescent beach	crescent beach	100
 firehouse bingo	bi greenway	44
 enchanted woods	enchanted forest	77
-pebble beach	mansion beach	56
+pebble beach	dorry's cove beach	86
 mohegan trail	mohegan trail	100
 ocean view hotel	ocean view pavilion	73
-between two graves at main island cemetary	fresh swamp	50
-on beach at end of scotch rd	mansion beach	86
+between two graves at main island cemetary	block island state airport	86
 sea grass mohegan bluffs	mohegan bluffs	90
 fresh swamp by payne rd	fresh swamp	90
 bridge near mansion beach	mansion beach	90
-under stairs to beach on cornneck road	mansion beach	86
 mohegan bluffs lobster trap	mohegan bluffs	90
-playground at the school	'the maze'	86
-greenaway path old town road	bi greenway	66
-stone wall in the old graveyard on corn neck rd	'the maze'	86
-southeast point	southeast light	80
+playground at the school	the maze'	86
+greenaway path old town road	old harbor point	86
+stone wall in the old graveyard on corn neck rd	old harbor point	86
+southeast point	southwest point	93
 park near ferry boat dock	nathan mott park	86
-bluffs beach by the driftwood hut	mohegan bluffs	86
-negus park	nathan mott park	86
+negus park	ball o' brien park	86
 ocean view pavilion trail	ocean view pavilion	95
 tree downtown off water street	bi greenway	47
 walkers welcome path mohegan trail	mohegan trail	90
-in a tree habor church park	nathan mott park	86
-tree at indian cemetary	nathan mott park	46
-black rock road west loop	black rock	90
-cooneymus beach under a log crossing the freshwater stream/waterfall	mansion beach	86
-horse farm on old mill rd.	turnip farm	86
+in a tree habor church park	ball o' brien park	86
+tree at indian cemetary	tilson cove	50
+cooneymus beach under a log crossing the freshwater stream/waterfall	cooneymus beach	90
+horse farm on old mill rd.	old harbor point	86
 meadow greenway trail	bi greenway	86
 to the right of nathan mott (enchanted forest) trail in a stonewall	enchanted forest	90
-black rock parking lot	black rock	90
-under granite bench on old dunn property	beacon hill	58
+black rock parking lot	settler's rock	86
+under granite bench on old dunn property	hodge property	86
 scotch	scotch beach	90
 win-dodge presrve	win dodge	90
 southside beacon hill road greenway trail	beacon hill	90
-maze near laphams	'the maze'	86
-abrams' animal farm	turnip farm	86
-in the stone wall along corn neck rd	'the maze'	86
-under the bench at the grass triangle where pilot hill and spring st meet	meadow hill	86
-surf hotel beach	scotch beach	64
-atwood	enchanted forest	45
-behind harbor bay and harbor pond marker	sachern pond	86
-gift: cooneymus beach in a bush	mansion beach	86
-stairs to the sacred labyrinth	'the maze'	86
-playground tree	clay head trail	47
+maze near laphams	the maze'	86
+abrams' animal farm	abrams animal farm	97
+in the stone wall along corn neck rd	the maze'	86
+under the bench at the grass triangle where pilot hill and spring st meet	beacon hill	86
+surf hotel beach	baby beach	86
+atwood	logwood cove	60
+gift: cooneymus beach in a bush	cooneymus beach	90
+stairs to the sacred labyrinth	sacred labyrinth	90
+playground tree	sacred labyrinth	49
 under a loose board on clay head trail	clay head trail	90
-inside the barrel of the cannon at legion park	'the maze'	86
-inside mill stone on corner of old town & center road	rodman's hollow	51
-fred benson town beach among some rocks	mansion beach	86
+inside the barrel of the cannon at legion park	ball o' brien park	86
+inside mill stone on corner of old town & center road	fred benson town beach	86
+fred benson town beach among some rocks	fred benson town beach	90
 clayhead in a root!!! :)	clay head trail	61
-west beach, block island	mansion beach	86
-the daffodils	'the maze'	86
-west beach near north point	north light	86
+west beach, block island	west beach	90
+the daffodils	the maze'	86
+west beach near north point	west beach	90
 greenway off cooneymus	bi greenway	86
 turnstile up from smilin' thru in a cedar tree in open field	harrison loop	56
-dinkel mazzur cemetery	'the maze'	56
+dinkel mazzur cemetery	the maze'	56
 lewis dickenson farm	lewis-dickens farm	95
 under bridge on clayhead	clay head trail	63
 middle pond	fresh pond greenway	86
 bi bicycle tour qr #4	bi greenway	86
 clayhead trail base of tree	clay head trail	86
-dump beach walking toward beane point	mansion beach	86
 on the rocks at scotch beach	scotch beach	90
 on the beach behind a large rock near mansion beach road and the crescent cottages	mansion beach	90
-hodge preserve- corn neck rd.	hodge family wildlife preserve	65
+hodge preserve- corn neck rd.	hodge property	86
 flower walk	fresh swamp	45
 john dodge cemetery road	win dodge	86
 flower trail	mohegan trail	64
 end of breakwater, entrance into great salt pond	great salt pond	90
-stone wall near fresh pond	sachern pond	86
-small garden behind club soda	bi greenway	47
+stone wall near fresh pond	fresh swamp	86
+small garden behind club soda	ballard's beach	60
 dickens farm trail	turnip farm	86
 greenway off payne rd.	bi greenway	86
-martin's trail	mohegan trail	67
+martin's trail	martin's point	71
 loffredo loop : beginning of trail in a tree crevice	loffredo loop	90
 ocean view park	ocean view pavilion	76
 breed property trail	mohegan trail	86
-tin can in ruins	enchanted forest	44
+tin can in ruins	martin's point	47
 ocean view	ocean view pavilion	90
 john e. tughole	rodman's hollow	47
-enchanted forest beacon hill trail	enchanted forest	90
-dump beach under tall grass	mansion beach	86
+enchanted forest beacon hill trail	beacon hill	90
 clayhead trail at base of tree	clay head trail	86
 northern clayhead :)	clay head trail	59
 clay head trail beach	clay head trail	95
 in the field near the beginning of the fresh swamp trail	fresh swamp	90
 mott trail head	clay head trail	76
 rodman's hollow in brush under a pine tree	rodman's hollow	90
-beach entrance found 5/5/19!	mansion beach	86
 rodman's hollow under a tree	rodman's hollow	90
 in a tree stump on clayhead trail	clay head trail	87
 beach on the great salt pond behind aka house	great salt pond	90
 stump on harrison trail	clay head trail	86
-tiny cemetery down the neck(sands cemetery?)	'the maze'	86
+tiny cemetery down the neck(sands cemetery?)	the maze'	86
 lewis-dickens farm trial	lewis-dickens farm	95
-bluestone	mohegan bluffs	48
-pots and kettles beach	mansion beach	86
+bluestone	charlestown beach	61
 greenway between beacon hill road and west side road	beacon hill	90
 in a tree at clayhead trail head.	clay head trail	86
-dickens rd under metal ring	lewis-dickens farm	86
+dickens rd under metal ring	dickens point	86
 win dodge reserve	win dodge	90
 turnip farm greenway	turnip farm	90
-"fort" at dorie's cove	settler's rock	86
 settler's rock beach	settler's rock	95
 wedged in a tree in the turnip farm	turnip farm	90
 hodges nature preserve	hodge family wildlife preserve	65
 crabapple tree in front of harbor church	new harbor	86
 coast guard station	clay head trail	53
-entrance to dorie's cove under a large piece of driftwood	rodman's hollow	86
-the beach, inside of a big log	'the maze'	86
 overlook path off mohegan trial	mohegan bluffs	86
-corn neck rd in stone wall near beautiful tree by mitchell farm	turnip farm	86
-in driftwood log at dory's cove	rodman's hollow	86
-between peckham farm and payne farm	turnip farm	86
-black sand trail	black rock	86
+corn neck rd in stone wall near beautiful tree by mitchell farm	abrams animal farm	86
+black sand trail	clay head trail	71
 legion hall cannon (took an hour to get out)	beacon hill	58
 windodge	win dodge	94
 settler's rock	settler's rock	100
-snake hole rd beach	scotch beach	86
 great salt pond under walkeay	great salt pond	90
-under bench on road that goes to stevens cove to	great salt pond	51
-the beach, in a log	'the maze'	86
-elizabeth dickens	lewis-dickens farm	57
-dories cove inside a piece of drift wood	'the maze'	45
-block island park	nathan mott park	52
-skate park	nathan mott park	86
+elizabeth dickens	dickens point	66
+block island park	block island state airport	86
+skate park	ball o' brien park	86
 path to fresh pond from rodman's hollow	rodman's hollow	90
-block island graveyard tree	black rock	51
+block island graveyard tree	block island state airport	60
 trail between cooneymus rd and lakeside dr	clay head trail	86
 andys way	andy's way	95
 mott trail in a maple tree	clay head trail	86
 trails between beacon hill rd and old mill rd	beacon hill	90
-south end of clay head beach	clay head trail	86
-in veterans park	settler's rock	53
-legion park- farmers market	nathan mott park	86
-under stairs by gazebo	'the maze'	45
+in veterans park	nathan mott park	53
+legion park- farmers market	ball o' brien park	86
+under stairs by gazebo	andy's way	45
 mansion beach foundations	mansion beach	90
 path across from big red barn on beacon hill rd	beacon hill	90
 bach trail	clay head trail	86
 heinz field	hodge family wildlife preserve	50
-indian cemetery rock wall	settler's rock	86
-west side rd	settler's rock	46
+indian cemetery rock wall	black rock beach	86
+west side rd	west beach	55
 hodge's wildlife preserve	hodge family wildlife preserve	91
 fork in fresh swamp trail	fresh swamp	90
 walking trail between cooneyymus and old mill road	clay head trail	86
-stonewall at end of hodge preserve	hodge family wildlife preserve	61
+stonewall at end of hodge preserve	hodge property	86
 fresh pond loop	fresh pond greenway	76
 wind dodge reserve	win dodge	86
-path to cooneymus beach	mansion beach	86
-1/2 mile north of benson beach on corn neck road	north light	86
+path to cooneymus beach	cooneymus beach	90
 dodge family preserve, stone foundation	win dodge	86
 north mouth of the great salt pond, donated to rita at the 1661 inn, you can see it there!	great salt pond	90
-north dump beach	scotch beach	64
-martin property	harrison loop	50
+north dump beach	baby beach	86
+martin property	hodge property	69
 gaffney trail/in tall grass by white fense	clay head trail	86
 rock wall on service rd b/t corn neck rd and north end of clay head trail	clay head trail	90
-farmers market	'the maze'	49
+farmers market	the maze'	49
 gafffney trail on top of stone wall	clay head trail	86
 brick wall on corn neck road	andy's way	50
 enchanted forest (found june 2017)	enchanted forest	90
-rodmans hollow, long loop up in a tree	rodman's hollow	86
+rodmans hollow, long loop up in a tree	harrison loop	86
 near turnip farm/ hiking trail off old mill rd	turnip farm	90
-gifted to me by a friend who found it.	'the maze'	53
-lakeside dr	black rock	48
-near beach head	scotch beach	56
-meadow hill greenway on old town road in bottom of hollow/rotton tree in beginning of path	rodman's hollow	86
-beach in front of coast guard	mansion beach	86
+gifted to me by a friend who found it.	spring pond	55
+lakeside dr	lewis-dickens farm	45
+near beach head	baby beach	86
+meadow hill greenway on old town road in bottom of hollow/rotton tree in beginning of path	fred benson town beach	86
 along shoreline of hodge family wildlife preserve	hodge family wildlife preserve	90
 stink stack of outhouse by southeast light house	southeast light	90
-black rock overlook	black rock	90
+black rock overlook	black rock beach	73
 turnip farm trail	turnip farm	90
 on the beach off of clayhead trail	clay head trail	87
 beginning of nathan mott trail	clay head trail	86
 clay head trail in brush past beach access	clay head trail	90
 freeway trail	payne farm trail	66
 tree stump	fresh swamp	57
-past toms point, bi	bi greenway	86
+past toms point, bi	balls point	86
 rodman's hollow bench	rodman's hollow	95
-in the canon	'the maze'	86
+in the canon	the maze'	86
 bottom fork of tree on greenways path	bi greenway	74
-bike rack dinghy beach	mansion beach	86
-scott beach bike rack	mansion beach	86
-rock wall off lakeside drive.	settler's rock	86
-near fresh pond monument	sachern pond	86
+rock wall off lakeside drive.	black rock beach	86
+near fresh pond monument	fresh swamp	86
 trail off west side road	clay head trail	86
-stone wall on path to rodmans hollow from old mill road	rodman's hollow	86
-spring st and pilot hill rd	meadow hill	86
-stone wall at peckham pond	sachern pond	86
+stone wall on path to rodmans hollow from old mill road	old harbor point	86
+spring st and pilot hill rd	beacon hill	86
+stone wall at peckham pond	great salt pond	86
 enchanted forest on old mill rd	enchanted forest	90
-grove point	great salt pond	59
-floating in harbor pond	sachern pond	86
-in rocks above beach along spring st	mansion beach	86
-beach ave. trail	clay head trail	64
+grove point	lewis point	64
+floating in harbor pond	great salt pond	86
+beach ave. trail	baby beach	86
 right side of north light on beach	north light	90
-by beach access to baby beach	mansion beach	86
+by beach access to baby beach	baby beach	90
 entrance to southeast lighthouse	southeast light	90
-spring street	southeast light	48
+spring street	spring pond	67
 parking lot of the mohegan bluffs	mohegan bluffs	90
-in a plant in front of library	bi greenway	45
+in a plant in front of library	martin's point	55
 the putting green near mohegan bluffs in one of the holes	mohegan bluffs	90
 attwood overlook in a bush	payne overlook	86
-corner pilot hill & spring	meadow hill	86
-walkway @ the bluffs	'the maze'	86
-lakeside greenway trail	clay head trail	86
-cooneymus rd	lewis-dickens farm	38
-in the flower garden across the street from the national	'the maze'	86
-st andrews stone wall chapel st	mansion beach	49
-geocaching at mansion in rock statue	settler's rock	86
-dump beach, on small cliff, under lobster pot basket	mansion beach	86
-in my bed! (gifted)	meadow hill	40
-black rock rd near tom's point	black rock	90
+corner pilot hill & spring	beacon hill	86
+walkway @ the bluffs	the maze'	86
+lakeside greenway trail	bi greenway	86
+cooneymus rd	cooneymus beach	82
+in the flower garden across the street from the national	the maze'	86
+st andrews stone wall chapel st	lewis point	50
+geocaching at mansion in rock statue	black rock beach	86
+in my bed! (gifted)	dinhgy beach	45
 under a bush in rodman's hollow	rodman's hollow	90
-on beach near wash pond	sachern pond	86
-green way trail under wooden bridge	clay head trail	86
-between dories cove and cooneymus beach	mansion beach	86
-cemetary next to the big tomb	'the maze'	86
-rodmans hollow- right of black rock rd in stone wall	black rock	90
+green way trail under wooden bridge	andy's way	86
+between dories cove and cooneymus beach	cooneymus beach	90
+cemetary next to the big tomb	the maze'	86
+rodmans hollow- right of black rock rd in stone wall	black rock beach	86
 on ground by path at rodman's hollow thanksgiving 2016	rodman's hollow	90
-take a putt	payne farm trail	44
+take a putt	block island state airport	51
 robin hollow in meadow	meadow hill	86
 enchanted	enchanted forest	90
-clayhead beach trail	mansion beach	86
 harrison loop in tree stump	harrison loop	90
 tree branch harrison loop	harrison loop	90
 harrison trail between west side road and beacon hill	beacon hill	90
-robman hollow path right of black rock rd in meadow	black rock	90
+robman hollow path right of black rock rd in meadow	black rock beach	86
 trail near turnip farm	turnip farm	90
 clayhead in a tree	clay head trail	67
 under rope at north lighthouse beach	north light	90
-coast guard beach in a hollow log	rodman's hollow	86
 north light house	north light	90
 enchanted forest : small side trail up a hill next to stone wall	enchanted forest	90
 north light beach in a tall upright piece of driftwood	north light	90
 north light house at very tip or beach between 2 logs	north light	90
-little free library @ the skate park	'the maze'	86
-manisseans monument stone across from fresh pond	sachern pond	86
+little free library @ the skate park	ball o' brien park	86
 path to north lighthouse in grasses	north light	90
-in the cannon at legion park	'the maze'	86
-clayhead trail (maze)	'the maze'	86
+in the cannon at legion park	ball o' brien park	86
+clayhead trail (maze)	mohegan trail	86
 overlook wall	payne overlook	72
-sahara's field	clay head trail	48
+sahara's field	ballard's beach	48
 behind driftwood on north lighthouse beach	north light	90
 payne overlook	payne overlook	100
-heinz field on top of porta potty	nathan mott park	43
+heinz field on top of porta potty	tilson cove	50
 north lighthouse beach	north light	90
-great salt pond to beacon hill	great salt pond	90
-cooneymus rd.	lewis-dickens farm	38
+great salt pond to beacon hill	beacon hill	90
+cooneymus rd.	cooneymus beach	82
 water line west of north light right of settlers rock	north light	90
 ocean view garden	ocean view pavilion	72
 block island's mansion beach	mansion beach	90
 pavilion	ocean view pavilion	90
-town beach	mansion beach	70
+town beach	charlestown beach	90
 lewis dickens farm preserve	lewis-dickens farm	90
-charleston beach found 7/6/2017	mansion beach	86
-mansion rd. beach parking lot in a tree	mansion beach	86
-hodge preserve in a tree down by middle pond	sachern pond	86
-hodge wildlife reserve	hodge family wildlife preserve	85
-martin lots	harrison loop	58
-hodge preserve parking area	hodge family wildlife preserve	65
+hodge wildlife reserve	hodge property	86
+martin lots	martin's point	76
+hodge preserve parking area	hodge property	86
 clayhead trail hidden in shrubs	clay head trail	86
 hodge family wildlife preserve stone wall	hodge family wildlife preserve	95
 clay head trail overlook	clay head trail	90
 clayhead trail perched in a tree	clay head trail	86
 stone wall along clayhead trail	clay head trail	87
-clayhead and then catch and released on black rock	black rock	90
-north west dump beach	north light	86
+clayhead and then catch and released on black rock	black rock beach	86
 rodman's hollow side trail	rodman's hollow	90
-toy boat race	clay head trail	43
+toy boat race	grace's cove	53
 payne road greenway in tall grass	bi greenway	86
 winfield preserve	hodge family wildlife preserve	86
-rocks by the boat dock	'the maze'	86
+rocks by the boat dock	the maze'	86
 payne road greenway broken	bi greenway	86
 near fresh pond	fresh pond greenway	76
-floating in a duck pond	sachern pond	86
+floating in a duck pond	great salt pond	86
 hole in wall by mansion beach parking lot	mansion beach	90
 greenway entrance old mill rd.	bi greenway	86
 greenways	fresh pond greenway	85
-mosquito beach?	scotch beach	62
-entrance to beach in wall across from beachhead	mansion beach	86
+mosquito beach?	mosquito beach	100
 jim gaffney greenway	bi greenway	86
 greenway between old mill and beacon hill	beacon hill	90
 mansion ruins	mansion beach	66
@@ -1230,93 +1098,77 @@ peter wood's trail	andy's way	86
 hodge greenway	hodge family wildlife preserve	86
 mill pond rd	fresh pond greenway	86
 legion hall cannon	beacon hill	58
-next to compost bin, public gardens atop hill in new shoreham	new harbor	86
-tire on west beach	scotch beach	86
-on old mill trail next to cooneymus rd in a stone wall	clay head trail	86
-rodman's hallow side path	rodman's hollow	86
-art installation at hodge preserve	win dodge	67
-dorys cove on the sand	'the maze'	86
-near paul garra memorial bench	new harbor	51
+next to compost bin, public gardens atop hill in new shoreham	new shoreham	90
+tire on west beach	west beach	90
+art installation at hodge preserve	hodge property	86
+near paul garra memorial bench	vaill beach	58
 rodman's trails	andy's way	86
 loffredo preserve on top of birdhouse	loffredo loop	86
-off old mill rd	loffredo loop	41
+off old mill rd	ball o' brien park	42
 greenway trail off beacon hill in a rock wall	beacon hill	90
 in a stonewall on a side trail in rodmans hollow	rodman's hollow	87
 connecting trail between black rock and long loop in rodman's hollow	rodman's hollow	90
-not sure	southeast light	53
 greenway by p.woods	bi greenway	86
-old mill road trail to rodmans hollow eye level in branches!	rodman's hollow	86
 wild life refuge	hodge family wildlife preserve	68
 mansion	mansion beach	90
 entrance of tulip and avatar	turnip farm	50
 romans hollow	rodman's hollow	93
-gracies cove beach	scotch beach	86
 greenway trail fp	bi greenway	86
-bic trail off beach ave	clay head trail	86
 greenway trail off of beacon hill	beacon hill	90
 rodmens hollow	rodman's hollow	90
-darius inn in the creeping hydrangea	'the maze'	86
-block island club	black rock	51
-the greenway, center rd	'the maze'	86
+darius inn in the creeping hydrangea	the maze'	86
+block island club	block island state airport	86
+the greenway, center rd	bi greenway	86
 rodhams hollow	rodman's hollow	83
-wooden crate on beach near bluffs	mohegan bluffs	86
-block rock	black rock	90
-potts and kettel beach	mansion beach	86
-bi playground	black rock	43
-monument	southeast light	45
-wall corner of old mill rd and west side road	beacon hill	55
-gracie's cove	great salt pond	50
+block rock	black rock beach	86
+bi playground	spring pond	50
+monument	mosquito beach	45
+wall corner of old mill rd and west side road	old harbor point	86
+gracie's cove	grace's cove	96
 clay head trail at the beach entrance	clay head trail	90
-fresh water preserve	hodge family wildlife preserve	86
+fresh water preserve	fresh swamp	86
 in the bushes at a rodman's hollow overlook	rodman's hollow	90
 center st. cemetery against a tombstone	settler's rock	51
 overlook trail	payne overlook	69
 small trail off of cooneymus rd	clay head trail	86
-the post office	'the maze'	86
-back seat of truck	black rock	57
+the post office	the maze'	86
+back seat of truck	settler's rock	53
 lakeside drive	hodge family wildlife preserve	47
 center st. cemetery foot of tombstone	settler's rock	51
 turnip farms	turnip farm	96
 nathan mott park trail under a rock	nathan mott park	90
 behind north light sign, in a plant	north light	90
-beach ave.trail	clay head trail	64
-greenway beach road	scotch beach	86
+beach ave.trail	baby beach	86
 nathan mott park & turnip farm	nathan mott park	90
 arts & craft guild	payne farm trail	42
 greenway near street	bi greenway	86
-park	nathan mott park	90
+park	ball o' brien park	90
 oceanview pavillion	ocean view pavilion	95
 hodge entrance	hodge family wildlife preserve	86
-beach avenue traik	scotch beach	86
 blue stone at clay head trail	clay head trail	90
-american legion post 36	mansion beach	46
+american legion post 36	lewis point	58
 bi nat. wildlife refuge, near labyrinth	bi greenway	86
 beach at clay head trail	clay head trail	90
-bi wildlife refuge trail	clay head trail	86
+bi wildlife refuge trail	bi greenway	86
 clay head trail (under footbridge)	clay head trail	90
 clayhead trail near trail merge	clay head trail	86
-vail beach/black rock on beach above tide line	black rock	90
 clay head hill trail	clay head trail	95
 fresh swamp and payne farm trail	fresh swamp	90
 clay head nature trail. left side under the brush	clay head trail	86
 gazebo at ocean view	ocean view pavilion	66
-next to rock on greenway	settler's rock	86
+next to rock on greenway	bi greenway	86
 fresh swamp & payne farm trail	fresh swamp	90
-bagel shop	rodman's hollow	45
-driftwood log at the entrance to ocean view	'the maze'	86
+bagel shop	ballard's beach	48
+driftwood log at the entrance to ocean view	ocean view pavilion	86
 ocean view pavilion inside ornamental grass bush	ocean view pavilion	90
-hodge preserve near fence post	hodge family wildlife preserve	61
-across from the beach head	clay head trail	86
-bingo	bi greenway	54
-the legion hall cannon	'the maze'	86
-the cannon where the farmer's market is	rodman's hollow	86
-spring street, 'art garden' near bench under tree	great salt pond	48
-fish tote on sw corner beach	mansion beach	86
-dorreys cove in abig pile of clay dirt	clay head trail	86
-chamber of commerce	sachern pond	45
-old mill road greenway trail	clay head trail	86
+hodge preserve near fence post	hodge property	86
+bingo	spring pond	57
+the legion hall cannon	the maze'	86
+spring street, 'art garden' near bench under tree	spring pond	86
+chamber of commerce	cow cove	56
 clayhead traik	clay head trail	90
-clayhead trails off the main path	'the maze'	86
+on beach, southeast of little sachem pond under a mesh screen	sachem pond	90
+clayhead trails off the main path	the maze'	86
 rodmans hollow stone wall	rodman's hollow	86
 greenway trails	bi greenway	80
 marsh hawk hollow in center of tree stump	rodman's hollow	86
@@ -1324,258 +1176,206 @@ mohegan bluff overlook	mohegan bluffs	86
 marsh hawk hollow up in a tree	rodman's hollow	86
 in tree on greenway trails	bi greenway	86
 end of dump road	andy's way	43
-dump beach- in upright log	mansion beach	86
-greenway trail old town rd	clay head trail	86
-greenway trail #3 in a stump	clay head trail	86
-enchanted forrest in a hollow tree	rodman's hollow	86
+greenway trail #3 in a stump	bi greenway	86
+enchanted forrest in a hollow tree	enchanted forest	86
 high meadow greenway	bi greenway	86
-charleston beach near inlet	mansion beach	86
-"northern lights" poem box at a cow cove	north light	78
-bench at the tranfer station	'the maze'	86
-behind historical society	beacon hill	50
-east of fresh water pond	sachern pond	86
+"northern lights" poem box at a cow cove	cow cove	90
+bench at the tranfer station	the maze'	86
+behind historical society	balls point	50
+east of fresh water pond	fresh swamp	86
 salt water pond	great salt pond	76
-beach ave greenway	scotch beach	86
 greenway off beacon hill rd.	beacon hill	90
-inside giant drift tree on coast guard jeti	mohegan trail	49
-in a potted christmas catus in airport lobby	new harbor	54
+inside giant drift tree on coast guard jeti	dickens point	49
+in a potted christmas catus in airport lobby	block island state airport	86
 greenway trails by payne rd	bi greenway	86
 hodge preserve trail	hodge family wildlife preserve	86
 lewis dickens	lewis-dickens farm	95
-beach ave trails	clay head trail	62
+beach ave trails	baby beach	86
 trail off of west side road across from peckhams	clay head trail	86
-hollow log, walking south from west beach rd	rodman's hollow	86
+hollow log, walking south from west beach rd	west beach	90
 windodge greenway	bi greenway	86
-wall by peter wood's house	rodman's hollow	86
-town cemetery	'the maze'	43
-emily dickens trail/stonewall	clay head trail	86
-atop porta potty heinz field	'the maze'	43
-path off old mill rd	loffredo loop	46
-emily dickens	lewis-dickens farm	66
-on the ground in the greeenway off of conneymus road	'the maze'	86
-lake side dr across from fresh pond	sachern pond	86
-in a tree of on the greenway off of conneymus road	'the maze'	86
-rodman hollow side trail	rodman's hollow	86
-lewis dickson reserve	lewis-dickens farm	67
+town cemetery	fred benson town beach	86
+atop porta potty heinz field	lewis point	47
+path off old mill rd	ball o' brien park	47
+emily dickens	dickens point	66
+on the ground in the greeenway off of conneymus road	the maze'	86
+in a tree of on the greenway off of conneymus road	bi greenway	86
+rodman hollow side trail	clay head trail	86
+lewis dickson reserve	lewis point	86
 gaffney greenway, on a stump	bi greenway	86
 greenway off old mill rd in crook of tree	bi greenway	86
 nathan mott park/enchanted forest	enchanted forest	90
 harrison's loop	harrison loop	95
 old mill side trail going into rodman's hollow under grass	rodman's hollow	90
-lewis dickens reserve sign in box	lewis-dickens farm	86
-in the flower boxes outside of the post office	'the maze'	86
+lewis dickens reserve sign in box	dickens point	86
+in the flower boxes outside of the post office	the maze'	86
 hodge family preserve trail	clay head trail	86
-emily dickens trail	lewis-dickens farm	65
+emily dickens trail	dickens point	66
 hollowed out tree stump meadow hill	meadow hill	90
-coneymus ed in the wall	'the maze'	86
+coneymus ed in the wall	the maze'	86
 greenway on old mill road under brush	bi greenway	86
-block island	black rock	45
-united states	enchanted forest	48
+block island	block island state airport	90
+united states	block island state airport	56
 in a tree @ old mill greenway	bi greenway	86
 enchanted forest entrance on old mill road in a tree	enchanted forest	90
 southeast lighthouse overlook	southeast light	90
-beach access path	scotch beach	59
-elizabeth dickens trailhead at dicken's road	rodman's hollow	86
+beach access path	baby beach	86
 behind rock sign for north lighthouse beach	north light	90
 near north light trail parking	north light	90
-legion park canon	ocean view pavilion	48
+legion park canon	ball o' brien park	50
 great salt pond across from coast guard beach	great salt pond	90
 library	bi greenway	44
 southeasr lighthouse window	southeast light	84
-the crest of black rock loop	black rock	90
-coast guard cut, block island	black rock	51
+coast guard cut, block island	block island state airport	60
 greenaway trail	bi greenway	62
-west side of sandy point	andy's way	60
 enchanted forest, near year-round pond	enchanted forest	90
 ocean view foundation pavilion in a tree	ocean view pavilion	86
 harrison loop, in the nook of a tree.	harrison loop	90
 clay head trail tucked in vines	clay head trail	90
 mott park area / airport	nathan mott park	86
-mott park, in a rock wall	settler's rock	86
-nature's nobleman greenway	rodman's hollow	86
-west beach (behind the dump). found inside rusted circle piece up against bottom of mini bluffs.	mohegan bluffs	86
-near airport	new harbor	61
+mott park, in a rock wall	black rock beach	86
+near airport	block island state airport	86
 off old mill road	loffredo loop	45
 rodman's hollow in some rocks	rodman's hollow	90
-in the canon legion park	'the maze'	86
+in the canon legion park	nathan mott park	86
 near harrison loop	harrison loop	95
-gracie's cove entrance	settler's rock	86
 mott trail near bench	mohegan trail	86
 greenaway in grasses	bi greenway	70
-near beach ave. and corn neck rd.	mansion beach	86
 rodman's hollow behind stone marker	rodman's hollow	90
 greenway path off beacon hill rd	beacon hill	90
 n41 09.580 w071 36.126	andy's way	27
 enchanted forest cart way	enchanted forest	90
 turnip farm greenway entrance in rocks	turnip farm	90
-re-hidden on 4/30/16	sachern pond	45
+re-hidden on 4/30/16	new shoreham	45
 off old mill rd greenway	bi greenway	86
-bluff trail at black rock	black rock	90
-bluff trail at black rock, in a rock wall	black rock	90
 rodman's hollow-loop by black rock	rodman's hollow	90
 loefflers loop	loffredo loop	74
-mill stone at center rd and old town rd	rodman's hollow	54
+mill stone at center rd and old town rd	fred benson town beach	86
 2nd bluffs path in tree	mohegan bluffs	86
 greenway close to cooneymus road	bi greenway	86
-in the roof of the driftwood hut past the north point lighthouse	north light	86
-old town road	rodman's hollow	48
+old town road	fred benson town beach	86
 enchanted forest in hollowed out tree	enchanted forest	90
 snake hole rd.	rodman's hollow	54
 motts trail	mohegan trail	67
 meadow hill trail in a tree covered in vines	meadow hill	90
-motts park	nathan mott park	86
-entrance to vail beach, in trees	mansion beach	86
+motts park	ball o' brien park	86
 fresh swamp trail in stone wall!	fresh swamp	90
-snake hole road at entrance to beach access	mansion beach	86
-hodge preserve behind the stone trail marker	clay head trail	86
-cooneymus beach in a lobster trap	mansion beach	86
-hodge family preserve- deep in the bowels of the rock wall	settler's rock	86
-cooneymus beach hidden in log wall	mansion beach	86
+cooneymus beach in a lobster trap	cooneymus beach	90
+cooneymus beach hidden in log wall	cooneymus beach	90
 trail off payne rd	payne farm trail	78
-under drift wood left of graces cove entrance	enchanted forest	48
-grace's point- deep in the bowels of a gigantic piece of driftwood	rodman's hollow	86
 cemetery- up in a tree!	bi greenway	45
 dunn's bridge path	andy's way	86
-beach avenue trails	scotch beach	86
-smithpoint beach fire island seashore east of smithpoint beach long island ny	mansion beach	86
-west side bench beach	mansion beach	86
-negus park in a tree	'the maze'	45
+negus park in a tree	ball o' brien park	51
 trims pond trail	mohegan trail	62
-graces cove beach	scotch beach	62
 cemetery stone wall	andy's way	45
 west beach by north light	north light	90
-the indian cemetery momument	'the maze'	86
+the indian cemetery momument	the maze'	86
 beach in front of north light in a pile of rocks	north light	90
 southeast lighthouse tower window sill	southeast light	90
-sit your but or take a putt	'the maze'	45
+sit your but or take a putt	surf beach	45
 on the beach just in front of the north lighthouse.	north light	90
-east bank of sachem pond	sachern pond	86
-west side of north point, behind log	north light	86
+east bank of sachem pond	sachem pond	90
 attwood overlook, next to a tree.	payne overlook	86
-trail to vail beach	scotch beach	86
 ocean view pavilion (rafters)	ocean view pavilion	95
-black rock beach	black rock	90
-grace point	sachern pond	61
-park at harbor pond	sachern pond	86
-black rock in a lobster pot	black rock	90
+black rock beach	black rock beach	100
+grace point	dickens point	67
+park at harbor pond	new harbor	86
+black rock in a lobster pot	black rock beach	86
 the trail leading to andy's way	andy's way	90
 romans hollow, hidden in a bush!	rodman's hollow	86
 greenway of cooneymus road	bi greenway	86
 greenway off cooneymus road	bi greenway	86
 coast guard station trail to breakwater new harbor	new harbor	90
-trail that runs between cooneymus rd and black rock trail	black rock	90
 marsh hawk hallow	rodman's hollow	56
 greenway trails-wooden box near beacon hill	beacon hill	90
-beach b'tween bluffs & coneymus	mohegan bluffs	86
-beach end of black rock rd.	black rock	90
 greenway trails beacon hill rd in thicket of bush	beacon hill	90
-under bush at entrance to middle pond @ hodge preserve	sachern pond	86
-entrance to dory's cove in and old lobster pot	rodman's hollow	86
 fresh swamp walking trail	fresh swamp	90
-in tree vines on path from parking lot to clay head beach	clay head trail	86
-in hole of mantassean monumnet	win dodge	50
-entrance to clay head beach under charred railroad tie	clay head trail	86
-cemetery by fresh pond	sachern pond	86
+in hole of mantassean monumnet	lewis point	50
+cemetery by fresh pond	fresh swamp	86
 scotch beach entrance	scotch beach	90
 mansion beach tied up in a sack in a tree	mansion beach	90
 mott farm trail	payne farm trail	76
-west beach under rim	mansion beach	86
-mott park (close to airport)	nathan mott park	86
-end of w beach rd in tire rim	mansion beach	86
-tree at fresh pond	sachern pond	86
-loop off of beach ave	mansion beach	86
+west beach under rim	west beach	90
+mott park (close to airport)	ball o' brien park	86
+tree at fresh pond	fresh swamp	86
 greenaway trails	bi greenway	59
-beach ave-nature trail	mansion beach	86
-in a hollow log on cooneymus	rodman's hollow	86
+in a hollow log on cooneymus	cooneymus beach	86
 scotch beach trail	scotch beach	90
 scotch beach access path	scotch beach	90
-under bridge at fresh pond	sachern pond	86
-fresh pond under tree roots	sachern pond	86
-west beach-breed property	mansion beach	86
-floating in fresh pond	sachern pond	86
+under bridge at fresh pond	fresh swamp	86
+fresh pond under tree roots	fresh swamp	86
+west beach-breed property	west beach	90
+floating in fresh pond	fresh swamp	86
+crescent beach trail from corn neck rd	crescent beach	90
 trail off payne rd.	payne farm trail	78
 first path on right going towards mohegan bluffs	mohegan bluffs	90
-the block island ferry boat	'the maze'	86
+the block island ferry boat	the maze'	86
 wlkers welcome path off mohegan trail	mohegan trail	90
-block island state beach	mansion beach	86
 greenway trail meadow hill	meadow hill	90
-west beach, south of west beach road, under large driftwood	mansion beach	86
+west beach, south of west beach road, under large driftwood	west beach	90
 massion beach	mansion beach	92
-beach between the oars and champlins (10/6/15)	'the maze'	86
 north of mansion beach	mansion beach	90
+west beach, west of middle pond under large driftwood 06/04/2015	west beach	90
 trail by north light	north light	90
 on a greenway in a tree	bi greenway	86
 old town road greenway	bi greenway	86
-field off west side rd	loffredo loop	46
+field off west side rd	west beach	86
 sign at paynes overlook	payne overlook	86
 under rock at rodman's hollow parking area	rodman's hollow	90
-rock wall at the martin property	settler's rock	86
 turnip farm greenway entrance, to the left of the gate behind a rock	turnip farm	90
 green way off old mill rd	andy's way	86
-inside a cracked log on beach between lewis dickens pt & black rock pt	black rock	90
-clay head beach in lobster pot	clay head trail	86
-in my backpack!	black rock	50
-under the dew, betwixt the flora and fauna near the beach on clay head	clay head trail	86
+in my backpack!	dinhgy beach	54
 turnip farm in a bush	turnip farm	90
-re-hidden on 5/28/16	sachern pond	45
+re-hidden on 5/28/16	new shoreham	45
 enchanted forest, old mill side, in a tree	enchanted forest	90
 rock wall on clay head trail	clay head trail	90
-the maze, in a tree. not sure exactly where, as it was night.	'the maze'	90
-clayhead beach, under the sand	'the maze'	86
-bluffs trail at black rock	black rock	90
+the maze, in a tree. not sure exactly where, as it was night.	the maze'	90
 in a tree, turnip farm	turnip farm	90
 enchanted forest in the base of a tree clump	enchanted forest	90
 rodmans hallow	rodman's hollow	90
 on the path of clay head trail	clay head trail	90
-rodman's/black rock	black rock	90
-trail to maze	'the maze'	86
-veteran's park in a tree	rodman's hollow	86
-near farm	lewis-dickens farm	86
+rodman's/black rock	andy's way	86
+trail to maze	the maze'	86
+near farm	abrams animal farm	86
 harrison trail; hidden in a tree	clay head trail	86
-ballard's beach	andy's way	86
-mohegan bluff beach	scotch beach	86
-in the sand on west beach	'the maze'	86
+ballard's beach	ballard's beach	100
+in the sand on west beach	west beach	90
 greenway off of beacon hill road. in a rock.	beacon hill	90
-rodmans hollow, long loop	rodman's hollow	86
+rodmans hollow, long loop	harrison loop	86
 payne greenway	bi greenway	80
-town beach entrance	scotch beach	86
-across from airport	payne farm trail	46
-gracy's cove, entrance to a walkway, on top of sign	rodman's hollow	86
+across from airport	abrams animal farm	51
 turnip farm area stone wall	turnip farm	90
 next to the enchanted forest resting inside a tree	enchanted forest	90
-graces beach	mansion beach	64
+graces beach	dorry's cove beach	86
 greenway path off of cooneynus	bi greenway	86
 rodmans hollow turnip farm in a broken tree stump.	turnip farm	90
 snake hole rd	rodman's hollow	54
 old millard trail	clay head trail	59
 trail south of peter woods, old mill road	clay head trail	86
-greenway trail off cooneymus	clay head trail	86
-behind peter woods off old mill road	beacon hill	55
-cooneymus beach, in a driftwood log hollow, covered with sand	rodman's hollow	86
-cooneymus beach in plastic container	mansion beach	86
-se point	sachern pond	60
-gracy's cove	great salt pond	52
-sand bank cove on ground surrounded by rocks by clay cave	clay head trail	86
+behind peter woods off old mill road	old harbor point	86
+cooneymus beach, in a driftwood log hollow, covered with sand	cooneymus beach	90
+cooneymus beach in plastic container	cooneymus beach	90
+se point	dickens point	86
+gracy's cove	grace's cove	92
+cooneymus beach/ dory's cove in driftwood log	cooneymus beach	90
 mohegan bluffs, in lobster trap	mohegan bluffs	90
-a few hundred yards north of cooneymus rd beach access	north light	86
 beacon hill greenway area	beacon hill	90
 southeast	southeast light	90
-beach at northern light	north light	86
 stairs on moghan bluffs	mohegan bluffs	86
 west beach near north lighthouse.	north light	90
 half-buried in sand near the north lighthouse	north light	90
-south of grace's cove entrance	rodman's hollow	86
+south of grace's cove entrance	grace's cove	90
 rock wall foundation of the win dodge preserve	win dodge	90
-between schooner point and dickens point in lobster pot	lewis-dickens farm	86
+between schooner point and dickens point in lobster pot	dickens point	90
 on the beach below mohegan bluffs-- against a rock, partiallly buried in clay	mohegan bluffs	90
 ocean view- eaves of gazebo	ocean view pavilion	66
-duval	great salt pond	51
+duval	vaill beach	54
 greenway harrison loop	harrison loop	90
 harrison trail in tree	harrison loop	86
 in the enchanted forest to the left of the enchanted forest sign in a rock wall	enchanted forest	90
 north light beach buried in sand	north light	90
-the labyrinth	'the maze'	86
-grace's cove pond	andy's way	86
+the labyrinth	the maze'	86
+grace's cove pond	grace's cove	95
 enchanted forest, hilltop rock wall	enchanted forest	90
 enchanted forest, on ground among downed,cleared branches	enchanted forest	90
 in tidal debris north of the old cut on the great salt pond	great salt pond	90
@@ -1583,78 +1383,66 @@ clay head trail entrance to beach.	clay head trail	90
 winfield dodge stonewall	win dodge	86
 beacon hill greenway- in an tree stump	beacon hill	90
 ocean view on a memorial stone with compass setting.	ocean view pavilion	86
-clay head beach-lobster trap	clay head trail	86
-driftwood-clay head beach	clay head trail	86
 mohegan bluffs beach	mohegan bluffs	95
-intersection of old town road and center street.	sachern pond	50
+intersection of old town road and center street.	fred benson town beach	86
 mansion beach in the foundation of the mansion	mansion beach	90
 northwest beach, south of north light	north light	90
-on sand of west beach	mansion beach	86
+on sand of west beach	west beach	90
 sign at mohegan bluffs	mohegan bluffs	90
-corn neck rd	sachern pond	50
+corn neck rd	crescent beach	46
 steps going down to moghean bluffs	mohegan bluffs	86
 clay head trail, base of tree	clay head trail	90
 clay head trail, in a dead tree	clay head trail	90
-inside engine block on west beach	mansion beach	86
-trail before point	payne farm trail	62
-old harbor	new harbor	71
+inside engine block on west beach	west beach	90
+trail before point	balls point	86
+old harbor	old harbor point	90
 north light house beach	north light	90
-island free library in a flower pot	harrison loop	49
+island free library in a flower pot	lewis point	54
 great salt pond south of bi club	great salt pond	90
-clayhead, begining of the path in a fallen log	'the maze'	86
-between surf beach and town beach	mansion beach	86
+clayhead, begining of the path in a fallen log	the maze'	86
+between surf beach and town beach	surf beach	90
 southeast lighthouse, outside on the windowsill by the ramp	southeast light	90
-charlestown beach inside driftwood log	mansion beach	86
-boat basin beach	mansion beach	69
+charlestown beach inside driftwood log	charlestown beach	90
+boat basin beach	baby beach	86
 marsh by andy's way	andy's way	90
 beach heading to north light	north light	90
-airport/mott trail	nathan mott park	53
+airport/mott trail	block island state airport	53
 clayhead trail in a tree	clay head trail	86
-in rock wall at vaills beach road	settler's rock	86
-end of mohegan bluff stairs in rock pile	mohegan bluffs	86
-vail beach, in a old lobster trap, 10/10/13	mansion beach	86
+end of mohegan bluff stairs in rock pile	black rock beach	86
 mohegan bluffs -- in a tree; found on may 23, 2014	mohegan bluffs	90
 rock wall at mansion beach	mansion beach	90
-vaill beach	beacon hill	69
-on a boulder on a greenway trail near black rock beach	black rock	90
+vaill beach	vaill beach	100
+on a boulder on a greenway trail near black rock beach	black rock beach	90
 off clayhead trail under a log	clay head trail	86
-black rock overlook in a stump	black rock	90
-stone wall on pilot hill rd.near the school	'the maze'	86
-bluff above black rock beach	black rock	90
-mosquito beach, washed ashore	mansion beach	86
+black rock overlook in a stump	black rock beach	86
+stone wall on pilot hill rd.near the school	beacon hill	86
+bluff above black rock beach	black rock beach	90
+mosquito beach, washed ashore	mosquito beach	90
 enchanted forest behind a rock	enchanted forest	90
-dorry's cove-in a bleach bottle	rodman's hollow	86
 off enchanted forest path, taking a left at the top of the hill, under a tree.	enchanted forest	90
-dorrey's cove	enchanted forest	46
-near bonnell beach	scotch beach	86
-maze beach	mansion beach	70
-between dorries and gracies	win dodge	50
-west beach on a rusty tire rim	mansion beach	86
+dorrey's cove	cow cove	86
+inside lobster trap on dorry's cove beach	dorry's cove beach	90
+between dorries and gracies	grace's cove	60
+west beach on a rusty tire rim	west beach	90
 enchanted forest in wall at entrance	enchanted forest	90
-moheagan bluffs beach	mohegan bluffs	86
 on the bluffs at clayhead	mohegan bluffs	86
 mohegian bluff overlook	payne overlook	86
-the bluffs beach (stairs)	mohegan bluffs	86
-dorries	enchanted forest	64
-west beach/ dump road	mansion beach	86
+dorries	dorry's cove beach	64
+west beach/ dump road	west beach	90
 west beach, near north light	north light	90
-graces cove pond	great salt pond	58
+graces cove pond	cow cove	86
 west beach, close to north light	north light	90
-coast guard channel beach	mansion beach	86
 south of the north light west beach side	north light	90
-gracies	great salt pond	51
+gracies	grace's cove	77
 in a tree in the enchanted forest	enchanted forest	90
 greenway trail airport	bi greenway	86
 dories	enchanted forest	60
 near turnip farm on greenway	turnip farm	90
 way up in a tree	andy's way	86
 turnip farm entrance	turnip farm	90
-the unenchanted forest	'the maze'	86
-pots&kettles area	settler's rock	58
+the unenchanted forest	the maze'	86
+pots&kettles area	lewis point	63
 mansion beach under rock pile	mansion beach	90
 entrance to mansion beach	mansion beach	90
-clayhead trail beach	mansion beach	86
 next to fence in clayhead	clay head trail	63
-southwest point beach/ cooneymus rd	mansion beach	86
-graces cove, just past the driftwood fort	'the maze'	86
-inside fort at gracies cove	new harbor	45
+southwest point beach/ cooneymus rd	southwest point	90

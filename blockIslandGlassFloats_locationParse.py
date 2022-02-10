@@ -11,12 +11,40 @@ print("test")
 yearList = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
 currYear = ''
 
+# No longer coding in the script. Named areas and locations now being read in from file below.
+'''
 masterLocationList = ["rodman's hollow", "enchanted forest", "mohegan bluffs", "north light",
-"settler's rock", "clay head trail", "'the maze'", "sachern pond", "hodge family wildlife preserve",
+"settler's rock", "clay head trail", "'the maze'", "sachem pond", "hodge family wildlife preserve",
 "mansion beach", "andy's way", "scotch beach", "new harbor", "great salt pond", "harrison loop",
 "bi greenway", "nathan mott park", "turnip farm", "loffredo loop", "meadow hill", "ocean view pavilion",
-"southeast light", "payne overlook", "mohegan trail", "black rock", "lewis-dickens farm",
-"win dodge", "fresh pond greenway", "fresh swamp", "payne farm trail", "beacon hill"]
+"southeast light", "payne overlook", "mohegan trail", "black rock beach", "lewis-dickens farm",
+"win dodge", "fresh pond greenway", "fresh swamp", "payne farm trail", "beacon hill",
+"logwood cove", "sacred labyrinth", "balls point", "west beach", "charlestown beach",
+"grace's cove", "ball o' brien park", "crescent beach", "fred benson town beach", "new shoreham", 
+"spring pond", "block island state airport", "abrams animal farm", "old harbor point", "tilson cove",
+"lewis point", "dickens point", "southwest point", "cooneymus beach", 
+"martin's point", "dorry's cove beach", "hodge property", "dinhgy beach", "mosquito beach", "vaill beach",
+"cow cove", "baby beach", "surf beach", "ballard's beach"]
+'''
+
+masterLocationDict = {}
+
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon.txt", 'r') as locFileIn:
+    for line in locFileIn:
+        # Skip the header line
+        if line.startswith("location"):
+            continue
+        else:
+            locationName = line.strip().split("\t")[0]
+            masterLocationDict[locationName] = {'lat':0, 'lon':0}
+
+print("The dict is:")
+print(masterLocationDict)
+
+masterLocationList = list(masterLocationDict.keys())
+
+print("The list is:")
+print(masterLocationList)
 
 locationDict = {}
 fuzzMatchedDict = {}

@@ -1,51 +1,91 @@
 Location	NumTimesListed
-rodman's hollow	50
-clay head trail	37
-mansion beach	25
-hodge family wildlife preserve	21
-enchanted forest	20
-'the maze'	20
-nathan mott park	19
-scotch beach	17
-sachern pond	15
-win dodge	12
-mohegan trail	12
+rodman's hollow	44
+clay head trail	30
+enchanted forest	17
+nathan mott park	16
+hodge family wildlife preserve	15
+the maze'	14
+bi greenway	13
 mohegan bluffs	12
-bi greenway	12
-fresh pond greenway	10
-settler's rock	10
-turnip farm	8
-beacon hill	8
+mohegan trail	11
+fresh swamp	11
+win dodge	10
+fresh pond greenway	9
+beacon hill	9
+fred benson town beach	8
+west beach	7
+cooneymus beach	7
 andy's way	6
+ball o' brien park	6
+turnip farm	6
 north light	6
-black rock	6
-meadow hill	6
-great salt pond	6
-fresh swamp	6
-southeast light	5
-payne overlook	4
-loffredo loop	4
-harrison loop	4
-ocean view pavilion	2
-lewis-dickens farm	1
+block island state airport	6
+hodge property	5
+charlestown beach	5
+harrison loop	5
+mansion beach	4
+southeast light	4
+baby beach	4
+settler's rock	4
+vaill beach	4
+black rock beach	4
+loffredo loop	3
+dorry's cove beach	3
+scotch beach	3
+meadow hill	3
+grace's cove	3
+ocean view pavilion	3
+great salt pond	3
+payne farm trail	2
+mosquito beach	2
+dickens point	2
+sacred labyrinth	2
+cow cove	2
+martin's point	2
+dinhgy beach	2
+payne overlook	2
+new harbor	2
+fresh pond canoe launch at waters bank in grass	1
+ballard's beach	1
+“ball o brian” beach by gsp	1
+kids beach	1
 greenway trail. will rehide #95	1
 on the ground in large area of tall grass near mott park trail	1
-grace's cove beach under a log (had to dig a little)	1
+spring pond	1
+logwood cove	1
+2018 bi triathalon last beach access near a log had to dig will be re-hidden	1
+fred j benson beach building behind a piling	1
+inlet beach of salt pond	1
+dorys cove in a lobster trap	1
+harrison trail in tree near west side rd	1
 hyland park midway down the trail in a tree	1
+crescent beach	1
+base of stonewall by bonnell beach sign	1
 dory's cove beach in pile of rocks	1
+surf beach	1
+southwest point	1
 trail leading to bonnell beach in tree branches	1
 greenway trail off of cooneymus	1
+walking trail near the labyrinth	1
 payne trail- rock wall beehive sign	1
 under the elaine loffredo memorial preserve rock	1
+under the beach ave bridge	1
+path to coast guard beach	1
+path off of old town rd across from mill pond	1
 greenway trail off old mill road in a tree	1
 greenway trail (off lakeside dr)	1
+in a stone wall near lewis farm	1
+greenway trail off old mill	1
+coast guard beach walkway	1
 ??	1
+old harbor point	1
 ?	1
+charleston beach under driftwood	1
 off of old mill rd on greenway trail	1
 the hodge greenway trail	1
-payne farm trail	1
+fresh pond tree near cemetery	1
 greenway trail off old mill rd	1
+in freshly cut grass at fresh pond	1
 payne road greenway, buried in the grass behind a trail marker sign	1
 clayhead trail on the beach	1
 stone wall on lakeside dr just before the fresh pond view trail head	1
-new harbor	1
