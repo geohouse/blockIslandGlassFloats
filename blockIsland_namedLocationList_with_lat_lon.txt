@@ -1,61 +1,77 @@
 location	lat	lon
-abrams animal farm		
-andy's way		
-baby beach		
-ballard's beach		
-ball o' brien park		
-balls point		
-beacon hill		
-bi greenway		
-black rock beach		
-block island state airport		
-charlestown beach		
-clay head trail		
-cooneymus beach		
-cow cove		
-crescent beach		
-dickens point		
-dinhgy beach		
-dorry's cove beach		
-enchanted forest		
-fred benson town beach		
-fresh pond greenway		
-fresh swamp		
-grace's cove		
-great salt pond		
-harrison loop		
-hodge family wildlife preserve		
-hodge property		
-lewis-dickens farm		
-lewis point		
-loffredo loop		
-logwood cove		
-mansion beach		
-martin's point		
-meadow hill		
-mohegan bluffs		
-mohegan trail		
-mosquito beach		
-nathan mott park		
-new harbor		
-new shoreham		
-north light		
-ocean view pavilion		
-old harbor point		
-payne farm trail		
-payne overlook		
-rodman's hollow		
-sachem pond		
-sacred labyrinth		
-scotch beach		
-settler's rock		
-southeast light		
-southwest point		
-spring pond		
-surf beach		
-the maze'		
-tilson cove		
-turnip farm		
-vaill beach		
-west beach		
-win dodge		
+abrams animal farm	"41.169119, -71.557825"	
+airport	"41.169007, -71.579542"	
+andy's way	"41.201322, -71.575562"	
+attwood trail	"41.217454, -71.564370"	
+baby beach	"41.179318, -71.564797"	
+ballard's beach	"41.172840, -71.554313"	
+ball o' brien park	"41.181072, -71.580760"	
+balls point	"41.208348, -71.556447"	
+beacon hill	"41.173461, -71.588801"	
+bi greenway	"41.170297, -71.589276"	
+black rock beach	"41.147349, -71.594658"	
+block island public school	"41.164294, -71.560353"	
+block island state airport	"41.169007, -71.579542"	
+block island state beach	"41.183046, -71.566105"	
+charlestown beach	"41.195006, -71.593139"	
+clay head trail	"41.216374, -71.556688"	
+coast guard beach	"41.195293, -71.588699"	
+coast guard station	"41.194130, -71.589166"	
+cooneymus beach	"41.163608, -71.610801"	
+cow cove	"41.226039, -71.572128"	
+crescent beach	"41.187421, -71.566737"	
+dickens point	"41.151667, -71.608702"	
+dinhgy beach	"41.188882, -71.569326"	
+dodge cemetery	"41.166368, -71.596513"	
+dorry's cove beach	"41.173237, -71.607821"	
+elizabeth dickens trail	"41.153068, -71.606952"	
+enchanted forest	"41.168721, -71.585856"	
+fred benson town beach	"41.183046, -71.566105"	
+fresh pond	"41.160159, -71.578612"	
+fresh swamp	"41.160829, -71.572955"	
+grace's cove	"41.183112, -71.601656"	
+great salt pond	"41.180174, -71.569616"	
+greenway	"41.170297, -71.589276"	
+greenaway	"41.170297, -71.589276"	
+harrison loop	"41.178345, -71.583957"	
+harrison trail	"41.178345, -71.583957"	
+hodge family wildlife preserve	"41.214658, -71.570683"	
+hodge preserve	"41.214658, -71.570683"	
+hodge property	"41.214658, -71.570683"	
+lewis-dickens farm	"41.153068, -71.606952"	
+lewis point	"41.151667, -71.608702"	
+loffredo loop	"41.168192, -71.593866"	
+logwood cove	"41.221549, -71.576319"	
+mansion beach	"41.201162, -71.561259"	
+martin's point	"41.171917, -71.609271"	
+meadow hill	"41.172852, -71.567883"	
+mohegan bluffs	"41.152075, -71.552837"	
+mohegan trail	"41.152450, -71.555056"	
+mosquito beach	"41.188882, -71.569326"	
+nathan mott park	"41.168815, -71.586630"	
+new harbor	"41.182120, -71.578331"	
+new shoreham	"41.172051, -71.558906"	
+north light	"41.227460, -71.575811"	
+ocean view pavilion	"41.171578, -71.555305"	
+old harbor point	"41.174516, -71.554680"	
+old mill road	"41.164759, -71.592582"	
+payne farm trail	"41.164137, -71.569293"	
+payne overlook	"41.164460, -71.570967"	
+plover hill	"41.150093, -71.595090"	
+rodman's hollow	"41.157718, -71.587957"	
+sachem pond	"41.223155, -71.565804"	
+sacred labyrinth	"41.217100, -71.565827"	
+scotch beach	"41.190020, -71.566262"	
+settler's rock	"41.224669, -71.567472"	
+southeast light	"41.153372, -71.551961"	
+southwest point	"41.160592, -71.612551"	
+spar point	"41.148424, -71.584846"	
+spring pond	"41.168931, -71.553102"	
+surf beach	"41.174906, -71.560048"	
+the maze	"41.210276, -71.558675"	
+tilson cove	"41.159610, -71.545606"	
+tom's point	"41.147340, -71.589697"	
+turnip farm	"41.169190, -71.591921"	
+vaill beach	"41.148300, -71.576300"	
+west beach	"41.203721, -71.580125"	
+win dodge	"41.159271, -71.602011"	
