@@ -85,18 +85,15 @@ def makeOutputFile(year, locDict):
             # masterLocationDict
             floatLocation_lat = masterLocationDict[floatLocation]['lat']
             floatLocation_lon = masterLocationDict[floatLocation]['lon']
-            floatType_tf = key.split('~')[1]
-            if floatType_tf == True:
-                floatType = "Fancy"
-            else:
-                floatType = "Regular"
+            # is either "Fancy" or "Regular"
+            floatType = key.split('~')[1]
             outFile.write("{}\t{}\t{}\t{}\t{}\n".format(floatLocation, floatLocation_lat, floatLocation_lon, sortedLocationDict[key], floatType))
             sumEntries += int(sortedLocationDict[key])
     print("total num entries for: {} is: {}".format(year, sumEntries))
 
 # boolean for whether the current float is one of the first numbered ones of each year (and therefore is 
 # fancy)
-fancyFloat = False
+floatType = "Regular"
 
 with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloatFoundYears_locs_fromWebsite.txt", 'r', encoding='utf-8') as inFile:
     for line in inFile:
@@ -113,7 +110,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 makeOutputFile(currYear, locationDict)
                 locationDict = {}
                 currYear = stripLine
-                fancyFloat = False
+                floatType = "Regular"
 
         splitLine = stripLine.split(' - ')
         # This is a line that contains a location description where a float was found
@@ -122,9 +119,9 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             # fancy float - numbers up to and including the 20## part of the year) or a regular clear float.
             floatNumber = int(splitLine[0].lstrip('#'))
             if floatNumber <= int(currYear) - 2000:
-                fancyFloat = True
+                floatType = "Fancy"
             else:
-                fancyFloat = False
+                floatType = "Regular"
             
             floatLocation_initial = splitLine[2].lower()
             # Keep matches with scores >=63 (drop all others). This is based on looking at the 
@@ -149,7 +146,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             # sep. by '~'. Will be re-split and parsed back out when making the output file
             # so that there will be up to 2 rows per location (1 for normal, 1 for fancy), with
             # type denoted in another column.
-            floatDictKey = floatLocation + "~" + str(fancyFloat)
+            floatDictKey = floatLocation + "~" + floatType
             if floatDictKey in locationDict.keys():
                 locationDict[floatDictKey] += 1
             else:
