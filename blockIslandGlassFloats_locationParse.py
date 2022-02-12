@@ -5,6 +5,7 @@
 
 # Uses fuzzy matching with fuzzywuzzy package to try and standardize the names
 from fuzzywuzzy import process as fuzzProcess
+from geojson import Point, Feature, FeatureCollection, dump
 
 print("test")
 
@@ -72,7 +73,7 @@ def getNearestFuzzyMatch(inputLocationName, minScoreNeeded):
         else:
             return([])
 
-def makeOutputFile(year, locDict):
+def makeOutputFile_txt(year, locDict):
     outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v3.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
@@ -93,6 +94,36 @@ def makeOutputFile(year, locDict):
             sumEntries += int(sortedLocationDict[key])
     print("total num entries for: {} is: {}".format(year, sumEntries))
 
+# Create the output in geoJSON format (as a feature collection of point
+# features with different properties)
+def makeOutputFile_geoJSON(year, locDict):
+    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + ".geojson"
+    sumEntries = 0
+    jsonFeatureList = []
+    # Sort by occurrence number of each location name descending
+    sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
+    for key in sortedLocationDict:
+        # The keys are composites of the location combined with the float type (concat with '~')
+        # so need to break them apart and recover both pieces of info to add to the output file
+        floatLocation = key.split('~')[0]
+        # Use the standardized location name to lookup the lat/lon for that location from the 
+        # masterLocationDict
+        floatLocation_lat = float(masterLocationDict[floatLocation]['lat'])
+        floatLocation_lon = float(masterLocationDict[floatLocation]['lon'])
+        floatNum = sortedLocationDict[key]
+        # is either "Fancy" or "Regular"
+        floatType = key.split('~')[1]
+        # geoJSON coords are lon, lat
+        currFeature = Feature(geometry = Point((floatLocation_lon, floatLocation_lat)),
+            properties= {'year': year, 'numFound': floatNum, 'floatType': floatType, 'locationName': floatLocation})
+        jsonFeatureList.append(currFeature)
+        sumEntries += int(sortedLocationDict[key])
+    jsonFeatureCollection = FeatureCollection(jsonFeatureList)
+    with open(outputFileName, 'w') as outFile:
+        dump(jsonFeatureCollection, outFile)
+    print("total num entries for: {} is: {}".format(year, sumEntries))
+
+
 # boolean for whether the current float is one of the first numbered ones of each year (and therefore is 
 # fancy)
 floatType = "Regular"
@@ -109,7 +140,8 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             # If there was another year's worth of entries encountered previously in the file, 
             # so process and output that one before moving to the next.
             if currYear != '':
-                makeOutputFile(currYear, locationDict)
+                makeOutputFile_txt(currYear, locationDict)
+                makeOutputFile_geoJSON(currYear, locationDict)
                 locationDict = {}
                 currYear = stripLine
                 floatType = "Regular"
@@ -159,9 +191,11 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             else:
                 allYearLocationDict[floatDictKey] = 1
     # Write the last year's of entries to a file
-    makeOutputFile(currYear, locationDict)
+    makeOutputFile_txt(currYear, locationDict)
+    makeOutputFile_geoJSON(currYear, locationDict)
     # Write the combined entries across all years to a file
-    makeOutputFile('allYears', allYearLocationDict)
+    makeOutputFile_txt('allYears', allYearLocationDict)
+    makeOutputFile_geoJSON('allYears', allYearLocationDict)
 
 with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v3.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
