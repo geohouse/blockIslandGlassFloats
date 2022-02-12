@@ -49,6 +49,8 @@ masterLocationList = list(masterLocationDict.keys())
 print("The list is:")
 print(masterLocationList)
 
+# To store all of the find locations regardless of year.
+allYearLocationDict = {}
 locationDict = {}
 fuzzMatchedDict = {}
 
@@ -151,8 +153,15 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 locationDict[floatDictKey] += 1
             else:
                 locationDict[floatDictKey] = 1
+
+            if floatDictKey in allYearLocationDict.keys():
+                allYearLocationDict[floatDictKey] += 1
+            else:
+                allYearLocationDict[floatDictKey] = 1
     # Write the last year's of entries to a file
     makeOutputFile(currYear, locationDict)
+    # Write the combined entries across all years to a file
+    makeOutputFile('allYears', allYearLocationDict)
 
 with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v3.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
