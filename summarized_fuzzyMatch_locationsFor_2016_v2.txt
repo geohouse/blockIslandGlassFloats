@@ -1,0 +1,133 @@
+Location	NumTimesListed	floatType
+rodman's hollow	24	False
+fresh pond	20	False
+clay head trail	19	False
+hodge family wildlife preserve	16	False
+enchanted forest	12	False
+win dodge	11	False
+north light	10	False
+greenway	8	False
+turnip farm	8	False
+hodge preserve	8	False
+hyland trail	6	False
+west beach	6	False
+mott trail	6	False
+beacon hill	5	False
+old mill road	5	False
+nathan mott park	5	False
+attwood overlook	5	False
+greenway trail	5	False
+the maze	5	False
+cooneymus beach	5	False
+elizabeth dickens trail	4	False
+scotch beach	4	False
+payne overlook	4	False
+mohegan bluffs	4	False
+baby beach	4	False
+gaffney trail	4	False
+black rock beach	4	False
+mansion beach	3	False
+andy's way	3	False
+corn neck road	3	False
+dodge cemetery	3	False
+hodge property	3	False
+spring street	3	False
+grace's cove	3	False
+ocean view pavilion	3	False
+lewis-dickens farm	2	False
+charlestown beach	2	False
+beach ave trail	2	False
+settler's rock	2	False
+dorry's cove beach	2	False
+marsh hawk hollow	2	False
+cannon at legion park	2	False
+great salt pond	2	False
+coast guard beach	2	False
+dunn's bridge	2	False
+rat island	2	False
+meadow hill	2	False
+southeast light	2	False
+mosquito beach	2	False
+library	2	False
+'indian' cemetery	2	False
+tom's point	2	False
+harrison loop	2	False
+clay head trail	1	True
+great salt pond	1	True
+harrison trail	1	True
+tiny cemetery down the neck(sands cemetery?)	1	True
+pots and kettles beach	1	False
+in a tree at clayhead trail head.	1	False
+dickens point	1	False
+"fort" at dorie's cove	1	False
+trail	1	False
+new harbor	1	False
+coast guard station	1	False
+entrance to dorie's cove under a large piece of driftwood	1	False
+the beach, inside of a big log	1	False
+mitchell farm	1	False
+in driftwood log at dory's cove	1	False
+between peckham farm and payne farm	1	False
+snake hole rd beach	1	False
+payne farm trail	1	False
+under bench on road that goes to stevens cove to	1	False
+the beach, in a log	1	False
+dories cove inside a piece of drift wood	1	False
+block island park	1	False
+ball o' brien park	1	False
+island cemetery	1	False
+trail between cooneymus rd and lakeside dr	1	False
+south end of clay head beach	1	False
+legion park	1	False
+indian cemetery rock wall	1	False
+fresh swamp	1	False
+martin property	1	False
+farmer's market	1	False
+gafffney trail on top of stone wall	1	False
+payne's farm high grass	1	False
+rodmans hollow, long loop up in a tree	1	False
+spring pond	1	False
+snake hole road	1	False
+meadow hill greenway on old town road in bottom of hollow/rotton tree in beginning of path	1	False
+beach in front of coast guard	1	False
+martin's trail in a tall tree	1	False
+clayhead trail 1/2 mike in behind a rock pile	1	False
+past toms point, bi	1	False
+old mill trail behind a rock	1	False
+crescent beach	1	False
+bike rack dinghy beach	1	False
+scott beach bike rack	1	False
+trail off west side road	1	False
+beach avenue	1	False
+spring st and pilot hill rd	1	False
+block island state beach	1	False
+peckham pond	1	False
+spar point	1	False
+floating in harbor pond	1	False
+in rocks above beach along spring st	1	False
+beach ave. trail	1	False
+dump beach	1	False
+mohegan trail	1	False
+sacred labyrinth	1	False
+corner pilot hill & spring	1	False
+dump beach, on small cliff, under lobster pot basket	1	False
+the overlook (near horse farm)	1	False
+peter wood's trail under the wood steps	1	False
+dinhgy beach	1	False
+on beach near wash pond	1	False
+green way trail under wooden bridge	1	False
+rodmans hollow- right of black rock rd in stone wall	1	False
+block island state airport	1	False
+clayhead beach trail	1	False
+robman hollow path right of black rock rd in meadow	1	False
+clayhead trail (maze)	1	False
+ballard's beach	1	False
+harrison trail	1	False
+jim gaffney trail	1	False
+dorry's cove	1	False
+charleston beach found 7/6/2017	1	False
+mansion rd. beach parking lot in a tree	1	False
+martin's point	1	False
+side path off clayhead trail by pond	1	False
+clayhead trail hidden in shrubs	1	False
+clayhead trail perched in a tree	1	False

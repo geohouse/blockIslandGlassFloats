@@ -1,0 +1,120 @@
+Location	NumTimesListed	floatType
+clay head trail	33	False
+rodman's hollow	19	False
+fresh pond	17	False
+greenway	16	False
+enchanted forest	15	False
+the maze	11	False
+hodge family wildlife preserve	10	False
+win dodge	8	False
+beacon hill	7	False
+fresh swamp	7	False
+mott trail	6	False
+sacred labyrinth	5	False
+harrison trail	5	False
+mansion beach	5	False
+ocean view pavilion	5	False
+west beach	5	False
+elizabeth dickens trail	4	False
+mohegan bluffs	4	False
+attwood overlook	4	False
+cooneymus beach	4	False
+gaffney trail	4	False
+ball o' brien park	3	False
+block island state beach	3	False
+beane point	3	False
+loffredo loop	3	False
+island cemetery	3	False
+cannon at legion park	3	False
+payne road greenway	3	False
+scotch beach	3	False
+'indian' cemetery	3	False
+beach avenue	2	False
+lewis-dickens farm	2	False
+spring street	2	False
+dorry's cove beach	2	False
+tom's point	2	False
+baby beach	2	False
+hodge preserve	2	False
+settler's rock	2	False
+harrison loop	2	False
+legion park	2	False
+nathan mott park	2	False
+crescent beach	2	False
+dump beach	2	False
+mohegan trail	2	False
+corn neck road	2	False
+andy's way	2	False
+dodge cemetery	2	False
+martin trail	2	False
+loffredo loop	1	True
+marsh hawk hollow	1	True
+mott trail	1	True
+greenway	1	True
+payne farm trail	1	True
+ocean view pavilion	1	True
+cannon at legion park	1	True
+fresh pond	1	True
+west beach	1	True
+andy's way	1	True
+charlestown beach	1	True
+bonnell beach champlain road behind plack	1	False
+payne overlook	1	False
+farmer's market	1	False
+north light	1	False
+old mill road	1	False
+coast guard station	1	False
+beach ave bridge at corn neck rd	1	False
+black rock rd. down from 1st trail head under tree	1	False
+charlestown beach	1	False
+clayhead trail, base of a tree	1	False
+hodge property	1	False
+rodman hollow	1	False
+turnip farm	1	False
+black rock beach	1	False
+payne farm trail	1	False
+library	1	False
+lewis point	1	False
+alleyl by rebecca's	1	False
+clayhead trail in tree	1	False
+beach ave trail	1	False
+martin lots near old mill red.	1	False
+dorry's cove	1	False
+southeast light	1	False
+charleston beach behind driftwood	1	False
+greenway trail	1	False
+rock wall on clayheads trail	1	False
+under the stairs in crescent/kid beach	1	False
+beach road trail	1	False
+bonnell beach pathway	1	False
+block island public school	1	False
+between two graves at main island cemetary	1	False
+on beach at end of scotch rd	1	False
+under stairs to beach on cornneck road	1	False
+greenaway	1	False
+southwest point	1	False
+bluffs beach by the driftwood hut	1	False
+black rock road west loop	1	False
+main trail off of cooneymas in rock wall	1	False
+horse farm on old mill rd.	1	False
+long lot trail	1	False
+under granite bench on old dunn property	1	False
+abrams animal farm	1	False
+under the bench at the grass triangle where pilot hill and spring st meet	1	False
+behind harbor bay and harbor pond marker	1	False
+inside mill stone on corner of old town & center road	1	False
+fred benson town beach	1	False
+dunn's bridge	1	False
+middle earth	1	False
+bi greenway	1	False
+clayhead trail base of tree	1	False
+plover hill	1	False
+great salt pond	1	False
+ballard's beach	1	False
+hyland trail	1	False
+breed property trail	1	False
+martin's point	1	False
+dump beach under tall grass	1	False
+transfer station beach	1	False
+clayhead trail at base of tree	1	False
+beach entrance found 5/5/19!	1	False

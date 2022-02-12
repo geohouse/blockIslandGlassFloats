@@ -1,0 +1,35 @@
+Location	NumTimesListed	floatType
+enchanted forest	26	False
+clay head trail	24	False
+north light	8	False
+mansion beach	8	False
+mohegan bluffs	6	False
+grace's cove	6	False
+dorry's cove	5	False
+west beach	4	False
+beach	3	False
+turnip farm	3	False
+the maze	3	False
+crescent beach	3	False
+enchanted forest	2	True
+clay head trail	2	True
+cow cove	2	False
+airport	2	False
+clayhead trail beach	2	False
+beach	1	True
+grace's cove	1	True
+west beach	1	True
+mansion beach	1	True
+moheagan bluffs beach	1	False
+payne overlook	1	False
+the bluffs beach (stairs)	1	False
+coast guard beach	1	False
+dorry's cove beach	1	False
+greenway	1	False
+andy's way	1	False
+lewis point	1	False
+scotch beach	1	False
+rat island	1	False
+southwest point	1	False
+graces cove, just past the driftwood fort	1	False
+inside fort at gracies cove	1	False

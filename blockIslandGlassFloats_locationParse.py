@@ -29,14 +29,17 @@ masterLocationList = ["rodman's hollow", "enchanted forest", "mohegan bluffs", "
 
 masterLocationDict = {}
 
-with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon.txt", 'r') as locFileIn:
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v2.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
         if line.startswith("location"):
             continue
         else:
-            locationName = line.strip().split("\t")[0]
-            masterLocationDict[locationName] = {'lat':0, 'lon':0}
+            splitLine = line.strip().split("\t")
+            locationName = splitLine[0]
+            locationLat = float(splitLine[1])
+            locationLon = float(splitLine[2])
+            masterLocationDict[locationName] = {'lat':locationLat, 'lon':locationLon}
 
 print("The dict is:")
 print(masterLocationDict)
@@ -49,7 +52,7 @@ print(masterLocationList)
 locationDict = {}
 fuzzMatchedDict = {}
 
-def getNearestFuzzyMatch(inputLocationName):
+def getNearestFuzzyMatch(inputLocationName, minScoreNeeded):
     # Check if all matches are equally bad; in this case, do not output anything
     allLocationsScored = fuzzProcess.extract(inputLocationName, masterLocationList)
     # Extract just the scores (not the words matching the scores)
@@ -61,19 +64,31 @@ def getNearestFuzzyMatch(inputLocationName):
         bestLocationMatch = fuzzProcess.extractOne(inputLocationName, masterLocationList)
         bestLocationName = bestLocationMatch[0]
         bestLocationScore = bestLocationMatch[1]
-        return([bestLocationName,str(bestLocationScore)])
+        # Only return the match if the score exceeds the needed threshold.
+        if bestLocationScore >= minScoreNeeded:
+            return([bestLocationName,str(bestLocationScore)])
+        else:
+            return([])
 
 def makeOutputFile(year, locDict):
-    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '.txt'
+    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v2.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
     with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/" + outputFileName, 'w') as outFile:
-        outFile.write('Location\tNumTimesListed\n')
+        outFile.write('Location\tNumTimesListed\tfloatType\n')
         for key in sortedLocationDict:
-            outFile.write("{}\t{}\n".format(key, sortedLocationDict[key]))
+            # The keys are composites of the location combined with the float type (concat with '~')
+            # so need to break them apart and recover both pieces of info to add to the output file
+            floatLocation = key.split('~')[0]
+            floatType = key.split('~')[1]
+            outFile.write("{}\t{}\t{}\n".format(floatLocation, sortedLocationDict[key], floatType))
             sumEntries += int(sortedLocationDict[key])
     print("total num entries for: {} is: {}".format(year, sumEntries))
+
+# boolean for whether the current float is one of the first numbered ones of each year (and therefore is 
+# fancy)
+fancyFloat = False
 
 with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloatFoundYears_locs_fromWebsite.txt", 'r', encoding='utf-8') as inFile:
     for line in inFile:
@@ -90,16 +105,28 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 makeOutputFile(currYear, locationDict)
                 locationDict = {}
                 currYear = stripLine
+                fancyFloat = False
 
         splitLine = stripLine.split(' - ')
         # This is a line that contains a location description where a float was found
         if len(splitLine) >= 3:
+            # The number of the float for the current year (used to detemine whether it was a colored
+            # fancy float - numbers up to and including the 20## part of the year) or a regular clear float.
+            floatNumber = int(splitLine[0].lstrip('#'))
+            if floatNumber <= int(currYear) - 2000:
+                fancyFloat = True
+            else:
+                fancyFloat = False
+            
             floatLocation_initial = splitLine[2].lower()
-            floatLocation_fuzzMatched = getNearestFuzzyMatch(floatLocation_initial)
+            floatLocation_fuzzMatched = getNearestFuzzyMatch(floatLocation_initial,1)
             # If the fuzzy matching failed to return a clear best match, just use the 
             # initial location entry instead
             if floatLocation_fuzzMatched == []:
+                
                 floatLocation = floatLocation_initial
+                # For production, prob. put continue here to just skip any entries that couldn't be
+                # confidently looked-up
             else:
                 floatLocation = floatLocation_fuzzMatched[0]
                 floatLocationScore = floatLocation_fuzzMatched[1]
@@ -107,15 +134,19 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 # for later output to a file for diagnostics
                 if floatLocation_initial not in fuzzMatchedDict.keys():
                     fuzzMatchedDict[floatLocation_initial] = [floatLocation, floatLocationScore]
-
-            if floatLocation in locationDict.keys():
-                locationDict[floatLocation] += 1
+            # Make a composite key for each location and fancy float combination, as needed, 
+            # sep. by '~'. Will be re-split and parsed back out when making the output file
+            # so that there will be up to 2 rows per location (1 for normal, 1 for fancy), with
+            # type denoted in another column.
+            floatDictKey = floatLocation + "~" + str(fancyFloat)
+            if floatDictKey in locationDict.keys():
+                locationDict[floatDictKey] += 1
             else:
-                locationDict[floatLocation] = 1
+                locationDict[floatDictKey] = 1
     # Write the last year's of entries to a file
     makeOutputFile(currYear, locationDict)
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes.txt", 'w') as fuzzyOutFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v2.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
