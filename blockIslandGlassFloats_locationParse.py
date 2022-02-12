@@ -37,8 +37,8 @@ with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats
         else:
             splitLine = line.strip().split("\t")
             locationName = splitLine[0]
-            locationLat = float(splitLine[1])
-            locationLon = float(splitLine[2])
+            locationLat = splitLine[1]
+            locationLon = splitLine[2]
             masterLocationDict[locationName] = {'lat':locationLat, 'lon':locationLon}
 
 print("The dict is:")
@@ -71,18 +71,26 @@ def getNearestFuzzyMatch(inputLocationName, minScoreNeeded):
             return([])
 
 def makeOutputFile(year, locDict):
-    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v2.txt'
+    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v3.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
     with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/" + outputFileName, 'w') as outFile:
-        outFile.write('Location\tNumTimesListed\tfloatType\n')
+        outFile.write('location\tlatitude\tlongitude\tnumTimesListed\tfloatType\n')
         for key in sortedLocationDict:
             # The keys are composites of the location combined with the float type (concat with '~')
             # so need to break them apart and recover both pieces of info to add to the output file
             floatLocation = key.split('~')[0]
-            floatType = key.split('~')[1]
-            outFile.write("{}\t{}\t{}\n".format(floatLocation, sortedLocationDict[key], floatType))
+            # Use the standardized location name to lookup the lat/lon for that location from the 
+            # masterLocationDict
+            floatLocation_lat = masterLocationDict[floatLocation]['lat']
+            floatLocation_lon = masterLocationDict[floatLocation]['lon']
+            floatType_tf = key.split('~')[1]
+            if floatType_tf == True:
+                floatType = "Fancy"
+            else:
+                floatType = "Regular"
+            outFile.write("{}\t{}\t{}\t{}\t{}\n".format(floatLocation, floatLocation_lat, floatLocation_lon, sortedLocationDict[key], floatType))
             sumEntries += int(sortedLocationDict[key])
     print("total num entries for: {} is: {}".format(year, sumEntries))
 
@@ -119,14 +127,17 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 fancyFloat = False
             
             floatLocation_initial = splitLine[2].lower()
-            floatLocation_fuzzMatched = getNearestFuzzyMatch(floatLocation_initial,1)
+            # Keep matches with scores >=63 (drop all others). This is based on looking at the 
+            # quality of the matches and their scores. This discards ~6% of the matchable name entries.
+            floatLocation_fuzzMatched = getNearestFuzzyMatch(floatLocation_initial,63)
             # If the fuzzy matching failed to return a clear best match, just use the 
             # initial location entry instead
             if floatLocation_fuzzMatched == []:
-                
-                floatLocation = floatLocation_initial
                 # For production, prob. put continue here to just skip any entries that couldn't be
                 # confidently looked-up
+                continue
+                floatLocation = floatLocation_initial
+                
             else:
                 floatLocation = floatLocation_fuzzMatched[0]
                 floatLocationScore = floatLocation_fuzzMatched[1]
@@ -146,7 +157,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
     # Write the last year's of entries to a file
     makeOutputFile(currYear, locationDict)
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v2.txt", 'w') as fuzzyOutFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v3.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")

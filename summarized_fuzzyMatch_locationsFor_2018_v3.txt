@@ -1,0 +1,89 @@
+location	latitude	longitude	numTimesListed	floatType
+rodman's hollow	41.157718	-71.587957	34	False
+greenway	41.170297	-71.589276	20	False
+fresh pond	41.160159	-71.578612	16	False
+enchanted forest	41.168721	-71.585856	16	False
+clay head trail	41.216374	-71.556688	15	False
+nathan mott park	41.168815	-71.58663	12	False
+hodge family wildlife preserve	41.214658	-71.570683	12	False
+mohegan bluffs	41.152075	-71.552837	11	False
+dodge cemetery	41.166368	-71.596513	8	False
+the maze	41.210276	-71.558675	7	False
+marsh hawk hollow	41.157718	-71.587957	7	False
+cooneymus beach	41.163608	-71.610801	7	False
+turnip farm	41.16919	-71.591921	6	False
+north light	41.22746	-71.575811	6	False
+beacon hill	41.173461	-71.588801	6	False
+rodman hollow	41.157718	-71.587957	5	False
+fresh swamp	41.160829	-71.572955	5	False
+harrison trail	41.178345	-71.583957	5	False
+airport	41.169007	-71.579542	5	False
+middle earth	41.172052	-71.588881	5	False
+hyland trail	41.165379	-71.602983	4	False
+hodge preserve	41.214658	-71.570683	4	False
+fred benson town beach	41.183046	-71.566105	4	False
+cannon at legion park	41.179665	-71.578864	4	False
+elizabeth dickens trail	41.153068	-71.606952	4	False
+west beach	41.203721	-71.580125	4	False
+long lot trail	41.212493	-71.564462	4	False
+loffredo loop	41.168192	-71.593866	3	False
+andy's way	41.201322	-71.575562	3	False
+spring street	41.162526	-71.549923	3	False
+grace's cove	41.183112	-71.601656	3	False
+attwood overlook	41.217454	-71.56437	3	False
+hodge property	41.214658	-71.570683	3	False
+legion park	41.179665	-71.578864	3	False
+great salt pond	41.180174	-71.569616	3	False
+mansion beach	41.201162	-71.561259	3	False
+mott trail	41.168815	-71.58663	3	False
+black rock beach	41.147349	-71.594658	3	False
+west beach	41.203721	-71.580125	2	True
+fresh pond	41.160159	-71.578612	2	True
+mosquito beach	41.188882	-71.569326	2	False
+gaffney trail	41.159935	-71.570027	2	False
+dorry's cove	41.173237	-71.607821	2	False
+scotch beach	41.19002	-71.566262	2	False
+ocean view pavilion	41.171578	-71.555305	2	False
+block island chamber of commerce	41.172856	-71.55766	2	False
+settler's rock	41.224669	-71.567472	2	False
+dinhgy beach	41.188882	-71.569326	2	False
+pilot hill road	41.158001	-71.560226	2	False
+coast guard beach	41.195293	-71.588699	2	False
+block island public school	41.164294	-71.560353	2	False
+win dodge	41.159271	-71.602011	2	False
+charlestown beach	41.195006	-71.593139	2	False
+southeast light	41.153372	-71.551961	2	False
+old mill road	41.164759	-71.592582	2	False
+mansion beach	41.201162	-71.561259	1	True
+nathan mott park	41.168815	-71.58663	1	True
+rodman's hollow	41.157718	-71.587957	1	True
+win dodge	41.159271	-71.602011	1	True
+harrison trail	41.178345	-71.583957	1	True
+enchanted forest	41.168721	-71.585856	1	True
+elizabeth dickens trail	41.153068	-71.606952	1	True
+ballard's beach	41.17284	-71.554313	1	True
+dickens point	41.151667	-71.608702	1	False
+jim gaffney trail	41.159935	-71.570027	1	False
+corn neck road	41.212791	-71.567324	1	False
+logwood cove	41.221549	-71.576319	1	False
+dunn's bridge	41.180342	-71.568207	1	False
+baby beach	41.179318	-71.564797	1	False
+mohegan trail	41.15245	-71.555056	1	False
+ball o' brien park	41.181072	-71.58076	1	False
+meadow hill	41.172852	-71.567883	1	False
+visitor center	41.172856	-71.55766	1	False
+crescent beach	41.187421	-71.566737	1	False
+surf beach	41.174906	-71.560048	1	False
+southwest point	41.160592	-71.612551	1	False
+sacred labyrinth	41.2171	-71.565827	1	False
+greenway trail	41.170297	-71.589276	1	False
+island cemetery	41.179489	-71.580415	1	False
+harrison loop	41.178345	-71.583957	1	False
+barlow's point	41.14805	-71.577908	1	False
+snake hole road	41.14959	-71.577626	1	False
+post office	41.172051	-71.558906	1	False
+payne road greenway	41.164137	-71.569293	1	False
+'indian' cemetery	41.163545	-71.579394	1	False
+cow cove	41.226039	-71.572128	1	False
+martin trail	41.1653	-71.600145	1	False
+vaill beach	41.1483	-71.5763	1	False
