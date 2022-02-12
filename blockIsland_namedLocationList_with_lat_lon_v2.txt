@@ -1,0 +1,114 @@
+location	lat	lon
+abrams animal farm	41.169119	-71.557825
+airport	41.169007	-71.579542
+andy's way	41.201322	-71.575562
+attwood overlook	41.217454	-71.56437
+attwood trail	41.217454	-71.56437
+baby beach	41.179318	-71.564797
+ball o' brien park	41.181072	-71.58076
+ballard's beach	41.17284	-71.554313
+balls point	41.208348	-71.556447
+barlow's point	41.14805	-71.577908
+beach avenue	41.176278	-71.57311
+beacon hill	41.173461	-71.588801
+beane point	41.195838	-71.587176
+bi greenway	41.170297	-71.589276
+black rock beach	41.147349	-71.594658
+block island chamber of commerce	41.172856	-71.55766
+block island historical society	41.173763	-71.562222
+block island public school	41.164294	-71.560353
+block island state airport	41.169007	-71.579542
+block island state beach	41.183046	-71.566105
+cannon at legion park	41.179665	-71.578864
+charlestown beach	41.195006	-71.593139
+clay head trail	41.216374	-71.556688
+coast guard beach	41.195293	-71.588699
+coast guard station	41.19413	-71.589166
+cooneymus beach	41.163608	-71.610801
+corn neck road	41.212791	-71.567324
+cow cove	41.226039	-71.572128
+crescent beach	41.187421	-71.566737
+dickens point	41.151667	-71.608702
+dinhgy beach	41.188882	-71.569326
+dodge cemetery	41.166368	-71.596513
+dorry's cove	41.173237	-71.607821
+dorry's cove beach	41.173237	-71.607821
+dunn's bridge	41.180342	-71.568207
+elizabeth dickens trail	41.153068	-71.606952
+enchanted forest	41.168721	-71.585856
+farmer's market	41.179665	-71.578864
+fire department	41.176677	-71.570655
+fred benson town beach	41.183046	-71.566105
+fresh pond	41.160159	-71.578612
+fresh swamp	41.160829	-71.572955
+gaffney trail	41.159935	-71.570027
+grace's cove	41.183112	-71.601656
+great salt pond	41.180174	-71.569616
+greenaway	41.170297	-71.589276
+greenway	41.170297	-71.589276
+greenway trail	41.170297	-71.589276
+harrison loop	41.178345	-71.583957
+harrison trail	41.178345	-71.583957
+hodge family wildlife preserve	41.214658	-71.570683
+hodge preserve	41.214658	-71.570683
+hodge property	41.214658	-71.570683
+hyland trail	41.165379	-71.602983
+'indian' cemetery	41.163545	-71.579394
+island cemetery	41.179489	-71.580415
+jim gaffney trail	41.159935	-71.570027
+legion park	41.179665	-71.578864
+lewis point	41.151667	-71.608702
+lewis-dickens farm	41.153068	-71.606952
+library	41.174074	-71.559929
+loffredo loop	41.168192	-71.593866
+logwood cove	41.221549	-71.576319
+long lot trail	41.212493	-71.564462
+mansion beach	41.201162	-71.561259
+marsh hawk hollow	41.157718	-71.587957
+martin property	41.1653	-71.600145
+martin trail	41.1653	-71.600145
+martin's point	41.171917	-71.609271
+meadow hill	41.172852	-71.567883
+middle earth	41.172052	-71.588881
+mitchell farm	41.155288	-71.58077
+mohegan bluffs	41.152075	-71.552837
+mohegan trail	41.15245	-71.555056
+mosquito beach	41.188882	-71.569326
+mott trail	41.168815	-71.58663
+nathan mott park	41.168815	-71.58663
+new harbor	41.18212	-71.578331
+new shoreham	41.172051	-71.558906
+north light	41.22746	-71.575811
+ocean view pavilion	41.171578	-71.555305
+old harbor point	41.174516	-71.55468
+old mill road	41.164759	-71.592582
+payne farm trail	41.164137	-71.569293
+payne overlook	41.16446	-71.570967
+payne road greenway	41.164137	-71.569293
+peckham pond	41.155494	-71.582246
+pilot hill road	41.158001	-71.560226
+plover hill	41.150093	-71.59509
+post office	41.172051	-71.558906
+rodman hollow	41.157718	-71.587957
+rodman's hollow	41.157718	-71.587957
+sachem pond	41.223155	-71.565804
+sacred labyrinth	41.2171	-71.565827
+scotch beach	41.19002	-71.566262
+settler's rock	41.224669	-71.567472
+snake hole road	41.14959	-71.577626
+solviken	41.17622	-71.56302
+southeast light	41.153372	-71.551961
+southwest point	41.160592	-71.612551
+spar point	41.148424	-71.584846
+spring pond	41.168931	-71.553102
+spring street	41.162526	-71.549923
+surf beach	41.174906	-71.560048
+the maze	41.210276	-71.558675
+tilson cove	41.15961	-71.545606
+tom's point	41.14734	-71.589697
+trim's pond	41.17867	-71.573758
+turnip farm	41.16919	-71.591921
+vaill beach	41.1483	-71.5763
+visitor center	41.172856	-71.55766
+west beach	41.203721	-71.580125
+win dodge	41.159271	-71.602011
