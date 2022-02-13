@@ -1,0 +1,131 @@
+location	latitude	longitude	numTimesListed	floatType
+Rodman's Hollow	41.157718	-71.587957	245	Regular
+Clay Head Trail	41.216374	-71.556688	180	Regular
+Block Island Greenway	41.170297	-71.589276	167	Regular
+Fresh Pond	41.160159	-71.578612	141	Regular
+Enchanted Forest	41.168721	-71.585856	123	Regular
+Hodge Family Wildlife Preserve	41.214658	-71.570683	114	Regular
+The Maze	41.210276	-71.558675	88	Regular
+Nathan Mott Park	41.168815	-71.58663	71	Regular
+Mohegan Bluffs	41.152075	-71.552837	68	Regular
+North Light	41.22746	-71.575811	60	Regular
+West Beach	41.203721	-71.580125	59	Regular
+Beacon Hill	41.173461	-71.588801	56	Regular
+Win Dodge	41.159271	-71.602011	51	Regular
+Grace's Cove	41.183112	-71.601656	46	Regular
+Turnip Farm	41.16919	-71.591921	45	Regular
+Mansion Beach	41.201162	-71.561259	44	Regular
+Dorry's Cove	41.173237	-71.607821	43	Regular
+Elizabeth Dickens Trail	41.153068	-71.606952	42	Regular
+Andy's Way	41.201322	-71.575562	42	Regular
+Cooneymus Beach	41.163608	-71.610801	36	Regular
+Harrison Loop	41.178345	-71.583957	34	Regular
+Legion Park	41.179665	-71.578864	34	Regular
+Dodge Cemetery	41.166368	-71.596513	33	Regular
+Fresh Swamp	41.160829	-71.572955	31	Regular
+Old Mill Road	41.164759	-71.592582	30	Regular
+Scotch Beach	41.19002	-71.566262	27	Regular
+Hyland Trail	41.165379	-71.602983	25	Regular
+Black Rock Beach	41.147349	-71.594658	24	Regular
+Ocean View Pavilion	41.171578	-71.555305	23	Regular
+Attwood Trail	41.217454	-71.56437	23	Regular
+Crescent Beach	41.187421	-71.566737	21	Regular
+Baby Beach	41.179318	-71.564797	19	Regular
+Meadow Hill	41.172852	-71.567883	19	Regular
+Sacred Labyrinth	41.2171	-71.565827	18	Regular
+Gaffney Trail	41.159935	-71.570027	18	Regular
+Long Lot Trail	41.212493	-71.564462	17	Regular
+Coast Guard Beach	41.195293	-71.588699	17	Regular
+Martin Trail	41.1653	-71.600145	16	Regular
+Southeast Light	41.153372	-71.551961	16	Regular
+Dinhgy Beach	41.188882	-71.569326	16	Regular
+Loffredo Loop	41.168192	-71.593866	15	Regular
+Payne Farm Trail	41.164137	-71.569293	15	Regular
+Block Island State Beach	41.183046	-71.566105	15	Regular
+Block Island State Airport	41.169007	-71.579542	15	Regular
+Spring Street	41.162526	-71.549923	15	Regular
+Beach Avenue	41.176278	-71.57311	14	Regular
+'Indian' Cemetery	41.163545	-71.579394	14	Regular
+Lewis-Dickens Farm	41.153068	-71.606952	13	Regular
+Ball O' Brien Park	41.181072	-71.58076	13	Regular
+Great Salt Pond	41.180174	-71.569616	12	Regular
+Cow Cove	41.226039	-71.572128	12	Regular
+Fred Benson Town Beach	41.183046	-71.566105	11	Regular
+Island Cemetery	41.179489	-71.580415	10	Regular
+Middle Earth	41.172052	-71.588881	10	Regular
+Dickens Point	41.151667	-71.608702	10	Regular
+Block Island Greenway	41.170297	-71.589276	9	Fancy
+Mohegan Trail	41.15245	-71.555056	9	Regular
+Corn Neck Road	41.212791	-71.567324	8	Regular
+Block Island Chamber Of Commerce	41.172856	-71.55766	8	Regular
+Mosquito Beach	41.188882	-71.569326	8	Regular
+Charlestown Beach	41.195006	-71.593139	8	Regular
+Payne Overlook	41.16446	-71.570967	7	Regular
+Rodman's Hollow	41.157718	-71.587957	7	Fancy
+New Harbor	41.18212	-71.578331	6	Regular
+Island Free Library	41.174074	-71.559929	6	Regular
+Pilot Hill Road	41.158001	-71.560226	6	Regular
+Beane Point	41.195838	-71.587176	6	Regular
+Vaill Beach	41.1483	-71.5763	6	Regular
+Settler's Rock	41.224669	-71.567472	6	Regular
+Snake Hole Road	41.14959	-71.577626	6	Regular
+Harrison Loop	41.178345	-71.583957	5	Fancy
+Southwest Point	41.160592	-71.612551	5	Regular
+West Beach	41.203721	-71.580125	5	Fancy
+Sachem Pond	41.223155	-71.565804	4	Regular
+Abrams Animal Farm	41.169119	-71.557825	4	Regular
+Coast Guard Station	41.19413	-71.589166	4	Regular
+Martin's Point	41.171917	-71.609271	4	Regular
+Block Island Public School	41.164294	-71.560353	4	Regular
+Fresh Pond	41.160159	-71.578612	4	Fancy
+Enchanted Forest	41.168721	-71.585856	4	Fancy
+Dunn's Bridge	41.180342	-71.568207	4	Regular
+Clay Head Trail	41.216374	-71.556688	4	Fancy
+Visitor Center	41.172856	-71.55766	3	Regular
+The Maze	41.210276	-71.558675	3	Fancy
+Ocean View Pavilion	41.171578	-71.555305	3	Fancy
+Fresh Swamp	41.160829	-71.572955	3	Fancy
+Nathan Mott Park	41.168815	-71.58663	3	Fancy
+Mitchell Farm	41.155288	-71.58077	3	Regular
+Barlow's Point	41.14805	-71.577908	3	Regular
+Andy's Way	41.201322	-71.575562	3	Fancy
+Win Dodge	41.159271	-71.602011	3	Fancy
+Surf Beach	41.174906	-71.560048	3	Regular
+Mansion Beach	41.201162	-71.561259	3	Fancy
+Post Office	41.172051	-71.558906	3	Regular
+Payne Farm Trail	41.164137	-71.569293	3	Fancy
+Farmer's Market	41.179665	-71.578864	3	Regular
+Loffredo Loop	41.168192	-71.593866	2	Fancy
+Great Salt Pond	41.180174	-71.569616	2	Fancy
+Tom's Point	41.14734	-71.589697	2	Regular
+Elizabeth Dickens Trail	41.153068	-71.606952	2	Fancy
+Hodge Family Wildlife Preserve	41.214658	-71.570683	2	Fancy
+Grace's Cove	41.183112	-71.601656	2	Fancy
+Solviken Lot	41.17622	-71.56302	2	Regular
+Spar Point	41.148424	-71.584846	2	Regular
+Logwood Cove	41.221549	-71.576319	2	Regular
+Ballard's Beach	41.17284	-71.554313	2	Regular
+Old Harbor Point	41.174516	-71.55468	2	Regular
+Legion Park	41.179665	-71.578864	2	Fancy
+Block Island Historical Society	41.173763	-71.562222	2	Regular
+Ballard's Beach	41.17284	-71.554313	2	Fancy
+Jim Gaffney Trail	41.159935	-71.570027	2	Regular
+Lewis Point	41.151667	-71.608702	2	Regular
+Block Island State Beach	41.183046	-71.566105	1	Fancy
+Spring Street	41.162526	-71.549923	1	Fancy
+Baby Beach	41.179318	-71.564797	1	Fancy
+Hyland Trail	41.165379	-71.602983	1	Fancy
+Trim's Pond	41.17867	-71.573758	1	Regular
+Fire Department	41.176677	-71.570655	1	Regular
+Spring Pond	41.168931	-71.553102	1	Regular
+Sachem Pond	41.223155	-71.565804	1	Fancy
+Vaill Beach	41.1483	-71.5763	1	Fancy
+Black Rock Beach	41.147349	-71.594658	1	Fancy
+Martin's Point	41.171917	-71.609271	1	Fancy
+Charlestown Beach	41.195006	-71.593139	1	Fancy
+Peckham Pond	41.155494	-71.582246	1	Regular
+Martin Trail	41.1653	-71.600145	1	Fancy
+New Shoreham	41.172051	-71.558906	1	Regular
+Cooneymus Beach	41.163608	-71.610801	1	Fancy
+Turnip Farm	41.16919	-71.591921	1	Fancy
+Beacon Hill	41.173461	-71.588801	1	Fancy

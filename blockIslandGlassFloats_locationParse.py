@@ -29,19 +29,27 @@ masterLocationList = ["rodman's hollow", "enchanted forest", "mohegan bluffs", "
 '''
 
 masterLocationDict = {}
+# This is a dict used when creating the output to lookup the fuzzy match name entry from the display name
+# entry for a location (used to lookup the corresponding lat/lon for each site when making the output)
+locationBackIndexDict = {}
 
-with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v2.txt", 'r') as locFileIn:
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v3.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
-        if line.startswith("location"):
+        if line.startswith("matchLocation"):
             continue
         else:
             splitLine = line.strip().split("\t")
             locationName = splitLine[0]
-            locationLat = splitLine[1]
-            locationLon = splitLine[2]
-            masterLocationDict[locationName] = {'lat':locationLat, 'lon':locationLon}
-
+            # This is the name to use in the map pop-up boxes and is standardized 
+            # against multiple variations of the locationNames to try and match naming variations, etc.
+            # This will also ensure the number of floats at each lat/lon point is tabulated correctly
+            # regardless of naming variations
+            locationDisplayName = splitLine[1]
+            locationLat = splitLine[2]
+            locationLon = splitLine[3]
+            masterLocationDict[locationName] = {'displayName':locationDisplayName, 'lat':locationLat, 'lon':locationLon}
+            locationBackIndexDict[locationDisplayName] = locationName
 print("The dict is:")
 print(masterLocationDict)
 
@@ -74,7 +82,7 @@ def getNearestFuzzyMatch(inputLocationName, minScoreNeeded):
             return([])
 
 def makeOutputFile_txt(year, locDict):
-    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v3.txt'
+    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v4.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
@@ -83,39 +91,44 @@ def makeOutputFile_txt(year, locDict):
         for key in sortedLocationDict:
             # The keys are composites of the location combined with the float type (concat with '~')
             # so need to break them apart and recover both pieces of info to add to the output file
-            floatLocation = key.split('~')[0]
+            # These locations are the display locations (not the fuzzy match locations)
+            floatMatchLocation_display = key.split('~')[0]
+            floatMatchLocation_fuzzy = locationBackIndexDict[floatMatchLocation_display]
             # Use the standardized location name to lookup the lat/lon for that location from the 
             # masterLocationDict
-            floatLocation_lat = masterLocationDict[floatLocation]['lat']
-            floatLocation_lon = masterLocationDict[floatLocation]['lon']
+            floatLocation_lat = masterLocationDict[floatMatchLocation_fuzzy]['lat']
+            floatLocation_lon = masterLocationDict[floatMatchLocation_fuzzy]['lon']
             # is either "Fancy" or "Regular"
             floatType = key.split('~')[1]
-            outFile.write("{}\t{}\t{}\t{}\t{}\n".format(floatLocation, floatLocation_lat, floatLocation_lon, sortedLocationDict[key], floatType))
+            outFile.write("{}\t{}\t{}\t{}\t{}\n".format(floatMatchLocation_display, floatLocation_lat, floatLocation_lon, sortedLocationDict[key], floatType))
             sumEntries += int(sortedLocationDict[key])
     print("total num entries for: {} is: {}".format(year, sumEntries))
 
 # Create the output in geoJSON format (as a feature collection of point
 # features with different properties)
 def makeOutputFile_geoJSON(year, locDict):
-    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + ".geojson"
+    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + "_v2.geojson"
     sumEntries = 0
     jsonFeatureList = []
     # Sort by occurrence number of each location name descending
+    # sortedLocationDict = sorted(test2.items(), key = lambda k_v: k_v[1]['count'], reverse = True)
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
     for key in sortedLocationDict:
         # The keys are composites of the location combined with the float type (concat with '~')
         # so need to break them apart and recover both pieces of info to add to the output file
-        floatLocation = key.split('~')[0]
+         # These locations are the display locations (not the fuzzy match locations)
+        floatLocation_display = key.split('~')[0]
+        floatLocation_fuzzy = locationBackIndexDict[floatLocation_display]
         # Use the standardized location name to lookup the lat/lon for that location from the 
         # masterLocationDict
-        floatLocation_lat = float(masterLocationDict[floatLocation]['lat'])
-        floatLocation_lon = float(masterLocationDict[floatLocation]['lon'])
+        floatLocation_lat = float(masterLocationDict[floatLocation_fuzzy]['lat'])
+        floatLocation_lon = float(masterLocationDict[floatLocation_fuzzy]['lon'])
         floatNum = sortedLocationDict[key]
         # is either "Fancy" or "Regular"
         floatType = key.split('~')[1]
         # geoJSON coords are lon, lat
         currFeature = Feature(geometry = Point((floatLocation_lon, floatLocation_lat)),
-            properties= {'year': year, 'numFound': floatNum, 'floatType': floatType, 'locationName': floatLocation})
+            properties= {'year': year, 'numFound': floatNum, 'floatType': floatType, 'locationName': floatLocation_display})
         jsonFeatureList.append(currFeature)
         sumEntries += int(sortedLocationDict[key])
     jsonFeatureCollection = FeatureCollection(jsonFeatureList)
@@ -170,12 +183,18 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 floatLocation = floatLocation_initial
                 
             else:
-                floatLocation = floatLocation_fuzzMatched[0]
+                # Use the fuzzMatched name as the dict key to find the corresponding site display name,
+                # and use that display name for all downstream work (resolves some variant naming 
+                # for the same location with the names for fuzzy matching, and puts the name in title case)
+                floatLocation = masterLocationDict[floatLocation_fuzzMatched[0]]['displayName']
                 floatLocationScore = floatLocation_fuzzMatched[1]
                 # For testing the fuzzy matching only, add output match characteristics to a dict
                 # for later output to a file for diagnostics
                 if floatLocation_initial not in fuzzMatchedDict.keys():
-                    fuzzMatchedDict[floatLocation_initial] = [floatLocation, floatLocationScore]
+                    # Use the actual fuzz matched, lowercase name (not the site display name, which is unique per location)
+                    # here, because this makes the diagnostic file for tracking how well name variations for the same location were
+                    # matched to the name inputs.
+                    fuzzMatchedDict[floatLocation_initial] = [floatLocation_fuzzMatched[0], floatLocationScore]
             # Make a composite key for each location and fancy float combination, as needed, 
             # sep. by '~'. Will be re-split and parsed back out when making the output file
             # so that there will be up to 2 rows per location (1 for normal, 1 for fancy), with
@@ -197,7 +216,9 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
     makeOutputFile_txt('allYears', allYearLocationDict)
     makeOutputFile_geoJSON('allYears', allYearLocationDict)
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v3.txt", 'w') as fuzzyOutFile:
+# This is the tabulation output to judge how well the fuzzy matching worked for each entry.
+
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v4.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
