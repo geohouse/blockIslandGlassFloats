@@ -107,7 +107,7 @@ def makeOutputFile_txt(year, locDict):
 # Create the output in geoJSON format (as a feature collection of point
 # features with different properties)
 def makeOutputFile_geoJSON(year, locDict):
-    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + "_v2.geojson"
+    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + "_v3.geojson"
     sumEntries = 0
     jsonFeatureList = []
     # Sort by occurrence number of each location name descending
@@ -131,9 +131,9 @@ def makeOutputFile_geoJSON(year, locDict):
             properties= {'year': year, 'numFound': floatNum, 'floatType': floatType, 'locationName': floatLocation_display})
         jsonFeatureList.append(currFeature)
         sumEntries += int(sortedLocationDict[key])
-    jsonFeatureCollection = FeatureCollection(jsonFeatureList)
+    #jsonFeatureCollection = FeatureCollection(jsonFeatureList)
     with open(outputFileName, 'w') as outFile:
-        dump(jsonFeatureCollection, outFile)
+        dump(jsonFeatureList, outFile)
     print("total num entries for: {} is: {}".format(year, sumEntries))
 
 

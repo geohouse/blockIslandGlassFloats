@@ -28,7 +28,7 @@ console.log(geoJSON_data);
 L.geoJson(geoJSON_data).addTo(map);
 */
 
-fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears.geojson')
+fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson')
 .then(function (response) {
     let json = response.json();
     console.log(json);
