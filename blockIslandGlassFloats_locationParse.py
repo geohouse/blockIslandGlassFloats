@@ -5,7 +5,7 @@
 
 # Uses fuzzy matching with fuzzywuzzy package to try and standardize the names
 from fuzzywuzzy import process as fuzzProcess
-from geojson import Point, Feature, FeatureCollection, dump
+from geojson import Point, Feature, dump
 
 print("test")
 

@@ -28,6 +28,35 @@ console.log(geoJSON_data);
 L.geoJson(geoJSON_data).addTo(map);
 */
 
+// Year from 2012-2021 (as string) or 'allYears'
+const yearToPlot = "2014";
+
+const jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+
+//allYearURL = 'https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson';
+
+function plotPoints(url){ 
+$.getJSON(url, function(jsonData){
+    // returns JSON as an object
+    console.log(typeof(jsonData));
+
+    console.log(jsonData.length);
+    
+    for (i = 0; i < jsonData.length; i = i+1){
+        console.log(jsonData[i].properties);
+        // properties: year, numFound, floatType, locationName
+    }
+
+    L.geoJson(jsonData).addTo(map);
+    
+    
+
+})
+}
+
+plotPoints(jsonUrlForData);
+
+/*
 fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson')
 .then(function (response) {
     let json = response.json();
@@ -36,4 +65,5 @@ fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_l
 })
 .then(function (points) {
     L.geoJson(points).addTo(map);
-});          
+});   
+*/       
