@@ -141,6 +141,11 @@ def makeOutputFile_geoJSON(year, locDict):
 # fancy)
 floatType = "Regular"
 
+# This is a list to keep track of the entries that were dropped because the fuzzy match
+# didn't work well. Can be used for further troubleshooting/manual editing some entries
+# with otherwise clear locations so they can be used for mapping.
+droppedLocationList = []
+
 with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloatFoundYears_locs_fromWebsite.txt", 'r', encoding='utf-8') as inFile:
     for line in inFile:
         stripLine = line.strip()
@@ -179,6 +184,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             if floatLocation_fuzzMatched == []:
                 # For production, prob. put continue here to just skip any entries that couldn't be
                 # confidently looked-up
+                droppedLocationList.append(floatLocation_initial)
                 continue
                 floatLocation = floatLocation_initial
                 
@@ -223,5 +229,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
 
-
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationDescriptsFailingFuzzyMatch_v4.txt", "w") as lookupFailFile:
+    for entry in droppedLocationList:
+        lookupFailFile.write(entry + "\n")
 #print(floatLocation)
