@@ -59,42 +59,53 @@ $.getJSON(url, function(jsonData){
 
     regularFloatLayer = L.geoJson(jsonData, {
         filter: function(geoJsonFeature){
-        console.log(geoJsonFeature.properties.floatType);
-        if (geoJsonFeature.properties.floatType == "Regular"){
-            console.log("In true");
-            return true;
-        }
+            console.log(geoJsonFeature.properties.floatType);
+            if (geoJsonFeature.properties.floatType == "Regular"){
+                console.log("In true");
+                return true;
+            }
         }, pointToLayer: function(geoJsonPoint, latlng) {
-        console.log("The point is:");
-        console.log(geoJsonPoint);
-        
-        console.log(geoJsonPoint.properties.numFound);
-        // This accesses the entry for the number of floats found at the current location
-        // for the current time frame. This is used to scale the icons, so points with
-        // more floats found have larger icons.
-        var numFound = geoJsonPoint.properties.numFound;
-        //console.log(typeof(numFound));
-        // These are the default icon dimensions, which will be scaled by the number of 
-        // floats found at the location
-        var regularIconSize_x = 25;
-        var regularIconSize_y = 41;
-        // Setting the scale factor to determine how much the number of floats found 
-        // affects the icon size
-        var scaleFactor = 1 + 1/numFound;
-        var regularFloatIcon = L.icon({
-            iconUrl: "css/images/marker-icon.png",
-            // Size [x,y] in pixels
-            iconSize: [regularIconSize_x * scaleFactor, regularIconSize_y * scaleFactor],
-            // Location in the icon that is the specified geographic location that it's 
-            // marking (i.e. the 'tip' of the icon on the map). This is in pixels and 
-            // is relative to the top left corner of the icon [x,y]
-            iconAnchor: [12.5,41]
-        });
-        return L.marker(latlng, {icon: regularFloatIcon});
-    }
-})
+            console.log("The point is:");
+            console.log(geoJsonPoint);
+            
+            console.log(geoJsonPoint.properties.numFound);
+            // This accesses the entry for the number of floats found at the current location
+            // for the current time frame. This is used to scale the icons, so points with
+            // more floats found have larger icons.
+            var numFound = geoJsonPoint.properties.numFound;
+            //console.log(typeof(numFound));
+            // These are the default icon dimensions, which will be scaled by the number of 
+            // floats found at the location
+            var regularIconSize_x = 25;
+            var regularIconSize_y = 41;
+            // Setting the scale factor to determine how much the number of floats found 
+            // affects the icon size. Adds a 1/10 more size for each float found (starting with the second)
+            var scaleFactor = 1 + ((numFound - 1)/10);
+            var regularFloatIcon = L.icon({
+                iconUrl: "css/images/marker-icon.png",
+                // Size [x,y] in pixels
+                iconSize: [regularIconSize_x * scaleFactor, regularIconSize_y * scaleFactor],
+                // Location in the icon that is the specified geographic location that it's 
+                // marking (i.e. the 'tip' of the icon on the map). This is in pixels and 
+                // is relative to the top left corner of the icon [x,y]
+                iconAnchor: [(regularIconSize_x * scaleFactor) / 2, regularIconSize_y * scaleFactor]
+                //popupAnchor: 
+            });
+            return L.marker(latlng, {icon: regularFloatIcon});
+        }, onEachFeature: function(feature, layer){
+            var locationName = feature.properties.locationName;
+            var numFloatsFound = feature.properties.numFound;
+            var floatType = feature.properties.floatType;
+            console.log(feature.properties.locationName);
+            //The layer contains the information about the point location, so bind the popup directly to it
+            // in order to avoid needing to pass lat/lon directly.
+            layer.bindPopup('Location: ' + '<b>' + locationName + '</b>' + '</br>' + 
+            'Float type: ' + '<b>' + floatType + '</b>' + '</br>' + 
+            'Number found: ' + '<b>' + numFloatsFound + '</b>');
+        }
+    })
     regularFloatLayer.addTo(map);
-    console.log(regularFloatLayer);
+    //console.log(regularFloatLayer);
     /*
     for (i = 0; i < regularFloatLayer.length; i = i+1){
         console.log(regularFloatLayer_layers[i].feature.properties);
