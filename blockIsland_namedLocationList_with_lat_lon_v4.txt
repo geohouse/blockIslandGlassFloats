@@ -14,11 +14,11 @@ beacon hill	Beacon Hill	41.173461	-71.588801
 beane point	Beane Point	41.195838	-71.587176
 bi greenway	Block Island Greenway	41.170297	-71.589276
 black rock beach	Black Rock Beach	41.147349	-71.594658
-block island chamber of commerce	Block Island Chamber Of Commerce	41.172856	-71.55766
+block island chamber of commerce	Visitor Center	41.172856	-71.55766
 block island historical society	Block Island Historical Society	41.173763	-71.562222
 block island public school	Block Island Public School	41.164294	-71.560353
 block island state airport	Block Island State Airport	41.169007	-71.579542
-block island state beach	Block Island State Beach	41.183046	-71.566105
+block island state beach	Fred Benson Town Beach	41.183046	-71.566105
 cannon at legion park	Legion Park	41.179665	-71.578864
 charlestown beach	Charlestown Beach	41.195006	-71.593139
 clay head trail	Clay Head Trail	41.216374	-71.556688
@@ -29,14 +29,15 @@ corn neck road	Corn Neck Road	41.212791	-71.567324
 cow cove	Cow Cove	41.226039	-71.572128
 crescent beach	Crescent Beach	41.187421	-71.566737
 dickens point	Dickens Point	41.151667	-71.608702
-dinhgy beach	Dinhgy Beach	41.188882	-71.569326
+dinghy beach	Dinghy Beach	41.188882	-71.569326
+dinhgy beach	Dinghy Beach	41.188882	-71.569326
 dodge cemetery	Dodge Cemetery	41.166368	-71.596513
 dorry's cove	Dorry's Cove	41.173237	-71.607821
 dorry's cove beach	Dorry's Cove	41.173237	-71.607821
 dunn's bridge	Dunn's Bridge	41.180342	-71.568207
-elizabeth dickens trail	Elizabeth Dickens Trail	41.153068	-71.606952
+elizabeth dickens trail	Lewis-Dickens Farm Trail	41.153068	-71.606952
 enchanted forest	Enchanted Forest	41.168721	-71.585856
-farmer's market	Farmer's Market	41.179665	-71.578864
+farmer's market	Legion Park	41.179665	-71.578864
 fire department	Fire Department	41.176677	-71.570655
 fred benson town beach	Fred Benson Town Beach	41.183046	-71.566105
 fresh pond	Fresh Pond	41.160159	-71.578612
@@ -57,8 +58,8 @@ hyland trail	Hyland Trail	41.165379	-71.602983
 island cemetery	Island Cemetery	41.179489	-71.580415
 jim gaffney trail	Gaffney Trail	41.159935	-71.570027
 legion park	Legion Park	41.179665	-71.578864
-lewis point	Lewis Point	41.151667	-71.608702
-lewis-dickens farm	Lewis-Dickens Farm	41.153068	-71.606952
+lewis point	Dickens Point	41.151667	-71.608702
+lewis-dickens farm	Lewis-Dickens Farm Trail	41.153068	-71.606952
 library	Island Free Library	41.174074	-71.559929
 loffredo loop	Loffredo Loop	41.168192	-71.593866
 logwood cove	Logwood Cove	41.221549	-71.576319
@@ -73,7 +74,7 @@ middle earth	Middle Earth	41.172052	-71.588881
 mitchell farm	Mitchell Farm	41.155288	-71.58077
 mohegan bluffs	Mohegan Bluffs	41.152075	-71.552837
 mohegan trail	Mohegan Trail	41.15245	-71.555056
-mosquito beach	Mosquito Beach	41.188882	-71.569326
+mosquito beach	Dinghy Beach	41.188882	-71.569326
 mott trail	Nathan Mott Park	41.168815	-71.58663
 nathan mott park	Nathan Mott Park	41.168815	-71.58663
 new harbor	New Harbor	41.18212	-71.578331
@@ -88,7 +89,7 @@ payne road greenway	Payne Farm Trail	41.164137	-71.569293
 peckham pond	Peckham Pond	41.155494	-71.582246
 pilot hill road	Pilot Hill Road	41.158001	-71.560226
 plover hill	Plover Hill	41.150093	-71.59509
-post office	Post Office	41.172051	-71.558906
+post office	New Shoreham	41.172051	-71.558906
 rodman hollow	Rodman's Hollow	41.157718	-71.587957
 rodman's hollow	Rodman's Hollow	41.157718	-71.587957
 sachem pond	Sachem Pond	41.223155	-71.565804

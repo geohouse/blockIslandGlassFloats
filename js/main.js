@@ -29,7 +29,7 @@ L.geoJson(geoJSON_data).addTo(map);
 */
 
 // Year from 2012-2021 (as string) or 'allYears'
-const yearToPlot = "allYears";
+const yearToPlot = "2012";
 
 // Build the url from the year to plot and the rest of the standardized url
 const jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
@@ -54,10 +54,10 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
                 return true;
             }
         }, pointToLayer: function(geoJsonPoint, latlng) {
-            console.log("The point is:");
-            console.log(geoJsonPoint);
+            //console.log("The point is:");
+            //console.log(geoJsonPoint);
             
-            console.log(geoJsonPoint.properties.numFound);
+            //console.log(geoJsonPoint.properties.numFound);
             // This accesses the entry for the number of floats found at the current location
             // for the current time frame. This is used to scale the icons, so points with
             // more floats found have larger icons.
@@ -68,8 +68,19 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
             var regularIconSize_x = 25;
             var regularIconSize_y = 41;
             // Setting the scale factor to determine how much the number of floats found 
-            // affects the icon size. Adds a 1/10 more size for each float found (starting with the second)
-            var scaleFactor = 1 + ((numFound - 1)/10);
+            // affects the icon size. 
+            // Need especially aggressive down-scaling for all years otherwise the icon sizes
+            // are too big.
+            console.log(yearToPlot);
+            var scaleFactor = 0.0;
+            if(yearToPlot == 'allYears'){
+                scaleFactor = 1 + Math.log10(numFound * 10);
+                console.log("setting all year scale factor.");
+            } else{
+                //Adds a 1/10 more size for each float found (starting with the second)
+                scaleFactor = 1 + ((numFound - 1)/10);
+            }
+            
             var regularFloatIcon = L.icon({
                 //"css/images/marker-icon.png"
                 iconUrl: pathToIcon,
@@ -86,7 +97,7 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
             var locationName = feature.properties.locationName;
             var numFloatsFound = feature.properties.numFound;
             var floatType = feature.properties.floatType;
-            console.log(feature.properties.locationName);
+            //console.log(feature.properties.locationName);
             //The layer contains the information about the point location, so bind the popup directly to it
             // in order to avoid needing to pass lat/lon directly.
             layer.bindPopup('Location: ' + '<b>' + locationName + '</b>' + '</br>' + 
@@ -100,9 +111,9 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
 function plotPoints(url){ 
 $.getJSON(url, function(jsonData){
     // returns JSON as an object
-    console.log(typeof(jsonData));
+    //console.log(typeof(jsonData));
 
-    console.log(jsonData.length);
+    //console.log(jsonData.length);
     
     //for (i = 0; i < jsonData.length; i = i+1){
     //    console.log(jsonData[i].properties);
