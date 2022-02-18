@@ -31,9 +31,19 @@ L.geoJson(geoJSON_data).addTo(map);
 // Year from 2012-2021 (as string) or 'allYears'
 const yearToPlot = "2014";
 
+// Build the url from the year to plot and the rest of the standardized url
 const jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
 
 //allYearURL = 'https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson';
+
+function filterFloatTypes(geoJsonFeature, layer, floatTypeString){
+    console.log(geoJsonFeature.properties.floatType);
+    if (geoJsonFeature.properties.floatType == floatTypeString){
+        console.log("In true");
+        return true;
+    }
+}
+
 
 function plotPoints(url){ 
 $.getJSON(url, function(jsonData){
@@ -42,12 +52,41 @@ $.getJSON(url, function(jsonData){
 
     console.log(jsonData.length);
     
-    for (i = 0; i < jsonData.length; i = i+1){
-        console.log(jsonData[i].properties);
+    //for (i = 0; i < jsonData.length; i = i+1){
+    //    console.log(jsonData[i].properties);
+        // properties: year, numFound, floatType, locationName
+    //}
+
+    regularFloatLayer = L.geoJson(jsonData, {pointToLayer: function(geoJsonPoint, latlng) {
+            var regularFloatIcon = L.icon({
+                iconUrl: "css/images/marker-icon.png",
+                // Size [x,y] in pixels
+                iconSize: [25,41],
+                // Location in the icon that is the specified geographic location that it's 
+                // marking (i.e. the 'tip' of the icon on the map). This is in pixels and 
+                // is relative to the top left corner of the icon [x,y]
+                iconAnchor: [12.5,41]
+            });
+            return L.marker(latlng, {icon: regularFloatIcon});
+        },
+        filter: function(geoJsonFeature){
+        console.log(geoJsonFeature.properties.floatType);
+        if (geoJsonFeature.properties.floatType == "Regular"){
+            console.log("In true");
+        return true;
+        }
+        }
+    });
+    regularFloatLayer.addTo(map);
+    console.log(regularFloatLayer);
+    /*
+    for (i = 0; i < regularFloatLayer.length; i = i+1){
+        console.log(regularFloatLayer_layers[i].feature.properties);
         // properties: year, numFound, floatType, locationName
     }
-
-    L.geoJson(jsonData).addTo(map);
+    console.log(regularFloatLayer);
+*/
+    //L.geoJson(jsonData).addTo(map);
     
     
 
