@@ -57,26 +57,42 @@ $.getJSON(url, function(jsonData){
         // properties: year, numFound, floatType, locationName
     //}
 
-    regularFloatLayer = L.geoJson(jsonData, {pointToLayer: function(geoJsonPoint, latlng) {
-            var regularFloatIcon = L.icon({
-                iconUrl: "css/images/marker-icon.png",
-                // Size [x,y] in pixels
-                iconSize: [25,41],
-                // Location in the icon that is the specified geographic location that it's 
-                // marking (i.e. the 'tip' of the icon on the map). This is in pixels and 
-                // is relative to the top left corner of the icon [x,y]
-                iconAnchor: [12.5,41]
-            });
-            return L.marker(latlng, {icon: regularFloatIcon});
-        },
+    regularFloatLayer = L.geoJson(jsonData, {
         filter: function(geoJsonFeature){
         console.log(geoJsonFeature.properties.floatType);
         if (geoJsonFeature.properties.floatType == "Regular"){
             console.log("In true");
-        return true;
+            return true;
         }
-        }
-    });
+        }, pointToLayer: function(geoJsonPoint, latlng) {
+        console.log("The point is:");
+        console.log(geoJsonPoint);
+        
+        console.log(geoJsonPoint.properties.numFound);
+        // This accesses the entry for the number of floats found at the current location
+        // for the current time frame. This is used to scale the icons, so points with
+        // more floats found have larger icons.
+        var numFound = geoJsonPoint.properties.numFound;
+        //console.log(typeof(numFound));
+        // These are the default icon dimensions, which will be scaled by the number of 
+        // floats found at the location
+        var regularIconSize_x = 25;
+        var regularIconSize_y = 41;
+        // Setting the scale factor to determine how much the number of floats found 
+        // affects the icon size
+        var scaleFactor = 1 + 1/numFound;
+        var regularFloatIcon = L.icon({
+            iconUrl: "css/images/marker-icon.png",
+            // Size [x,y] in pixels
+            iconSize: [regularIconSize_x * scaleFactor, regularIconSize_y * scaleFactor],
+            // Location in the icon that is the specified geographic location that it's 
+            // marking (i.e. the 'tip' of the icon on the map). This is in pixels and 
+            // is relative to the top left corner of the icon [x,y]
+            iconAnchor: [12.5,41]
+        });
+        return L.marker(latlng, {icon: regularFloatIcon});
+    }
+})
     regularFloatLayer.addTo(map);
     console.log(regularFloatLayer);
     /*
