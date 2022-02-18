@@ -33,7 +33,7 @@ masterLocationDict = {}
 # entry for a location (used to lookup the corresponding lat/lon for each site when making the output)
 locationBackIndexDict = {}
 
-with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v3.txt", 'r') as locFileIn:
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v4.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
         if line.startswith("matchLocation"):

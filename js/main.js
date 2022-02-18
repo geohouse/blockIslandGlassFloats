@@ -29,7 +29,7 @@ L.geoJson(geoJSON_data).addTo(map);
 */
 
 // Year from 2012-2021 (as string) or 'allYears'
-const yearToPlot = "2014";
+const yearToPlot = "allYears";
 
 // Build the url from the year to plot and the rest of the standardized url
 const jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
@@ -45,22 +45,11 @@ function filterFloatTypes(geoJsonFeature, layer, floatTypeString){
 }
 
 
-function plotPoints(url){ 
-$.getJSON(url, function(jsonData){
-    // returns JSON as an object
-    console.log(typeof(jsonData));
-
-    console.log(jsonData.length);
-    
-    //for (i = 0; i < jsonData.length; i = i+1){
-    //    console.log(jsonData[i].properties);
-        // properties: year, numFound, floatType, locationName
-    //}
-
-    regularFloatLayer = L.geoJson(jsonData, {
+function renderLayer(jsonData, floatTypeString, pathToIcon){
+    var renderedLayer = L.geoJson(jsonData, {
         filter: function(geoJsonFeature){
             console.log(geoJsonFeature.properties.floatType);
-            if (geoJsonFeature.properties.floatType == "Regular"){
+            if (geoJsonFeature.properties.floatType == floatTypeString){
                 console.log("In true");
                 return true;
             }
@@ -82,7 +71,8 @@ $.getJSON(url, function(jsonData){
             // affects the icon size. Adds a 1/10 more size for each float found (starting with the second)
             var scaleFactor = 1 + ((numFound - 1)/10);
             var regularFloatIcon = L.icon({
-                iconUrl: "css/images/marker-icon.png",
+                //"css/images/marker-icon.png"
+                iconUrl: pathToIcon,
                 // Size [x,y] in pixels
                 iconSize: [regularIconSize_x * scaleFactor, regularIconSize_y * scaleFactor],
                 // Location in the icon that is the specified geographic location that it's 
@@ -103,8 +93,28 @@ $.getJSON(url, function(jsonData){
             'Float type: ' + '<b>' + floatType + '</b>' + '</br>' + 
             'Number found: ' + '<b>' + numFloatsFound + '</b>');
         }
-    })
+    });
+    return renderedLayer;
+}
+
+function plotPoints(url){ 
+$.getJSON(url, function(jsonData){
+    // returns JSON as an object
+    console.log(typeof(jsonData));
+
+    console.log(jsonData.length);
+    
+    //for (i = 0; i < jsonData.length; i = i+1){
+    //    console.log(jsonData[i].properties);
+        // properties: year, numFound, floatType, locationName
+    //}
+    var regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
+    
     regularFloatLayer.addTo(map);
+
+    var fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
+    
+    fancyFloatLayer.addTo(map);
     //console.log(regularFloatLayer);
     /*
     for (i = 0; i < regularFloatLayer.length; i = i+1){
