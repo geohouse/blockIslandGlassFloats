@@ -46,7 +46,7 @@ let jsonUrlForData = ""
 function filterFloatTypes(geoJsonFeature, layer, floatTypeString){
     console.log(geoJsonFeature.properties.floatType);
     if (geoJsonFeature.properties.floatType == floatTypeString){
-        console.log("In true");
+        //console.log("In true");
         return true;
     }
 }
@@ -57,7 +57,7 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
         filter: function(geoJsonFeature){
             console.log(geoJsonFeature.properties.floatType);
             if (geoJsonFeature.properties.floatType == floatTypeString){
-                console.log("In true");
+                //console.log("In true");
                 return true;
             }
         }, pointToLayer: function(geoJsonPoint, latlng) {
@@ -78,7 +78,7 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
             // affects the icon size. 
             // Need especially aggressive down-scaling for all years otherwise the icon sizes
             // are too big.
-            console.log(yearToPlot);
+            //console.log(yearToPlot);
             var scaleFactor = 0.0;
             if(yearToPlot == 'allYears'){
                 scaleFactor = 1 + Math.log10(numFound * 10);
@@ -88,7 +88,7 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
                 scaleFactor = 1 + ((numFound - 1)/10);
             }
             
-            var regularFloatIcon = L.icon({
+            var floatIcon = L.icon({
                 //"css/images/marker-icon.png"
                 iconUrl: pathToIcon,
                 // Size [x,y] in pixels
@@ -99,7 +99,7 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
                 iconAnchor: [(regularIconSize_x * scaleFactor) / 2, regularIconSize_y * scaleFactor]
                 //popupAnchor: 
             });
-            return L.marker(latlng, {icon: regularFloatIcon});
+            return L.marker(latlng, {icon: floatIcon});
         }, onEachFeature: function(feature, layer){
             var locationName = feature.properties.locationName;
             var numFloatsFound = feature.properties.numFound;
@@ -176,51 +176,68 @@ function createMapDataURL(sliderSelection){
     return urlForData;
 }
 
-// Check for updates made to the slider selection and re-map the selected years data
-/*let slider = document.getElementById("slider");
+/* See below for updated slider implementation to fix bugs.
+// Check for updates made to the slider selection and re-map the selected years data.
+// Every time the slider is moved, it first needs to remove any data from the 
+// previously selected year before getting the updated slider selection otherwise those data layers become
+// impossible to reliably select and remove later. Then the new data are plotted based on 
+// which check boxes are selected.
+//let slider = document.getElementById("slider");
 function updateSlider(){
-    sliderSelection = document.getElementById("slider").value;
-    jsonUrlForData = createMapDataURL(sliderSelection);
-    // Clear the current points from the map before drawing the data from the selected year
-    regularFloatLayer.clearLayers();
-    fancyFloatLayer.clearLayers();
-    plotPoints(jsonUrlForData,true, true);
+    if(regularFloatLayer != undefined){
+        console.log("Slider removing regular");
+        map.removeLayer(regularFloatLayer);
+    }
+    if(fancyFloatLayer != undefined){
+        console.log("Slider removing fancy");
+        map.removeLayer(fancyFloatLayer);
+    }
+    redrawFloats();
 }
+
+// The updateSlider function first clears any shown data for the current year,
+// then calls redrawFloats() for the newly selected year to draw the selected data
+// for the selected year.
 slider.addEventListener("change", updateSlider);
 */
+
 let regularFloatCheck = document.getElementById("regular");
-console.log(regularFloatCheck);
+//console.log(regularFloatCheck);
 let fancyFloatCheck = document.getElementById("fancy");
-console.log(fancyFloatCheck);
+//console.log(fancyFloatCheck);
 
 function redrawFloats(){
+    
+    // Start by clearing any existing layers (this means that although it looks like 
+    // regular or fancy floats can be added to existing floats, what actually happens is that 
+    // the map is blanked out and the specified floats are served together from scratch. This
+    // makes it possible to always identify and remove the necessary layers with any combination
+    // of slider year selection and float selections.
+    if(regularFloatLayer != undefined){
+        console.log("Removing regular");
+        map.removeLayer(regularFloatLayer);
+    }
+    if(fancyFloatLayer != undefined){
+        console.log("Removing fancy");
+        map.removeLayer(fancyFloatLayer);
+    }
+
     sliderSelection = document.getElementById("slider").value;
     jsonUrlForData = createMapDataURL(sliderSelection);
     // Determine what float types are selected for mapping and send that info to the mapping function
     // if both checked, then just draw
     if(regularFloatCheck.checked && fancyFloatCheck.checked) {
+        console.log("Fire if 1");
         plotPoints(jsonUrlForData,true, true);
     } else if(regularFloatCheck.checked){
         // if only regular checked, then clear fancy and plot regular
-        if(fancyFloatLayer){
-            fancyFloatLayer.clearLayers();
-        }
+        console.log("Fire if 2");
         plotPoints(jsonUrlForData,true, false);
     } else if(fancyFloatCheck.checked){
         // if only fancy checked, then clear regular and plot fancy
-        if(regularFloatLayer){
-            regularFloatLayer.clearLayers();
-        }
+        console.log("Fire if 3");
         plotPoints(jsonUrlForData, false, true);
-    } else{
-        // if neither checked, then clear both layers
-        if(regularFloatLayer){
-            regularFloatLayer.clearLayers();
-        }
-        if(fancyFloatLayer){
-        fancyFloatLayer.clearLayers();
-        }
-    }
+    } 
 }
 
 let slider = document.getElementById("slider");
