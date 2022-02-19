@@ -1,15 +1,43 @@
 var map = L.map('map').setView([41.18,-71.58],13);
-L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+
+var currentBackgroundLayer;
+var backgroundSelector = document.getElementById("background-select");
+function createMapBackground(){
+
+    // Remove any current background layer if one exists.
+    if(currentBackgroundLayer != undefined){
+        map.removeLayer(currentBackgroundLayer);
+    }
+
+    var data = new FormData(backgroundSelector);
+    var selectedBackground = "";
+    for (const entry of data){
+            selectedBackground = entry[1];
+    }  
+    console.log("The selected background is:");
+    console.log(selectedBackground);
+
+    if (selectedBackground == "watercolor"){
+        currentBackgroundLayer = L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
                 attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
-            }).addTo(map);
-            //var marker = L.marker([51.5,-0.09]).addTo(map)
+        });
+    }
             
-function pointStyle(feature) {
-    return {
-            fillColor: 'white',
-            }
+    if (selectedBackground == "blackwhite"){
+        currentBackgroundLayer = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+        });
+    }
+    if(selectedBackground == "aerial"){
+        currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{
+                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
+        });
+    }
+    currentBackgroundLayer.addTo(map);
 }
 
+
+backgroundSelector.addEventListener("change", createMapBackground);
 // Get the geoJSON information from the GitHub hosted
 // URL, parse, and add the points to the map.
 /*
@@ -247,6 +275,7 @@ regularFloatCheck.addEventListener("change", redrawFloats);
 fancyFloatCheck.addEventListener("change", redrawFloats);
 
 // This is the initial plot creation before any interaction
+createMapBackground();
 redrawFloats();
 
 /*
@@ -258,5 +287,5 @@ fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_l
 })
 .then(function (points) {
     L.geoJson(points).addTo(map);
-});   
-*/       
+});  
+*/ 

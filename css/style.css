@@ -3,7 +3,7 @@
 #map {
     position: absolute; 
     width:98%; 
-    top:45%; 
+    top:55%; 
     bottom:0;
 }
 #toggles {
@@ -42,6 +42,11 @@
 }
 
 .button-div{
+    display: flexbox;
+    height:40px;
+}
+
+.background-div{
     display: flexbox;
     height:40px;
 }
