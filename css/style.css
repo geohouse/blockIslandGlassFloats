@@ -3,7 +3,7 @@
 #map {
     position: absolute; 
     width:98%; 
-    top:30%; 
+    top:45%; 
     bottom:0;
 }
 #toggles {
@@ -14,7 +14,7 @@
     background-color:bisque;
 }
 
-section{
+.slide-section{
     /*display:flex;*/
     width:98%;
 
@@ -39,4 +39,9 @@ section{
     display: flex;
     justify-content:space-between;
     padding: 0 5px;
+}
+
+.button-div{
+    display: flexbox;
+    height:40px;
 }

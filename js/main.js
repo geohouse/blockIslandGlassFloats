@@ -37,17 +37,9 @@ let sliderSelection = document.getElementById("slider").value;
 let yearToPlot = "";
 let yearToPlotNum = 0;
 console.log("test");
-// Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
-// for data collected through 2021, below)
-yearToPlotNum = Number(sliderSelection) + 2011;
-if(yearToPlotNum == 2022){
-    yearToPlot = "allYears";
-} else{
-    yearToPlot = String(yearToPlotNum);
-}
 
 // Build the url from the year to plot and the rest of the standardized url
-let jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+let jsonUrlForData = ""
 
 //allYearURL = 'https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson';
 
@@ -128,7 +120,9 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
 var regularFloatLayer;
 var fancyFloatLayer;
 
-function plotPoints(url){ 
+// plotReg and plotFancy are booleans for whether the regular float and the fancy float layers should
+// be plotted or not (for the float type mapping selection checkboxes)
+function plotPoints(url,plotReg,plotFancy){ 
 $.getJSON(url, function(jsonData){
     // returns JSON as an object
     //console.log(typeof(jsonData));
@@ -139,13 +133,17 @@ $.getJSON(url, function(jsonData){
     //    console.log(jsonData[i].properties);
         // properties: year, numFound, floatType, locationName
     //}
-    regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
+    if(plotReg){
+        regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
     
-    regularFloatLayer.addTo(map);
+        regularFloatLayer.addTo(map);
+    }
 
-    fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
+    if(plotFancy){
+        fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
     
-    fancyFloatLayer.addTo(map);
+        fancyFloatLayer.addTo(map);
+    }
     //console.log(regularFloatLayer);
     /*
     for (i = 0; i < regularFloatLayer.length; i = i+1){
@@ -161,11 +159,7 @@ $.getJSON(url, function(jsonData){
 })
 }
 
-// Check for updates made to the slider selection and re-map the selected years data
-let slider = document.getElementById("slider");
-function updateSlider(){
-    sliderSelection = document.getElementById("slider").value;
-    console.log(yearToPlot);
+function createMapDataURL(sliderSelection){
     yearToPlot = "";
     yearToPlotNum = 0;
     // Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
@@ -178,16 +172,65 @@ function updateSlider(){
     }
     console.log("Year selected is:");
     console.log(yearToPlot);
-    jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+    return urlForData;
+}
 
+// Check for updates made to the slider selection and re-map the selected years data
+/*let slider = document.getElementById("slider");
+function updateSlider(){
+    sliderSelection = document.getElementById("slider").value;
+    jsonUrlForData = createMapDataURL(sliderSelection);
     // Clear the current points from the map before drawing the data from the selected year
     regularFloatLayer.clearLayers();
     fancyFloatLayer.clearLayers();
-    plotPoints(jsonUrlForData);
+    plotPoints(jsonUrlForData,true, true);
 }
 slider.addEventListener("change", updateSlider);
+*/
+let regularFloatCheck = document.getElementById("regular");
+console.log(regularFloatCheck);
+let fancyFloatCheck = document.getElementById("fancy");
+console.log(fancyFloatCheck);
 
-plotPoints(jsonUrlForData);
+function redrawFloats(){
+    sliderSelection = document.getElementById("slider").value;
+    jsonUrlForData = createMapDataURL(sliderSelection);
+    // Determine what float types are selected for mapping and send that info to the mapping function
+    // if both checked, then just draw
+    if(regularFloatCheck.checked && fancyFloatCheck.checked) {
+        plotPoints(jsonUrlForData,true, true);
+    } else if(regularFloatCheck.checked){
+        // if only regular checked, then clear fancy and plot regular
+        if(fancyFloatLayer){
+            fancyFloatLayer.clearLayers();
+        }
+        plotPoints(jsonUrlForData,true, false);
+    } else if(fancyFloatCheck.checked){
+        // if only fancy checked, then clear regular and plot fancy
+        if(regularFloatLayer){
+            regularFloatLayer.clearLayers();
+        }
+        plotPoints(jsonUrlForData, false, true);
+    } else{
+        // if neither checked, then clear both layers
+        if(regularFloatLayer){
+            regularFloatLayer.clearLayers();
+        }
+        if(fancyFloatLayer){
+        fancyFloatLayer.clearLayers();
+        }
+    }
+}
+
+let slider = document.getElementById("slider");
+slider.addEventListener("change", redrawFloats);
+
+regularFloatCheck.addEventListener("change", redrawFloats);
+fancyFloatCheck.addEventListener("change", redrawFloats);
+
+// This is the initial plot creation before any interaction
+redrawFloats();
 
 /*
 fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson')
