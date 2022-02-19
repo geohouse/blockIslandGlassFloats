@@ -29,10 +29,25 @@ L.geoJson(geoJSON_data).addTo(map);
 */
 
 // Year from 2012-2021 (as string) or 'allYears'
-const yearToPlot = "2012";
+//const yearToPlot = "2012";
+
+// Reads the year selected for mapping from the slider, but the slider
+// range is represented as 1-11, so need to convert to years
+let sliderSelection = document.getElementById("slider").value;
+let yearToPlot = "";
+let yearToPlotNum = 0;
+console.log("test");
+// Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
+// for data collected through 2021, below)
+yearToPlotNum = Number(sliderSelection) + 2011;
+if(yearToPlotNum == 2022){
+    yearToPlot = "allYears";
+} else{
+    yearToPlot = String(yearToPlotNum);
+}
 
 // Build the url from the year to plot and the rest of the standardized url
-const jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+let jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
 
 //allYearURL = 'https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson';
 
@@ -108,6 +123,11 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
     return renderedLayer;
 }
 
+// Initialize the 2 possible layers here to have global scope so that the functions to add data and 
+// remove data from the map can both access them.
+var regularFloatLayer;
+var fancyFloatLayer;
+
 function plotPoints(url){ 
 $.getJSON(url, function(jsonData){
     // returns JSON as an object
@@ -119,11 +139,11 @@ $.getJSON(url, function(jsonData){
     //    console.log(jsonData[i].properties);
         // properties: year, numFound, floatType, locationName
     //}
-    var regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
+    regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
     
     regularFloatLayer.addTo(map);
 
-    var fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
+    fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
     
     fancyFloatLayer.addTo(map);
     //console.log(regularFloatLayer);
@@ -140,6 +160,32 @@ $.getJSON(url, function(jsonData){
 
 })
 }
+
+// Check for updates made to the slider selection and re-map the selected years data
+let slider = document.getElementById("slider");
+function updateSlider(){
+    sliderSelection = document.getElementById("slider").value;
+    console.log(yearToPlot);
+    yearToPlot = "";
+    yearToPlotNum = 0;
+    // Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
+    // for data collected through 2021, below)
+    yearToPlotNum = Number(sliderSelection) + 2011;
+    if(yearToPlotNum == 2022){
+        yearToPlot = "allYears";
+    } else{
+        yearToPlot = String(yearToPlotNum);
+    }
+    console.log("Year selected is:");
+    console.log(yearToPlot);
+    jsonUrlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+
+    // Clear the current points from the map before drawing the data from the selected year
+    regularFloatLayer.clearLayers();
+    fancyFloatLayer.clearLayers();
+    plotPoints(jsonUrlForData);
+}
+slider.addEventListener("change", updateSlider);
 
 plotPoints(jsonUrlForData);
 
