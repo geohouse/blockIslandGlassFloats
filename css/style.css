@@ -6,13 +6,6 @@
     top:55%; 
     bottom:0;
 }
-#toggles {
-    position:relative; 
-    width: 70px; 
-    height: 50px;
-    top:15%; 
-    background-color:bisque;
-}
 
 .slide-section{
     /*display:flex;*/
