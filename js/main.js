@@ -80,13 +80,22 @@ function filterFloatTypes(geoJsonFeature, layer, floatTypeString){
 }
 
 
-function renderLayer(jsonData, floatTypeString, pathToIcon){
+function renderLayer(jsonData, floatTypeString){
     var renderedLayer = L.geoJson(jsonData, {
         filter: function(geoJsonFeature){
             console.log(geoJsonFeature.properties.floatType);
-            if (geoJsonFeature.properties.floatType == floatTypeString){
+            if (floatTypeString == "Regular"){
+                if (geoJsonFeature.properties.floatType == floatTypeString){
                 //console.log("In true");
                 return true;
+                }
+            }
+            // Sort out all fancy floats and consider the rona and the pumpkin floats to be fancy too
+            if (floatTypeString == "Fancy"){
+                if (geoJsonFeature.properties.floatType == floatTypeString || geoJsonFeature.properties.floatType == "Rona" || geoJsonFeature.properties.floatType == "Pumpkin"){
+                    console.log(geoJsonFeature.properties.floatType);
+                return true;
+                }
             }
         }, pointToLayer: function(geoJsonPoint, latlng) {
             //console.log("The point is:");
@@ -116,8 +125,25 @@ function renderLayer(jsonData, floatTypeString, pathToIcon){
                 scaleFactor = 1 + ((numFound - 1)/10);
             }
             
+            var pathToIcon = "";
+
+            if (geoJsonPoint.properties.floatType == "Regular"){
+                pathToIcon = "css/images/RegularFloat.png"
+            }
+            if (geoJsonPoint.properties.floatType == "Fancy"){
+                pathToIcon = "css/images/FancyFloat.png"
+            }
+            if (geoJsonPoint.properties.floatType == "Rona"){
+                console.log("Rona");
+                pathToIcon = "css/images/RonaFloat.png"
+            }
+            if (geoJsonPoint.properties.floatType == "Pumpkin"){
+                pathToIcon = "css/images/PumpkinFloat.png"
+            }
+
             var floatIcon = L.icon({
                 //"css/images/marker-icon.png"
+                
                 iconUrl: pathToIcon,
                 // Size [x,y] in pixels
                 iconSize: [regularIconSize_x * scaleFactor, regularIconSize_y * scaleFactor],
@@ -162,13 +188,13 @@ $.getJSON(url, function(jsonData){
         // properties: year, numFound, floatType, locationName
     //}
     if(plotReg){
-        regularFloatLayer = renderLayer(jsonData, "Regular", "css/images/marker-icon.png");
+        regularFloatLayer = renderLayer(jsonData, "Regular");
     
         regularFloatLayer.addTo(map);
     }
 
     if(plotFancy){
-        fancyFloatLayer = renderLayer(jsonData, "Fancy", "css/images/leaf-green.png");
+        fancyFloatLayer = renderLayer(jsonData, "Fancy");
     
         fancyFloatLayer.addTo(map);
     }
@@ -200,7 +226,7 @@ function createMapDataURL(sliderSelection){
     }
     console.log("Year selected is:");
     console.log(yearToPlot);
-    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v3.geojson";
+    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v4.geojson";
     return urlForData;
 }
 
