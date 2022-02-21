@@ -90,9 +90,9 @@ function renderLayer(jsonData, floatTypeString){
                 return true;
                 }
             }
-            // Sort out all fancy floats and consider the rona and the pumpkin floats to be fancy too
+            // Sort out all fancy floats and consider the rona and the pumpkin floats and the specific picture for 2021_17 to be fancy too
             if (floatTypeString == "Fancy"){
-                if (geoJsonFeature.properties.floatType == floatTypeString || geoJsonFeature.properties.floatType == "Rona" || geoJsonFeature.properties.floatType == "Pumpkin"){
+                if (geoJsonFeature.properties.floatType == floatTypeString || geoJsonFeature.properties.floatType == "Rona" || geoJsonFeature.properties.floatType == "Pumpkin" || geoJsonFeature.properties.floatType == "Fancy_2021_17"){
                     console.log(geoJsonFeature.properties.floatType);
                 return true;
                 }
@@ -139,6 +139,9 @@ function renderLayer(jsonData, floatTypeString){
             }
             if (geoJsonPoint.properties.floatType == "Pumpkin"){
                 pathToIcon = "css/images/PumpkinFloat.png"
+            }
+            if (geoJsonPoint.properties.floatType == "Fancy_2021_17"){
+                pathToIcon = "css/images/Fancy_2021_17.png"
             }
 
             var floatIcon = L.icon({
