@@ -1,0 +1,27 @@
+location	latitude	longitude	numTimesListed	floatType
+Clay Head Trail	41.216374	-71.556688	27	Regular
+Enchanted Forest	41.168721	-71.585856	25	Regular
+Dorry's Cove	41.173237	-71.607821	8	Regular
+North Light	41.22746	-71.575811	8	Regular
+Grace's Cove	41.183112	-71.601656	8	Regular
+Mansion Beach	41.201162	-71.561259	8	Regular
+Mohegan Bluffs	41.152075	-71.552837	7	Regular
+West Beach	41.203721	-71.580125	4	Regular
+Turnip Farm	41.16919	-71.591921	3	Regular
+The Maze	41.210276	-71.558675	3	Regular
+Crescent Beach	41.187421	-71.566737	3	Regular
+Enchanted Forest	41.168721	-71.585856	2	Fancy
+Clay Head Trail	41.216374	-71.556688	2	Fancy
+Block Island State Airport	41.169007	-71.579542	2	Regular
+Grace's Cove	41.183112	-71.601656	1	Fancy
+West Beach	41.203721	-71.580125	1	Fancy
+Mansion Beach	41.201162	-71.561259	1	Fancy
+Payne Overlook	41.16446	-71.570967	1	Regular
+Cow Cove	41.226039	-71.572128	1	Regular
+Coast Guard Beach	41.195293	-71.588699	1	Regular
+Block Island Greenway	41.170297	-71.589276	1	Regular
+Andy's Way	41.201322	-71.575562	1	Regular
+Dickens Point	41.151667	-71.608702	1	Regular
+Scotch Beach	41.19002	-71.566262	1	Regular
+Rat Island	41.179716	-71.571840	1	Regular
+Southwest Point	41.160592	-71.612551	1	Regular
