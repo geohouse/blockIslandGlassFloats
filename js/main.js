@@ -56,16 +56,6 @@ console.log(geoJSON_data);
 L.geoJson(geoJSON_data).addTo(map);
 */
 
-// Year from 2012-2021 (as string) or 'allYears'
-//const yearToPlot = "2012";
-
-// Reads the year selected for mapping from the slider, but the slider
-// range is represented as 1-11, so need to convert to years
-let sliderSelection = document.getElementById("slider").value;
-let yearToPlot = "";
-let yearToPlotNum = 0;
-console.log("test");
-
 // Build the url from the year to plot and the rest of the standardized url
 let jsonUrlForData = ""
 
@@ -79,6 +69,126 @@ function filterFloatTypes(geoJsonFeature, layer, floatTypeString){
     }
 }
 
+function createMapDataURL(sliderSelection){
+    yearToPlot = "";
+    yearToPlotNum = 0;
+    // Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
+    // for data collected through 2021, below)
+    yearToPlotNum = Number(sliderSelection) + 2011;
+    if(yearToPlotNum == 2022){
+        yearToPlot = "allYears";
+    } else{
+        yearToPlot = String(yearToPlotNum);
+    }
+    console.log("Year selected is:");
+    console.log(yearToPlot);
+    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v4.geojson";
+    return urlForData;
+}
+
+/* See below for updated slider implementation to fix bugs.
+// Check for updates made to the slider selection and re-map the selected years data.
+// Every time the slider is moved, it first needs to remove any data from the 
+// previously selected year before getting the updated slider selection otherwise those data layers become
+// impossible to reliably select and remove later. Then the new data are plotted based on 
+// which check boxes are selected.
+//let slider = document.getElementById("slider");
+function updateSlider(){
+    if(regularFloatLayer != undefined){
+        console.log("Slider removing regular");
+        map.removeLayer(regularFloatLayer);
+    }
+    if(fancyFloatLayer != undefined){
+        console.log("Slider removing fancy");
+        map.removeLayer(fancyFloatLayer);
+    }
+    redrawFloats();
+}
+
+// The updateSlider function first clears any shown data for the current year,
+// then calls redrawFloats() for the newly selected year to draw the selected data
+// for the selected year.
+slider.addEventListener("change", updateSlider);
+*/
+
+// Making a custom control. This is how to get buttons in corner of Leaflet map. A bit ugly though - need to create
+// the DOM elements within Leaflet and passing the inner HTML as string.
+// callbacks later find the elements by ID correctly.
+var customControl1 = L.Control.extend({
+    onAdd: function(map){
+        var floatTypeButtonDiv = L.DomUtil.create('div', 'button-div');
+        floatTypeButtonDiv.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
+        '<label for="fancy">Fancy floats</label></form>';
+
+        // Normally a double click causes Leaflet to zoom to where is double clicked. This removes that
+        // functionality from the buttons, because a double click can trigger (and therefore move/zoom the map)
+        // when just trying to compare the float types and clicking fairly quickly. This doesn't affect the 
+        // ability to double click to zoom anywhere else on the map. 
+        // From: https://gist.github.com/rdaly1490/eb98fc5ff5be253c5610
+        floatTypeButtonDiv.ondblclick = (e) => {
+            e.stopPropagation();
+            console.log("double clicked");
+        };
+        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
+        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
+        /*
+        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
+        '<label for="fancy">Fancy floats</label></form>'
+        */
+        return floatTypeButtonDiv;
+
+    }
+});
+
+var customControl2 = L.Control.extend({
+    onAdd: function(map){
+        var yearSliderDiv = L.DomUtil.create('div', 'slider-div');
+        yearSliderDiv.innerHTML = '<input type = "range" id = "slider" name = "slider" min="1" max="11" step="1" value="1">' + 
+        '<div class="sliderTicks">' + 
+            '<p class="sliderTick">2012</p>' + 
+            '<p class="sliderTick">2013</p>' + 
+            '<p class="sliderTick">2014</p>' + 
+            '<p class="sliderTick">2015</p>' + 
+            '<p class="sliderTick">2016</p>' +
+            '<p class="sliderTick">2017</p>' +
+            '<p class="sliderTick">2018</p>' +
+            '<p class="sliderTick">2019</p>' +
+            '<p class="sliderTick">2020</p>' +
+            '<p class="sliderTick">2021</p>' +
+            '<p class="sliderTick">All</p>' + 
+            '</div' + 
+            '</div>';
+        
+                
+                
+           
+        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
+        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
+        /*
+        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
+        '<label for="fancy">Fancy floats</label></form>'
+        */
+        return yearSliderDiv;
+
+    }
+});
+
+
+map.addControl(new customControl1());
+map.addControl(new customControl2());
+
+// Year from 2012-2021 (as string) or 'allYears'
+//const yearToPlot = "2012";
+
+// Reads the year selected for mapping from the slider, but the slider
+// range is represented as 1-11, so need to convert to years
+let sliderSelection = document.getElementById("slider").value;
+let yearToPlot = "";
+let yearToPlotNum = 0;
+console.log("test");
 
 function renderLayer(jsonData, floatTypeString){
     var renderedLayer = L.geoJson(jsonData, {
@@ -216,72 +326,6 @@ $.getJSON(url, function(jsonData){
 })
 }
 
-function createMapDataURL(sliderSelection){
-    yearToPlot = "";
-    yearToPlotNum = 0;
-    // Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
-    // for data collected through 2021, below)
-    yearToPlotNum = Number(sliderSelection) + 2011;
-    if(yearToPlotNum == 2022){
-        yearToPlot = "allYears";
-    } else{
-        yearToPlot = String(yearToPlotNum);
-    }
-    console.log("Year selected is:");
-    console.log(yearToPlot);
-    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v4.geojson";
-    return urlForData;
-}
-
-/* See below for updated slider implementation to fix bugs.
-// Check for updates made to the slider selection and re-map the selected years data.
-// Every time the slider is moved, it first needs to remove any data from the 
-// previously selected year before getting the updated slider selection otherwise those data layers become
-// impossible to reliably select and remove later. Then the new data are plotted based on 
-// which check boxes are selected.
-//let slider = document.getElementById("slider");
-function updateSlider(){
-    if(regularFloatLayer != undefined){
-        console.log("Slider removing regular");
-        map.removeLayer(regularFloatLayer);
-    }
-    if(fancyFloatLayer != undefined){
-        console.log("Slider removing fancy");
-        map.removeLayer(fancyFloatLayer);
-    }
-    redrawFloats();
-}
-
-// The updateSlider function first clears any shown data for the current year,
-// then calls redrawFloats() for the newly selected year to draw the selected data
-// for the selected year.
-slider.addEventListener("change", updateSlider);
-*/
-
-// Making a custom control. This is how to get buttons in corner of Leaflet map. A bit ugly though - need to create
-// the DOM elements within Leaflet and passing the inner HTML as string.
-// callbacks later find the elements by ID correctly.
-var customControl = L.Control.extend({
-    onAdd: function(map){
-        var floatTypeButtonDiv = L.DomUtil.create('div', 'button-div');
-        floatTypeButtonDiv.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
-        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
-        '<label for="fancy">Fancy floats</label></form>';
-
-        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
-        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
-        /*
-        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
-        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
-        '<label for="fancy">Fancy floats</label></form>'
-        */
-        return floatTypeButtonDiv;
-
-    }
-});
-
-
-map.addControl(new customControl());
 
 console.log()
 

@@ -31,6 +31,12 @@
 .sliderTicks{
     display: flex;
     justify-content:space-between;
+    /*padding: 0 5px;*/
+}
+
+.sliderTick{
+    text-align: center;
+    /* Change the padding to change the width of the slider too*/
     padding: 0 5px;
 }
 
