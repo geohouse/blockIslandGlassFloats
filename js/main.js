@@ -1,4 +1,4 @@
-var map = L.map('map').setView([41.18,-71.58],13);
+var map = L.map('map').setView([41.18,-71.58],12);
 
 var currentBackgroundLayer;
 var backgroundSelector = document.getElementById("background-select");
@@ -257,6 +257,33 @@ function updateSlider(){
 // for the selected year.
 slider.addEventListener("change", updateSlider);
 */
+
+// Making a custom control. This is how to get buttons in corner of Leaflet map. A bit ugly though - need to create
+// the DOM elements within Leaflet and passing the inner HTML as string.
+// callbacks later find the elements by ID correctly.
+var customControl = L.Control.extend({
+    onAdd: function(map){
+        var floatTypeButtonDiv = L.DomUtil.create('div', 'button-div');
+        floatTypeButtonDiv.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
+        '<label for="fancy">Fancy floats</label></form>';
+
+        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
+        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
+        /*
+        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
+        '<label for="fancy">Fancy floats</label></form>'
+        */
+        return floatTypeButtonDiv;
+
+    }
+});
+
+
+map.addControl(new customControl());
+
+console.log()
 
 let regularFloatCheck = document.getElementById("regular");
 //console.log(regularFloatCheck);
