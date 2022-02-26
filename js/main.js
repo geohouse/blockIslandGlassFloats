@@ -1,43 +1,7 @@
 var map = L.map('map').setView([41.18,-71.58],12);
 
 var currentBackgroundLayer;
-var backgroundSelector = document.getElementById("background-select");
-function createMapBackground(){
 
-    // Remove any current background layer if one exists.
-    if(currentBackgroundLayer != undefined){
-        map.removeLayer(currentBackgroundLayer);
-    }
-
-    var data = new FormData(backgroundSelector);
-    var selectedBackground = "";
-    for (const entry of data){
-            selectedBackground = entry[1];
-    }  
-    console.log("The selected background is:");
-    console.log(selectedBackground);
-
-    if (selectedBackground == "watercolor"){
-        currentBackgroundLayer = L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
-                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
-        });
-    }
-            
-    if (selectedBackground == "blackwhite"){
-        currentBackgroundLayer = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
-                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
-        });
-    }
-    if(selectedBackground == "aerial"){
-        currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{
-                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
-        });
-    }
-    currentBackgroundLayer.addTo(map);
-}
-
-
-backgroundSelector.addEventListener("change", createMapBackground);
 // Get the geoJSON information from the GitHub hosted
 // URL, parse, and add the points to the map.
 /*
@@ -157,7 +121,6 @@ customControlYearSlider.update = function(properties){
         '<p class="sliderTick">2020</p>' +
         '<p class="sliderTick">2021</p>' +
         '<p class="sliderTick">All</p>' + 
-        '</div' + 
         '</div>';
 };
 
@@ -188,8 +151,77 @@ customControlYearSlider.onAdd = function(map){
         return this._div;
     };
 
+
+var customBackgroundSelection = L.control();
+
+customBackgroundSelection.update = function(properties){
+    this._div.innerHTML = '<label id="background-label for=background-select">Choose a background map</label>' + 
+    '<form id = "background-select">' + 
+    '    <input type="radio" id="watercolor" name="background" value="watercolor" checked>' + 
+    '    <label for="watercolor">Watercolor</label>' + 
+    '    <input type="radio" id="topographic" name="background" value="topographic">' + 
+    '    <label for="topographic">Topographic</label>' + 
+    '    <input type="radio" id="aerial" name="background" value="aerial">' + 
+    '    <label for="aerial">Aerial</label>' + 
+    '</form>' + 
+    '</div>';
+};
+    
+customBackgroundSelection.onAdd = function(map){
+    this._div = L.DomUtil.create('div', 'background-div');
+    this.update();
+    
+        return this._div;
+    };
+    
+
 customControlYearSlider.addTo(map);
+customBackgroundSelection.addTo(map);
 customControlFloatType.addTo(map);
+
+var backgroundSelector = document.getElementById("background-select");
+function createMapBackground(){
+
+    // Remove any current background layer if one exists.
+    if(currentBackgroundLayer != undefined){
+        map.removeLayer(currentBackgroundLayer);
+    }
+
+    var data = new FormData(backgroundSelector);
+    var selectedBackground = "";
+    for (const entry of data){
+            selectedBackground = entry[1];
+    }  
+    console.log("The selected background is:");
+    console.log(selectedBackground);
+
+    if (selectedBackground == "watercolor"){
+        currentBackgroundLayer = L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+        });
+    }
+    /* No longer used; topographic does a better job and gives more information    
+    if (selectedBackground == "blackwhite"){
+        currentBackgroundLayer = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+        });
+    }
+    */
+    if(selectedBackground == "aerial"){
+        currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{
+                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
+        });
+    }
+    if(selectedBackground == "topographic"){
+        currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{
+                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
+        });
+    }
+    currentBackgroundLayer.addTo(map);
+}
+
+
+backgroundSelector.addEventListener("change", createMapBackground);
 
 // Year from 2012-2021 (as string) or 'allYears'
 //const yearToPlot = "2012";
