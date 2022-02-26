@@ -262,8 +262,9 @@ function renderLayer(jsonData, floatTypeString){
             //console.log(typeof(numFound));
             // These are the default icon dimensions, which will be scaled by the number of 
             // floats found at the location
-            var regularIconSize_x = 25;
-            var regularIconSize_y = 41;
+            var regularIconSize_x = 240;
+            // Average of the 4 icon heights
+            var regularIconSize_y = 263;
             // Setting the scale factor to determine how much the number of floats found 
             // affects the icon size. 
             // Need especially aggressive down-scaling for all years otherwise the icon sizes
@@ -271,11 +272,11 @@ function renderLayer(jsonData, floatTypeString){
             //console.log(yearToPlot);
             var scaleFactor = 0.0;
             if(yearToPlot == 'allYears'){
-                scaleFactor = 1 + Math.log10(numFound * 10);
+                scaleFactor = 0.1 + (Math.log10(numFound))/10;
                 console.log("setting all year scale factor.");
             } else{
                 //Adds a 1/10 more size for each float found (starting with the second)
-                scaleFactor = 1 + ((numFound - 1)/10);
+                scaleFactor = 0.1 + (Math.log10(numFound))/10;
             }
             
             var pathToIcon = "";
