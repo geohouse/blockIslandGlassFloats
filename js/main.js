@@ -114,71 +114,82 @@ slider.addEventListener("change", updateSlider);
 // Making a custom control. This is how to get buttons in corner of Leaflet map. A bit ugly though - need to create
 // the DOM elements within Leaflet and passing the inner HTML as string.
 // callbacks later find the elements by ID correctly.
-var customControl1 = L.Control.extend({
-    onAdd: function(map){
-        var floatTypeButtonDiv = L.DomUtil.create('div', 'button-div');
-        floatTypeButtonDiv.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
+var customControlFloatType = L.control();
+
+customControlFloatType.update = function(properties){
+    this._div.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
         '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
         '<label for="fancy">Fancy floats</label></form>';
+};
 
-        // Normally a double click causes Leaflet to zoom to where is double clicked. This removes that
-        // functionality from the buttons, because a double click can trigger (and therefore move/zoom the map)
-        // when just trying to compare the float types and clicking fairly quickly. This doesn't affect the 
-        // ability to double click to zoom anywhere else on the map. 
-        // From: https://gist.github.com/rdaly1490/eb98fc5ff5be253c5610
-        floatTypeButtonDiv.ondblclick = (e) => {
-            e.stopPropagation();
-            console.log("double clicked");
-        };
-        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
-        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
-        /*
-        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
-        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
-        '<label for="fancy">Fancy floats</label></form>'
-        */
-        return floatTypeButtonDiv;
+customControlFloatType.onAdd = function(map){
+    this._div = L.DomUtil.create('div', 'button-div');
+    this.update();
+    
+    // Normally a double click causes Leaflet to zoom to where is double clicked. This removes that
+    // functionality from the buttons, because a double click can trigger (and therefore move/zoom the map)
+    // when just trying to compare the float types and clicking fairly quickly. This doesn't affect the 
+    // ability to double click to zoom anywhere else on the map. 
+    // From: https://gist.github.com/rdaly1490/eb98fc5ff5be253c5610
+    this._div.ondblclick = (e) => {
+        e.stopPropagation();
+        console.log("double clicked");
+    };
+    
+    return this._div;
 
-    }
-});
+};
 
-var customControl2 = L.Control.extend({
-    onAdd: function(map){
-        var yearSliderDiv = L.DomUtil.create('div', 'slider-div');
-        yearSliderDiv.innerHTML = '<input type = "range" id = "slider" name = "slider" min="1" max="11" step="1" value="1">' + 
-        '<div class="sliderTicks">' + 
-            '<p class="sliderTick">2012</p>' + 
-            '<p class="sliderTick">2013</p>' + 
-            '<p class="sliderTick">2014</p>' + 
-            '<p class="sliderTick">2015</p>' + 
-            '<p class="sliderTick">2016</p>' +
-            '<p class="sliderTick">2017</p>' +
-            '<p class="sliderTick">2018</p>' +
-            '<p class="sliderTick">2019</p>' +
-            '<p class="sliderTick">2020</p>' +
-            '<p class="sliderTick">2021</p>' +
-            '<p class="sliderTick">All</p>' + 
-            '</div' + 
-            '</div>';
+
+var customControlYearSlider = L.control();
+
+customControlYearSlider.update = function(properties){
+    this._div.innerHTML = '<label id="slide-label" for="slider">Years to map</label><input type = "range" id = "slider" name = "slider" min="1" max="11" step="1" value="1">' + 
+    '<div class="sliderTicks">' + 
+        '<p class="sliderTick">2012</p>' + 
+        '<p class="sliderTick">2013</p>' + 
+        '<p class="sliderTick">2014</p>' + 
+        '<p class="sliderTick">2015</p>' + 
+        '<p class="sliderTick">2016</p>' +
+        '<p class="sliderTick">2017</p>' +
+        '<p class="sliderTick">2018</p>' +
+        '<p class="sliderTick">2019</p>' +
+        '<p class="sliderTick">2020</p>' +
+        '<p class="sliderTick">2021</p>' +
+        '<p class="sliderTick">All</p>' + 
+        '</div' + 
+        '</div>';
+};
+
+customControlYearSlider.onAdd = function(map){
+    this._div = L.DomUtil.create('div', 'slider-div');
+    this.update();
+    // Disable map dragging when clicking and dragging within the year slider box (makes it so the slider selects, but
+    // doesn't pan the map at the same time)
+    this._div.onmousedown = (e) => {
+        map.dragging.disable();
+        console.log("selected in slider");
+    };
+    this._div.onmouseup = () => {
         
-                
-                
-           
-        //var regularFloatButton = L.DomUtil.create('<form><input type="checkbox" id="regular" name="regular" checked><label for="regular">Regular floats</label></form>', 'regular-button', floatTypeButtonDiv);
-        //var fancyFloatButton = L.DomUtil.create('<form><input type="checkbox" id="fancy" name="fancy" checked><label for="fancy">Fancy floats</label></form>', 'fancy-button', floatTypeButtonDiv);
-        /*
-        floatTypeButtons.innerHTML = '<form><input type="checkbox" id="regular" name="regular" checked>' + 
-        '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' + 
-        '<label for="fancy">Fancy floats</label></form>'
-        */
-        return yearSliderDiv;
+        map.dragging.enable();
+        console.log("selected in slider");
+    };
+    this._div.onmouseover = () => {
+        
+        map.dragging.disable();
+        console.log("selected in slider");
+    };
+    this._div.onmouseout = () => {
+        
+        map.dragging.enable();
+        console.log("selected in slider");
+    };
+        return this._div;
+    };
 
-    }
-});
-
-
-map.addControl(new customControl1());
-map.addControl(new customControl2());
+customControlYearSlider.addTo(map);
+customControlFloatType.addTo(map);
 
 // Year from 2012-2021 (as string) or 'allYears'
 //const yearToPlot = "2012";
