@@ -1,9 +1,15 @@
-#title{
-    width:100%; height: 15%;
+.box {
+    display: flex;
+    flex-flow: column;
+    height:100%;
+}
+.box #title{
+    /* The flex is short for 'flex-grow' 'flex-shrink' 'flex-basis', so here can't grow (value 0) can shrink (value > 0) and auto sized */
+    flex:0 1 auto;
     background-color: cornflowerblue;
 }
 
-#title h1{
+.box #title h1{
     font-family:'Skranji', cursive, sans-serif;
     font-size: 72pt;
     margin: 0px 0px;
@@ -12,23 +18,27 @@
     
 }
 
-#intro{
+.box #intro{
+    flex:0 1 auto;
     font-family: 'Fira Sans Condensed', sans-serif;
-    font-size:12pt;
+    font-size:13pt;
     margin: 10px 0px;
     background-color: antiquewhite;
     color:cornflowerblue;
-    color:
-    padding:5px 20px
+    padding:5px 20px;
+    line-height: 1.1;
+    
 }
 
 /*#wrapper{position: relative; top:15%; height: 85%; width: 100%}*/
-#map {
-    position: absolute; 
-    width:98%; 
-    top:30%; 
-    bottom:0;
-    margin: 0px 0px;
+.box #map {
+    /* Leaflet needs a defined height for the map, so this sets it for 800px.
+    This doesn't really work with the flex layout because it doesn't shrink and expand
+    (gives a scroll bar instead), but it DOES work well with the other content above it
+    when that's re-sized, so I think it's good as-is here.
+    */
+    height:800px;
+    flex:1 1 auto;
 }
 
 .slide-section{

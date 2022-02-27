@@ -421,7 +421,7 @@ fancyFloatCheck.addEventListener("change", redrawFloats);
 // This is the initial plot creation before any interaction
 createMapBackground();
 redrawFloats();
-
+map.invalidateSize();
 /*
 fetch('https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_allYears_v2.geojson')
 .then(function (response) {
