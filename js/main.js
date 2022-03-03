@@ -46,7 +46,7 @@ function createMapDataURL(sliderSelection){
     }
     console.log("Year selected is:");
     console.log(yearToPlot);
-    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v4.geojson";
+    let urlForData = "https://geohouse.github.io/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_" + yearToPlot + "_v4.geojson";
     return urlForData;
 }
 

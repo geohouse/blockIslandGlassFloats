@@ -107,7 +107,7 @@ def makeOutputFile_txt(year, locDict):
 # Create the output in geoJSON format (as a feature collection of point
 # features with different properties)
 def makeOutputFile_geoJSON(year, locDict):
-    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/summarized_fuzzyMatch_locationsFor_" + year + "_v4.geojson"
+    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_" + year + "_v4.geojson"
     sumEntries = 0
     jsonFeatureList = []
     # Sort by occurrence number of each location name descending
@@ -158,7 +158,8 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             # If there was another year's worth of entries encountered previously in the file, 
             # so process and output that one before moving to the next.
             if currYear != '':
-                makeOutputFile_txt(currYear, locationDict)
+                # Fully functional if needed, but commented out because only using geoJSON file output
+                #makeOutputFile_txt(currYear, locationDict)
                 makeOutputFile_geoJSON(currYear, locationDict)
                 locationDict = {}
                 currYear = stripLine
@@ -191,7 +192,6 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
                 # confidently looked-up
                 droppedLocationList.append(floatLocation_initial)
                 continue
-                floatLocation = floatLocation_initial
                 
             else:
                 # Use the fuzzMatched name as the dict key to find the corresponding site display name,
@@ -221,10 +221,12 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
             else:
                 allYearLocationDict[floatDictKey] = 1
     # Write the last year's of entries to a file
-    makeOutputFile_txt(currYear, locationDict)
+    # Fully functional if needed, but commented out because only using geoJSON file output
+    #makeOutputFile_txt(currYear, locationDict)
     makeOutputFile_geoJSON(currYear, locationDict)
     # Write the combined entries across all years to a file
-    makeOutputFile_txt('allYears', allYearLocationDict)
+    # Fully functional if needed, but commented out because only using geoJSON file output
+    #makeOutputFile_txt('allYears', allYearLocationDict)
     makeOutputFile_geoJSON('allYears', allYearLocationDict)
 
 # This is the tabulation output to judge how well the fuzzy matching worked for each entry.
