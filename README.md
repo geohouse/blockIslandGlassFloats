@@ -1,5 +1,5 @@
 # blockIslandGlassFloats
-Code to parse and map locations where glass floats have been found on Block Island, RI in order to see how the locations where regular and special floats have been found may have varied over the 10 years of the Glass Float Project, with the floats made by artists Eben Horton, Jennifer Nauck and the glassblowers at [The Glass Station Studio and Gallery](https://theglassstationstudio.com/collections/glass-float-project) in Wakefield, Rhode Island. [See the final website here (displays best using Firefox)](https://geohouse.github.io/blockIslandGlassFloats)
+Code to parse and map locations where glass floats have been found on Block Island, RI. I was interested in seeing whether the places on the island where regular (clear) and special (decorated) glass floats have been found may have varied over the 10 years of the Glass Float Project. The glass floats for this project are made by artists Eben Horton, Jennifer Nauck and the glassblowers at [The Glass Station Studio and Gallery](https://theglassstationstudio.com/collections/glass-float-project) in Wakefield, Rhode Island. [See the final website here (displays best using Firefox)](https://geohouse.github.io/blockIslandGlassFloats)
 
 ## How this was built
 
