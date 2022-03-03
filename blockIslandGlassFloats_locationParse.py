@@ -146,7 +146,7 @@ floatType = "Regular"
 # with otherwise clear locations so they can be used for mapping.
 droppedLocationList = []
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloatFoundYears_locs_fromWebsite_manuallyLocationCurated.txt", 'r', encoding='utf-8') as inFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/floatFoundLocations/BlockIsland_glassFloatFoundYears_locs_fromWebsite_manuallyLocationCurated.txt", 'r', encoding='utf-8') as inFile:
     for line in inFile:
         stripLine = line.strip()
         # If the line is a new year's worth of entries
