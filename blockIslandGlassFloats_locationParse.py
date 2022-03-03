@@ -33,7 +33,7 @@ masterLocationDict = {}
 # entry for a location (used to lookup the corresponding lat/lon for each site when making the output)
 locationBackIndexDict = {}
 
-with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\blockIsland_namedLocationList_with_lat_lon_v4.txt", 'r') as locFileIn:
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\namedLocationLists\blockIsland_namedLocationList_with_lat_lon_v4.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
         if line.startswith("matchLocation"):
@@ -231,7 +231,7 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
 
 # This is the tabulation output to judge how well the fuzzy matching worked for each entry.
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v5.txt", 'w') as fuzzyOutFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/placeNameFuzzyMatchOutcomes/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v5.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
