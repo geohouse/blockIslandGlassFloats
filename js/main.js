@@ -195,8 +195,10 @@ function createMapBackground(){
     console.log("The selected background is:");
     console.log(selectedBackground);
 
+    // Cap the zoom at 16, which is the max all of the backgrounds support.
     if (selectedBackground == "watercolor"){
         currentBackgroundLayer = L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+                maxZoom:16,
                 attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
         });
     }
@@ -209,11 +211,13 @@ function createMapBackground(){
     */
     if(selectedBackground == "aerial"){
         currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{
+                maxZoom:16,
                 attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
         });
     }
     if(selectedBackground == "topographic"){
         currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{
+                maxZoom:16,
                 attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
         });
     }
