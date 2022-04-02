@@ -114,3 +114,8 @@
 #slide-label {
     text-align: center;
 }
+
+#source{
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
