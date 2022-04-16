@@ -131,22 +131,22 @@ customControlYearSlider.onAdd = function(map){
     // doesn't pan the map at the same time)
     this._div.onmousedown = (e) => {
         map.dragging.disable();
-        console.log("selected in slider");
+        //console.log("selected in slider");
     };
     this._div.onmouseup = () => {
         
         map.dragging.enable();
-        console.log("selected in slider");
+        //console.log("selected in slider");
     };
     this._div.onmouseover = () => {
         
         map.dragging.disable();
-        console.log("selected in slider");
+        //console.log("selected in slider");
     };
     this._div.onmouseout = () => {
         
         map.dragging.enable();
-        console.log("selected in slider");
+        //console.log("selected in slider");
     };
         return this._div;
     };
