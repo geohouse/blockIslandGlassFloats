@@ -199,7 +199,7 @@ function createMapBackground(){
     if (selectedBackground == "watercolor"){
         currentBackgroundLayer = L.tileLayer('http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
                 maxZoom:16,
-                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>. | <a href="https://github.com/geohouse/blockIslandGlassFloats">This site\'s source code</a>'
         });
     }
     /* No longer used; topographic does a better job and gives more information    
@@ -212,13 +212,13 @@ function createMapBackground(){
     if(selectedBackground == "aerial"){
         currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{
                 maxZoom:16,
-                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
+                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a> | <a href="https://github.com/geohouse/blockIslandGlassFloats">This site\'s source code</a>',
         });
     }
     if(selectedBackground == "topographic"){
         currentBackgroundLayer = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{
                 maxZoom:16,
-                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a>',
+                attribution: 'Map tiles by <a href="https://usgs.gov">Department of Interior/USGS</a> | <a href="https://github.com/geohouse/blockIslandGlassFloats">This site\'s source code</a>',
         });
     }
     currentBackgroundLayer.addTo(map);
