@@ -193,7 +193,8 @@ function createMapBackground() {
   // Cap the zoom at 16, which is the max all of the backgrounds support.
   if (selectedBackground === "watercolor") {
     currentBackgroundLayer = L.tileLayer(
-      "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
+      //"http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
+      "https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
       {
         maxZoom: 16,
         attribution:
