@@ -80,6 +80,7 @@ marsh hawk hollow	Rodman's Hollow	41.157718	-71.587957
 martin property	Martin Trail	41.1653	-71.600145
 martin trail	Martin Trail	41.1653	-71.600145
 martin's point	Martin's Point	41.171917	-71.609271
+mazzur trail	Mazzur Trail	41.163566	-71.582476
 meadow hill	Meadow Hill	41.172852	-71.567883
 middle earth	Middle Earth	41.172052	-71.588881
 middle pond	Middle Pond	41.2145311	-71.574761

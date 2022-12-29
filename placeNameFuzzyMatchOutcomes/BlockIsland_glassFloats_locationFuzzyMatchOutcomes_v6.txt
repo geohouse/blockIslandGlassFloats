@@ -1,6 +1,6 @@
 originalEntry	fuzzyMatchedEntry	fuzzyMatchScore
 new shoreham	new shoreham	100
-mazzur trail	dickens farm trail	86
+mazzur trail	mazzur trail	100
 the maze	the maze	100
 turnip farm	turnip farm	100
 north light	north light	100
@@ -284,7 +284,6 @@ circle of rocks on mansion beach	mansion beach	90
 west beach in a chimney	west beach	90
 dodge farm	winfield dodge farm	90
 mohegan stairs	mohegan trail	81
-second bluffs trail	hyland trail	86
 trail across from fresh pond	fresh pond	90
 the greenway off of beacon hill road	beacon hill	90
 fresh pond preserve	fresh pond	90
@@ -899,7 +898,6 @@ hodge preserve behind the stone trail marker	hodge preserve	90
 cooneymus beach in a lobster trap	cooneymus beach	90
 beacon hill rd greenway	beacon hill	90
 cooneymus beach hidden in log wall	cooneymus beach	90
-trail off payne rd	hyland trail	86
 cemetery- up in a tree!	dodge cemetery	86
 dunn's bridge path	dunn's bridge	95
 beach avenue trails	beach avenue	90
@@ -946,7 +944,6 @@ west beach-breed property	west beach	90
 fresh pond trail under the shrubs near the pond	fresh pond	90
 floating in fresh pond	fresh pond	90
 crescent beach trail from corn neck rd	crescent beach	90
-trail off payne rd.	hyland trail	86
 first path on right going towards mohegan bluffs	mohegan bluffs	90
 the block island ferry boat	island cemetery	86
 wlkers welcome path off mohegan trail	mohegan trail	90
