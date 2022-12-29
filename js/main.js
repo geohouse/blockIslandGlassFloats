@@ -36,17 +36,17 @@ function filterFloatTypes(geoJsonFeature, floatTypeString) {
 function createMapDataURL(sliderSelection) {
   let yearToPlot = "";
   let yearToPlotNum = 0;
-  // Convert the selection to a year by adding 2011; will pull out 2022 (the current 'allYear' entry
-  // for data collected through 2021, below)
+  // Convert the selection to a year by adding 2011; will pull out 2023 (the current 'allYear' entry
+  // for data collected through 2022, below)
   yearToPlotNum = Number(sliderSelection) + 2011;
-  if (yearToPlotNum === 2022) {
+  if (yearToPlotNum === 2023) {
     yearToPlot = "allYears";
   } else {
     yearToPlot = String(yearToPlotNum);
   }
   console.log("Year selected is:");
   console.log(yearToPlot);
-  let urlForData = `https://geohouse.github.io/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_${yearToPlot}_v4.geojson`;
+  let urlForData = `https://geohouse.github.io/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_${yearToPlot}_v5.geojson`;
   return urlForData;
 }
 
@@ -81,10 +81,9 @@ slider.addEventListener("change", updateSlider);
 const customControlFloatType = L.control();
 
 customControlFloatType.update = function (properties) {
-  this._div.innerHTML =
-    '<form><input type="checkbox" id="regular" name="regular" checked>' +
-    '<label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>' +
-    '<label for="fancy">Fancy floats</label></form>';
+  this._div.innerHTML = `<form><input type="checkbox" id="regular" name="regular" checked>
+    <label for="regular">Regular floats</label><input type="checkbox" id="fancy" name="fancy" checked>
+    <label for="fancy">Fancy floats</label></form>`;
 };
 
 customControlFloatType.onAdd = function (map) {
@@ -107,21 +106,21 @@ customControlFloatType.onAdd = function (map) {
 const customControlYearSlider = L.control();
 
 customControlYearSlider.update = function (properties) {
-  this._div.innerHTML =
-    '<label id="slide-label" for="slider">Years to map</label><input type = "range" id = "slider" name = "slider" min="1" max="11" step="1" value="1">' +
-    '<div class="sliderTicks">' +
-    '<p class="sliderTick">2012</p>' +
-    '<p class="sliderTick">2013</p>' +
-    '<p class="sliderTick">2014</p>' +
-    '<p class="sliderTick">2015</p>' +
-    '<p class="sliderTick">2016</p>' +
-    '<p class="sliderTick">2017</p>' +
-    '<p class="sliderTick">2018</p>' +
-    '<p class="sliderTick">2019</p>' +
-    '<p class="sliderTick">2020</p>' +
-    '<p class="sliderTick">2021</p>' +
-    '<p class="sliderTick">All</p>' +
-    "</div>";
+  this._div.innerHTML = `<label id="slide-label" for="slider">Years to map</label><input type = "range" id = "slider" name = "slider" min="1" max="12" step="1" value="1">
+    <div class="sliderTicks">
+    <p class="sliderTick">2012</p>
+    <p class="sliderTick">2013</p>
+    <p class="sliderTick">2014</p>
+    <p class="sliderTick">2015</p>
+    <p class="sliderTick">2016</p>
+    <p class="sliderTick">2017</p>
+    <p class="sliderTick">2018</p>
+    <p class="sliderTick">2019</p>
+    <p class="sliderTick">2020</p>
+    <p class="sliderTick">2021</p>
+    <p class="sliderTick">2022</p>
+    <p class="sliderTick">All</p>
+    </div>`;
 };
 
 customControlYearSlider.onAdd = function (map) {
@@ -151,17 +150,16 @@ customControlYearSlider.onAdd = function (map) {
 const customBackgroundSelection = L.control();
 
 customBackgroundSelection.update = function (properties) {
-  this._div.innerHTML =
-    '<label id="background-label for=background-select">Choose a background map</label>' +
-    '<form id = "background-select">' +
-    '    <input type="radio" id="watercolor" name="background" value="watercolor" checked>' +
-    '    <label for="watercolor">Watercolor</label>' +
-    '    <input type="radio" id="topographic" name="background" value="topographic">' +
-    '    <label for="topographic">Topographic</label>' +
-    '    <input type="radio" id="aerial" name="background" value="aerial">' +
-    '    <label for="aerial">Aerial</label>' +
-    "</form>" +
-    "</div>";
+  this._div.innerHTML = `<label id="background-label for=background-select">Choose a background map</label>
+    <form id = "background-select">
+        <input type="radio" id="watercolor" name="background" value="watercolor" checked>
+        <label for="watercolor">Watercolor</label>
+        <input type="radio" id="topographic" name="background" value="topographic">
+        <label for="topographic">Topographic</label>
+        <input type="radio" id="aerial" name="background" value="aerial">
+        <label for="aerial">Aerial</label>
+    </form>
+    </div>`;
 };
 
 customBackgroundSelection.onAdd = function (map) {
@@ -174,7 +172,7 @@ customControlYearSlider.addTo(map);
 customBackgroundSelection.addTo(map);
 customControlFloatType.addTo(map);
 
-const backgroundSelector = document.getElementById("background-select");
+const backgroundSelector = document.querySelector("#background-select");
 function createMapBackground() {
   // Remove any current background layer if one exists.
   if (currentBackgroundLayer != undefined) {
