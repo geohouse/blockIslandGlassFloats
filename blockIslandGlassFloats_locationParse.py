@@ -9,7 +9,7 @@ from geojson import Point, Feature, dump
 
 print("test")
 
-yearList = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
+yearList = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
 currYear = ''
 
 # No longer coding in the script. Named areas and locations now being read in from file below.
@@ -33,7 +33,7 @@ masterLocationDict = {}
 # entry for a location (used to lookup the corresponding lat/lon for each site when making the output)
 locationBackIndexDict = {}
 
-with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\namedLocationLists\blockIsland_namedLocationList_with_lat_lon_v4.txt", 'r') as locFileIn:
+with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\namedLocationLists\blockIsland_namedLocationList_with_lat_lon_v5.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
         if line.startswith("matchLocation"):
@@ -82,7 +82,7 @@ def getNearestFuzzyMatch(inputLocationName, minScoreNeeded):
             return([])
 
 def makeOutputFile_txt(year, locDict):
-    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v5.txt'
+    outputFileName = 'summarized_fuzzyMatch_locationsFor_' + year + '_v6.txt'
     sumEntries = 0
     # Sort by occurrence number of each location name descending
     sortedLocationDict = {k: v for k, v in sorted(locDict.items(), key=lambda item: item[1], reverse = True)}
@@ -107,7 +107,7 @@ def makeOutputFile_txt(year, locDict):
 # Create the output in geoJSON format (as a feature collection of point
 # features with different properties)
 def makeOutputFile_geoJSON(year, locDict):
-    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_" + year + "_v4.geojson"
+    outputFileName = "C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/GeoJSON_files/summarized_fuzzyMatch_locationsFor_" + year + "_v5.geojson"
     sumEntries = 0
     jsonFeatureList = []
     # Sort by occurrence number of each location name descending
@@ -124,7 +124,7 @@ def makeOutputFile_geoJSON(year, locDict):
         floatLocation_lat = float(masterLocationDict[floatLocation_fuzzy]['lat'])
         floatLocation_lon = float(masterLocationDict[floatLocation_fuzzy]['lon'])
         floatNum = sortedLocationDict[key]
-        # is "Fancy" (some) "Regular" (most), "Pumpkin" (3), or "Rona" (2)
+        # is "Fancy" (some) "Regular" (most), "Pumpkin" (4), or "Rona" (2)
         floatType = key.split('~')[1]
         # geoJSON coords are lon, lat
         currFeature = Feature(geometry = Point((floatLocation_lon, floatLocation_lat)),
@@ -138,7 +138,7 @@ def makeOutputFile_geoJSON(year, locDict):
 
 
 # boolean for whether the current float is one of the first numbered ones of each year (and therefore is 
-# fancy or pumpkin or rona (for 2020))
+# fancy or pumpkin or rona (for 2020; pumpkin also for 2021))
 floatType = "Regular"
 
 # This is a list to keep track of the entries that were dropped because the fuzzy match
@@ -146,7 +146,7 @@ floatType = "Regular"
 # with otherwise clear locations so they can be used for mapping.
 droppedLocationList = []
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/floatFoundLocations/BlockIsland_glassFloatFoundYears_locs_fromWebsite_manuallyLocationCurated.txt", 'r', encoding='utf-8') as inFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/floatFoundLocations/BlockIsland_glassFloatFoundYears_locs_fromWebsite_2021_2022_added_122822_manuallyLocationCurated.txt", 'r', encoding='utf-8') as inFile:
     for line in inFile:
         stripLine = line.strip()
         # If the line is a new year's worth of entries
@@ -231,12 +231,12 @@ with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/
 
 # This is the tabulation output to judge how well the fuzzy matching worked for each entry.
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/placeNameFuzzyMatchOutcomes/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v5.txt", 'w') as fuzzyOutFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/placeNameFuzzyMatchOutcomes/BlockIsland_glassFloats_locationFuzzyMatchOutcomes_v6.txt", 'w') as fuzzyOutFile:
     fuzzyOutFile.write("originalEntry\tfuzzyMatchedEntry\tfuzzyMatchScore\n")
     for key in fuzzMatchedDict:
         fuzzyOutFile.write(key + "\t" + fuzzMatchedDict[key][0] + "\t" + fuzzMatchedDict[key][1] + "\n")
 
-with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/BlockIsland_glassFloats_locationDescriptsFailingFuzzyMatch_v5.txt", "w") as lookupFailFile:
+with open("C:/Users/Geoffrey House User/Documents/GitHub/blockIslandGlassFloats/placeNameFuzzyMatchOutcomes/BlockIsland_glassFloats_locationDescriptsFailingFuzzyMatch_v6.txt", "w") as lookupFailFile:
     for entry in droppedLocationList:
         lookupFailFile.write(entry + "\n")
 #print(floatLocation)
