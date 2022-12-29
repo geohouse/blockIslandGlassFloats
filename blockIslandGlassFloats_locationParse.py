@@ -36,6 +36,7 @@ locationBackIndexDict = {}
 with open(r"C:\Users\Geoffrey House User\Documents\GitHub\blockIslandGlassFloats\namedLocationLists\blockIsland_namedLocationList_with_lat_lon_v5.txt", 'r') as locFileIn:
     for line in locFileIn:
         # Skip the header line
+        # print(line)
         if line.startswith("matchLocation"):
             continue
         else:

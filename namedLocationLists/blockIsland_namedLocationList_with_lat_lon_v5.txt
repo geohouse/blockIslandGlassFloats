@@ -113,8 +113,8 @@ sachem pond	Sachem Pond	41.223155	-71.565804
 sacred labyrinth	Sacred Labyrinth	41.2171	-71.565827
 scotch beach	Scotch Beach	41.19002	-71.566262
 settler's rock	Settler's Rock	41.224669	-71.567472
-smilin' through	Smilin' Through 41.1636261	-71.5820954
-smiling through	Smilin' Through 41.1636261	-71.5820954
+smilin' through	Smilin' Through	41.1636261	-71.5820954
+smiling through	Smilin' Through	41.1636261	-71.5820954
 snake hole road	Snake Hole Road	41.14959	-71.577626
 solviken	Solviken Lot	41.17622	-71.56302
 southeast light	Southeast Light	41.153372	-71.551961
