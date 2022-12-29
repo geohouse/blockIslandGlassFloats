@@ -1,0 +1,676 @@
+
+2022
+550 hidden
+298 Floats found (26 colored)
+
+#4 - C. Carroll - new shoreham
+#6 - A. Read - Mazzur Trail
+#7 - L. Price - The Maze
+#8 - S. Klimstra - Turnip Farm
+#9 - T. Scaglione - North Light
+#10 - M. Feeney - North Light
+#11 - L. Dussinger - north Light
+#13 - O. Borge - Greenway trail
+#15 - T. Meinen - Hodge family wildlife preserve
+#16 - D. Iannucci - old mill road
+#17 - S. Morton - Beach avenue
+#17 - D. Isaacs - Rodman's Hollow
+#18 - B. Rusin - Clayhead Trail
+#18 - M. Orbivore - Southwest Point
+#19 - T. Serio - Harrison Trail
+#20 - S. Connelly - Enchanted Forest
+#21 - N. McCaffrey - Bonnell beach
+#22 - J. Swank - beacon hollow
+#24 - D. Londregan - Enchanted Forest
+#25 - A. Custer - Manisses Monument
+#28 - J. Scheiber - West Beach
+#40 - C. Jacovides - The maze
+#41 - S. Pai - meadow hill
+#42 - L. Blessing - Clayhead Trail
+#43 - P. Kolln - West beach
+#44 - E. Barrett - the Maze
+#45 - G. Smith - Beach Ave
+#48 - A. Boucher - dorry's cove
+#50 - M. Moynihan - Greenway
+#51 - S. Gunzel - Dorry's Cove
+#52 - K. Bradshaw - Gracie's cove
+#53 - S. West - Greenway
+#54 - G. Tibbetts - Meadow Hill
+#57 - E. Williams - Enchanted Forest
+#58 - C. Scarcello-Miller - Cooneymus Beach
+#59 - D. Pettitt - Gaffney trail
+#60 - B. McCadden - Old Mill Road
+#61 - A. Riccio - Martin property
+#62 - M. Starke - Women's bathroom on ferry
+#65 - Z. Fiumara - Mansion Beach
+#67 - S. Iannone - Ocean View Pavilion
+#68 - M. Krieg - Clay Head Nature Trail
+#69 - J. Hoder - Grace's Cove
+#70 - N. Barnicoat - new shoreham
+#71 - B. Manseau - Cooneymus Beach
+#74 - C. Benjamin - Ocean View Pavillion
+#76 - R. Lyons - old mill road
+#77 - J. Tooher - Clay head Trail
+#81 - M. Maust-Mohl - Dinghy beach
+#82 - A. Tani - Nathan Mott trail
+#85 - M. Oliveira Duval - legion park
+#88 - A. Schill - Beach Avenue
+#90 - B. Johnson - Dorry's Cove Beach
+#91 - B. Chase - Lisa Sprague's Farmstand
+#93 - D. DeMilia - new shoreham
+#94 - D. Morander - cooneymus beac
+#96 - K. Emmart - hodge family wildlife preserve
+#97 - C. Steinberg - Greenway
+#98 - D. Marchini - Greenway
+#101 - K. C - Andy's Way
+#103 - C. Robinson - Nathan Mott Park
+#106 - J. Vaillancourt - West Beach
+#107 - R. Gunzel - The Maze
+#108 - K. Tanguay - Transfer Station beach
+#109 - H. Dingman - Nathan Mott Park
+#110 - M. Sandoval - corn neck road
+#111 - B. NUHN - Dory's Cove
+#112 - N. MORAND - West Beach
+#114 - D. Marye - West beach
+#115 - D. Morel - Mosquito beach
+#117 - S. Fleming - Rodman's Hollow
+#118 - R. Johnson - Dory's Cove
+#119 - J. Bruno - Rat island
+#124 - S. Gardner - Fresh Swamp
+#127 - L. Ardigliano - Nathan Mott Park
+#128 - K. Melahn - dodge cemetery
+#130 - M. McNeill - Payne Farm Trail
+#132 - D. McDonough - Dory's Cove
+#133 - S. Ebdon - Beach Avenue
+#134 - D. Hintz - Dory's Cove
+#135 - S. Pettitt - Martin trail
+#136 - D. Ciok - Rodman's hollow
+#137 - M. King - Secrets
+#139 - S. Hayes - the Maze
+#140 - N. Hedgcorth - The Maze
+#141 - L. Price - Rodman's hollow
+#143 - S. Jezek - The Maze
+#145 - A. Higgins - Meadow Hill
+#148 - E. Watson - Turnip Farm
+#149 - T. Kolln - West Beach
+#150 - L. Brown - coast guard beach
+#153 - T. Sisson - GreenWay
+#154 - E. Walsh - Clay head Trail
+#155 - C. High - Harrison Trail
+#155 - D. Tremblay - Vaill Beach
+#156 - O. Smith - Greenway
+#157 - D. Foley - Greenway
+#158 - G. Kunkel - Enchanted Forest
+#159 - J. Weinstein - Fresh Pond
+#160 - J. Howell - cooneymus beach
+#161 - A. Alsup - the maze
+#165 - T. Kearns - sacred labyrinth
+#167 - T. Jameson - the Maze
+#176 - J. Hassett - lewis-dickens farm
+#177 - D. Gross - sacred Labyrinth
+#182 - G. Magnano - Old Mill Road
+#183 - M. Sageser - sacred labyrinth
+#185 - K. Long - The Maze
+#186 - A. Doherty - Old Mill Road
+#187 - C. Gordon - Secret Trail
+#196 - J. Hall - new shoreham
+#197 - D. Holmes - Andy's Way
+#199 - S. Wagner - Greenway
+#202 - K. Wadds - Beach Ave
+#203 - K. Merrill - Clayhead
+#214 - D. Ballek - the maze
+#221 - A. Gage - dodge cemetery
+#226 - W. Pottgen - Cooneymus Beach
+#227 - B. Tucker - Win dodge
+#228 - L. Valenti - Old Mill road
+#228 - M. Kathleen - greenway
+#229 - M. Moyers - Lewis-Dickens Farm Nature Preserve Trail
+#230 - C. Murphy - Enchanted Forest
+#231 - S. Stohr - Hodge Preserve
+#233 - J. Hill - Lewis-Dickens Farm Nature Preserve
+#234 - K. Valente - Win Dodge Preserve
+#236 - C. Domurat - Lewis-Dickens Farm Nature Preserve
+#237 - L. Harrison - Beach Ave Trail
+#242 - A. Gaffney - Dory's Cove
+#299 - S. King - Rodman's Hollow
+#304 - M. Sulima - Rodman's Hollow
+#305 - J. Costanza - Rodman's Hollow
+#306 - M. Sylvester - Rodman's Hollow
+#307 - M. Haddad - Fresh Pond
+#308 - R. Newman - Fresh pond
+#309 - K. Gedicke - Fresh Pond
+#310 - D. Whitton - Fresh pond
+#312 - C. Balavender - fresh pond
+#313 - J. K - Fresh Pond
+#315 - W. Rioux - Fresh Pond
+#317 - A. Cassidy - Rodman's Hollow
+#319 - M. Konstantin - Rodman's Hollow
+#320 - A. Palmer Pahnke - Rodman's Hollow
+#321 - A. Lipsitz - Rodman's Hollow
+#322 - M. Medeiros - Fresh pond
+#323 - N. Thornberry - Smilin' Through
+#324 - T. Arcement - Rodman's Hollow
+#325 - S. Gibbons - rodman's hollow
+#327 - M. Ebling - Rodman's Hollow
+#328 - A. Fuchs - Rodman's Hollow
+#329 - S. Graham - Fresh Pond
+#330 - M. Shields - Jones trail
+#331 - M. Matsen - Fresh pond
+#332 - R. Pettitt - Fresh Pond
+#333 - D. Carpenter - Fresh pond
+#335 - K. Baldwin - Rodman's Hollow
+#339 - C. Cousins - Rodman's Hollow
+#340 - J. Hanrahan - Rodman's Hollow
+#341 - F. Bernabe - Rodman's Hollow
+#343 - L. Szwed - Fresh pond
+#344 - H. Allan - Rodman's Hollow
+#345 - J. Kornacki-Smith - Rodman's Hollow
+#346 - B. OConnor - Fresh Pond
+#347 - L. Ray - Jones Trail
+#348 - G. Family - Rodman's Hollow
+#349 - G. Merrigan - Rodman's Hollow
+#350 - N. Thompson - Rodman's Hollow
+#351 - C. Beil - Fresh Pond
+#352 - S. Costello - Black Rock Road
+#354 - K. Luongo - Ocean Avenue
+#356 - P. Freshman - great Salt Pond
+#357 - S. St Lawrence - Coast Guard Beach
+#359 - J. Sowell - Ocean Ave
+#360 - S. Cantone - Beacon hill
+#361 - G. D - Greenway
+#362 - D. Tuschick - James Lane
+#363 - K. Brunner - Greenway
+#365 - L. Aparo - Enchanted Forest
+#366 - H. Sowell - Greenway
+#367 - J. Golon - Enchanted Forest
+#368 - T. Brown - Coast guard beach
+#370 - M. Pimer - new shoreham
+#371 - C. Cassese - Harrison Trail
+#378 - K. Palmer - Hodge Family Wildlife Preserve
+#379 - T. Rugani - Beach avenue
+#382 - L. Izzi - Coast guard beach
+#392 - J. Curtin - Mohegan bluffs
+#393 - S. Clark - Sacred Labyrinth
+#394 - K. Packard - Rodman's Hollow
+#396 - R. Szost - Hodge Preserve
+#397 - D. Ladouceur - Rodman's Hollow
+#404 - A. Bathke - Clay Head
+#406 - D. Ebling - Maze
+#406 - L. Edwards - New Shoreham
+#407 - M. Morreale-Karl - Clay Head Trail
+#408 - D. Groccia-Lubik - Clayhead Trail
+#411 - L. Santini - ballard's beach
+#412 - C. Nelson - solviken
+#413 - H. Weaver - Nathan Mott Park
+#415 - D. Roczniak - Gaffney Trail
+#419 - M. Rizzo - Solviken
+#420 - J. Cass/Bassett - mohegan bluffs
+#420 - G. San - A boot
+#421 - S. Rupa - Scotch beach
+#422 - A. Helfand - scotch beach
+#424 - B. Johnson-Latrella - loffredo Loop
+#426 - J. Peterson - Turnip Farm
+#427 - F. Zerilli - new shoreham
+#428 - M. Bourdon - beach ave
+#429 - B. Salvatore - Dory's Cove
+#430 - R. Michalski - Beach Avenue
+#431 - C. McGratty - Clayhead trail
+#432 - D. Chiavaroli - Martin property
+#434 - S. Braun - Ray Durfee Lot
+#435 - J. Washington - Meadow Hill
+#437 - B. Wills - fred benson town beach
+#438 - S. Corbett - Carey Walsh Trail
+#439 - K. MacDonald - Meadow Hill
+#440 - K. Scott - payne overlook
+#441 - C. Kauffman - Enchanted Forest
+#442 - W. Pisciotta - NATHAN MOTT
+#443 - S. Ferraro - Loffredo loop
+#444 - J. Crocker - Long lot trail
+#445 - L. Zuares - Dinghy Beach
+#447 - A. Smith - Attwood Overlook
+#448 - C. Gilley - Greenway
+#449 - A. Washington - Meadow Hill
+#451 - L. Curtis - North Light
+#452 - K. Giangaspro - Solviken
+#453 - K. Townsend - Dinghy Beach
+#454 - K. Terpening - dory's cove
+#457 - M. Rosato - North light
+#458 - D. Morel - mohegan bluffs
+#460 - S. Walsh - old harbor point
+#461 - M. Richardson - Scotch beach
+#462 - S. Bambino - Payne farm trail
+#464 - G. Izard-Dann - Mansion Beach
+#465 - G. Glomb - nathan mott trail
+#466 - H. Bambino - Mohegan Bluffs
+#467 - S. Forsyth - Turnip farm
+#469 - J. Pottgen - Middle Earth
+#472 - V. Ellis - North Light
+#473 - L. Willey - payne overlook
+#475 - A. Kaehrle - hodge family wildlife preserve
+#476 - L. Mott - Turnip farm
+#477 - S. Pottgen - Turnip Farm
+#479 - J. Valenti - Grace's Cove
+#480 - H. CROSS - ballard's beach
+#481 - P. Turner - Enchanted forest
+#482 - A. Keith - fred benson town beach
+#486 - D. Lewis Jr - Ocean View Pavilion
+#488 - B. Fong - Rodman's Hollow
+#489 - L. Souders - Rodman's Hollow
+#490 - L. Ardigliano - rehidden. HINT: Fats was here
+#496 - B. Taylor - Mohegan Bluffs
+#498 - S. Hathaway - The Maze
+#502 - J. Pritchyk - Clay Head Trail
+#503 - C. Johnson - Clayhead trail
+#504 - L. O'Reilly - Clay Head Trail
+#505 - K. Family - Clay Head Trail
+#509 - S. Broderick - Clay Head Trail
+#510 - R. Humowiecki - win dodge
+#511 - S. Delano - Fresh Pond
+#512 - L. Moran - Hodge family wildlife preserve
+#513 - S. Jezek - Clay head trails
+#515 - H. Shephard - Hodge Family Wildlife Preserve
+#516 - A. Ford - Payne Road Greenway
+#517 - B. Lowell - Fresh Swamp
+#518 - J. Cappy - Fresh swamp preserve
+#519 - K. Herold - Hodge Family Wildlife Preserve
+#520 - D. Miller Jackson - Dodge Wildlife Preserve
+#522 - S. Sullivan - Rodman's Hollow
+#523 - K. Lindung - Clayhead Trail
+#524 - M. Herold - Nature preserve
+#524 - M. Herold - Nature preserve
+#525 - M. Dolitsky - hodge family wildlife preserve
+#526 - M. Harrigan - hodge family wildlife preserve
+#527 - M. TurcoQuaratella - Greenway
+#528 - R. Hokanson - payne farm trail
+#529 - E. Iverson - Fresh Swamp
+#536 - J. Hall - West Beach
+#537 - S. Jones - North Light
+#538 - L. Sharpe - North Light
+#539 - B. Gyesky - Mosquito Beach
+#540 - L. Moffitt - scotch beach
+#541 - B. Dain - North Light
+#542 - G. Lindstrom - north light
+#544 - E. Falcioni - Old Island Pub
+#547 - M. Adams - Win Dodge
+#550 - M. Abraham - west beach
+#553 - J. Laflamme - smilin' through
+#555 - C. Baute - Dog Cemetery
+#557 - A. Fowler - the Maze
+#558 - M. Hovis - Clay Head trail
+#561 - K. Nelson - Pumpkin float turnip farm
+#562 - L. Almstrom - Southwest light
+#563 - M. Sonder - the maze
+#564 - S. Rathbun - Dodge Cemetery
+
+2021
+550 hidden
+369 Floats found (15 colored)
+
+#1 - J. Circone - transfer station
+#2 - E. A. - rodman's hollow
+#3 - D. Carpenter - lewis-dickens farm
+#4 - M. Karasevicz - bonnell beach
+#5 - J. Kofron - spring street
+#7 - J. Calabro - Turnip Farm
+#10 - B. McKeon - Beach Avenue
+#12 - M. Savo - Leffredo Loop
+#12 - A. Nelae - mohegan bluffs
+#13 - D. Townson - Woods Pond
+#14 - J. Plotzke - martin property
+#15 - E. Brooks - Hyland Trail
+#16 - D. Holmes - Near Fresh Pond
+#17 - D. Kroon - grace's cove - Fancy_2021_17
+#18 - W. Peterson - Greenway
+#22 - B. Wilson - New Shoreham
+#23 - O. Penczak - ballard's beach
+#25 - J. Keith - beach avenue
+#26 - M. Littlefield - In a boot
+#27 - J. Levey - Win Dodge Preserve
+#28 - J. DeMaggio - clay head trail
+#29 - D. Watring - clay head trail
+#30 - S. Clark - Greenway
+#31 - S. Benoit - Dodge preserve
+#33 - S. Patterson - Mohegan Bluffs Overlook
+#35 - D. Patterson - southeast light
+#36 - A. Miller - Overlook Mohegan
+#37 - G. D - cooneymous trail
+#38 - D. Castellone - Greenway near bench
+#41 - K. Morley - 2nd bluffs
+#42 - M. Valenti - Fresh Swamp
+#43 - M. Teichner - Magellan's Tree Trail
+#44 - R. Torres - Ocean View Pavilion
+#46 - G. Bowt - Scotch beach path
+#47 - D. Nigrelli - Maze in a tree
+#48 - B. Lowell - The Maze behind stone wall!
+#49 - J. Valenti - Fresh Swamp
+#50 - G. Pettitt - Long Lots
+#53 - D. Morel - Greenway
+#54 - H. Buhler - Ocean View Pavilion
+#55 - K. Brennan - old mill road
+#56 - D. Iannucci - Greenway trail off beacon hill
+#57 - K. Vaast - Tree, near Enchanted Forest
+#58 - J. Dix - The Maze
+#59 - J. Mahoney - fresh pond
+#60 - J. Piccarillo - sachem pond
+#61 - N. Daignault - fresh pond
+#62 - C. Russo - The maze
+#63 - A. Cooper - Greenaway trail behind stone wall
+#64 - B. Nelligan - Long Lots/The Maze
+#66 - G. Liacouras - martin property
+#69 - S. Daignault - Fresh Pond
+#70 - K. C - In a tree near the gazebo
+#71 - B. Berube - Turnip Farm
+#72 - C. Black - Turnip Farm
+#73 - K. Thomas - baby beach
+#78 - A. Sylvester - Greenway north of Beacon Hill
+#79 - J. Katz - Mazzur Trail
+#80 - R. Pettitt - marsh hawk hollow
+#81 - M. Moynihan - Mott Nature Trail
+#82 - J. Foster Green - Loffredo Loop
+#85 - H. Kilmartin - Black Rock Road
+#86 - S. Mahoney - Fresh Pond
+#87 - J. Brothers - Rodman's Hollow
+#88 - B. Murphy - Rock wall near fresh pond
+#89 - L. Costantini - Fresh Pond in grass
+#90 - G. Lang - Rodman's Hollow
+#91 - V. Allison DiMenna - Fresh Pond
+#92 - G. Valenti - Fresh Pond
+#94 - A. Fillion - Rodman's hollow
+#96 - S. Kiendzior - Rodman's hollow
+#97 - B. Lyons Jr - Rodman's Hollow in a tree
+#98 - J. Sarkisian - Rodman's Hollow
+#99 - S. Riley - Fresh Pond
+#100 - C. Beil - Rodman's Hollow Short Loop
+#101 - E. Bullock - rodman hollow side of trail
+#102 - K. Doherty - Fresh Pond
+#103 - S. Flynn - Rodman's Hollow, near Peckham Farm
+#104 - E. Flynn - Fresh Pond
+#105 - A. DiMenna - Rodman's hollow
+#106 - L. Fiala - Rodman's Hollow
+#107 - J. Macomb - Fresh Pond
+#109 - D. Black - Rodman's Hollow
+#110 - E. Blakney - Rodman's Hollow
+#111 - H. Delaney - Rodman's Hollow/Jones Trail
+#113 - R. Hollis - Rodman's Hollow
+#114 - M. Sharma - Greenway Trail
+#116 - D. Bates - Jones Trail
+#117 - S. Henshaw - Rodman's Hollow
+#118 - S. Kamykowski - Andy's Way
+#120 - M. Berry - Fresh Pond
+#121 - C. Briscoe - Rodman's Hollow
+#122 - K. McMahon - Fresh Pond
+#123 - C. Balsamo - Rodman's Hollow
+#124 - J. Freidman - Rodman's Hollow
+#125 - J. Laney - Rodman's Hollow
+#126 - T. Family - Jones Trail
+#127 - L. Blitzen - The Maze
+#127 - L. Price - Fresh Pond
+#128 - H. Tiernan - fresh pond
+#129 - S. Gunzel - Rodman's Hollow
+#130 - C. McVerry - Rodman's Hollow
+#131 - N. Rosa - Rodman's hollow
+#132 - A. Theriault - Roadman's Hollow
+#133 - A. Socas - great salt pond
+#134 - C. McGee - Rodman's Hollow
+#135 - E. DeLorenzo - Fresh pond area
+#136 - M. Samuelson - pilot hill road
+#137 - S. Altieri - bi greenway
+#139 - L. Ardigliano - rodman's hollow
+#140 - J. Prudhomme - Greenway
+#143 - D. Riccio - dorry's cove
+#144 - J. Moore - Scotch beach
+#145 - A. Gaissl - Greenway
+#147 - C. Whitney-Pickett - The Maze
+#148 - S. Foster - 1661 Farm
+#150 - P. P - Rat Island
+#151 - S. Starr - Rodmans Hollow
+#154 - K. Payne - andy's way
+#155 - M. Nigh - Mohegan Trail
+#156 - S. Swider - Long Lot Trail
+#157 - D. Roczniak - new shoreham
+#158 - L. Jones Aparo - The Maze
+#159 - D. Vieira - mohegan bluffs
+#163 - S. Black - Inside rusty can, inside hollow tree on beach
+#164 - B. P - Andy's Way
+#165 - N. Clark - Old Bluffs Overlook
+#166 - R. Smith - Meadow Hill
+#168 - L. Yena - Meadow Hill
+#169 - N. Bauer - The Maze
+#172 - K. Goodwin - Crescent beach
+#173 - C. Birk - the Maze
+#175 - M. Ward - dorry's cove
+#176 - L. Valenti - The Maze
+#177 - J. Bright - greenway trail
+#178 - C. Holmes - Clayhead trail
+#181 - E. Collard & Austin - Breed Land Trail
+#182 - W. Price - The Maze
+#183 - K. Burchell - Maze
+#184 - G. Barnett - Nathan Mott Trail
+#185 - L. Kowal - The maze
+#188 - D. Caja - new shoreham
+#191 - K. McNamara - Pilot Hill Road
+#193 - B. Teich - Rodman's Hollow
+#194 - G. Tsakraklides - the maze
+#195 - T. Slye - Rodman's Hollow Trail
+#196 - J. Clarke - The Maze
+#198 - A. Weissleder - The Maze
+#199 - S. Warcup - Nathan Mott
+#201 - G. Price - The Maze
+#205 - C. Lloyd - Black Rock beach
+#206 - V. Valenti - Nathan Mott Park
+#207 - T. Andrianambinina - ocean view pavilion
+#208 - M. Colandrea - Fresh pond
+#210 - M. Flomenhaft - Lewis Dickens trail
+#212 - S. Sohl - Legion Park
+#213 - C. Rydingsward - jones trail
+#215 - K. Allen - Rodman's hollow
+#216 - G. Megenis - Abrams Animal Farm
+#217 - J. Hutchinson - Middle Pond Trail
+#218 - J. Smith - Meadow Hill Trail
+#219 - W. Selig - West Beach trail
+#220 - K. Geller - Fred Benson Town Beach
+#221 - K. McCaffery - Grace's Cove
+#222 - J. Drenga - Fred Benson Town Beach
+#225 - H. Dickerson - Maze
+#227 - G. Horne - Schooner point
+#228 - C. Connors - Black Rock Beach
+#230 - D. E Roosa - East Beach
+#231 - L. Farmer - Greenway Trail
+#232 - E. Yatco - The Maze
+#233 - M. Leveille - Enchanted forest
+#234 - E. Brayshaw - Greenway trail
+#237 - L. Plitnick - Black Rock Beach
+#238 - G. Mott - Clay Head
+#238 - J. Nasznic - Greenway
+#239 - S. Doran - Rodmans Hollow
+#240 - A. Russack - Black Rock Trail
+#241 - L. Baker - cooneymus beach
+#246 - C. Levy - cooneymus beach
+#249 - P. McKee - Grace's cove
+#251 - A. Koch - Fresh swamp
+#252 - B. Kell - Harrison loop
+#252 - B. Kell - Harrison loop
+#254 - H. Neil - Winfield Dodge Farm
+#256 - J. Hill - lewis-dickens farm
+#258 - T. Leo - Rodman hollow
+#262 - M. Hull-Shea - gift
+#263 - J. Koziol - Martins Trail
+#264 - C. Chodosh - Old mill road
+#265 - E. DeFalco - cooneymus beach
+#266 - M. Robinson - fresh pond
+#268 - M. Alexander - lewis-dickens farm
+#269 - D. Cook - Fresh Pond
+#273 - E. Chase - North Light
+#274 - C. Sedon - lewis-dickens farm
+#275 - T. Moran - Rodman's Hollow
+#276 - D. Nigrelli - hodge family wildlife preserve
+#277 - A. Blessing - Clayhead trail!
+#278 - A. Queer Block Island - Win Dodge
+#280 - J. Hoover - payne road greenway
+#281 - E. Smith - Attwood Overlook
+#282 - B. Porter - Rodman's Hollow
+#283 - E. Post - Fresh Pond trail
+#283 - S. Hilger - Old Mill road
+#284 - M. Nolan - Rodman's Hollow
+#286 - S. Klimstra - payne farm trail
+#287 - L. Smith Liacouras - Greenway
+#288 - J. Hutchinson - Middle Pond Trail
+#289 - M. Little - Mansion Beach
+#291 - S. Blank - Jones Trail
+#292 - M. McManus - Rodman's hollow
+#293 - D. Morel - Lewis-Dickens Farm Preserve
+#294 - A. Sannicandro - corn neck road
+#295 - D. Glatthorn - Scotch Beach
+#297 - C. Adams - hodge family wildlife preserve
+#300 - J. Richmond - coast guard beach
+#302 - D. Waggoner - Hodge Family Wildlife Preserve
+#303 - B. Rambone - The Sacred Labyrinth
+#304 - J. Rushford - Fresh pond
+#305 - J. Seddon - Rodman's Hollow
+#306 - M. Duval - Labyrinth
+#309 - J. Mezlo - Rodman's Hollow
+#310 - D. Hayde - Rodman's Hollow
+#311 - C. Russell - Mohegan bluff lookout
+#313 - J. Hutchinson - Middle Pond Trail
+#315 - M. Gaffney - dory's cove
+#317 - C. Casazza - dory's cove
+#319 - K. Mccutchan - Coast Guard station
+#319 - K. Mccutchan - Coast Guard Beach
+#322 - B. Ziobro - legion park
+#323 - H. Place - Grace's Cove
+#324 - K. Mello - Rodman's hollow
+#326 - B. Cheeney - Mohegan bluffs
+#330 - M. Petti - Rodman's Hollow
+#331 - B. Kelly-Nicastro - enchanted forest
+#332 - D. Roosa - ocean view pavilion
+#335 - K. Hough - Enchanted Forest
+#339 - G. Magnano - Lofreddo Loop
+#340 - L. Stoytchev - Southeast light
+#344 - J. Lee - Mott property
+#345 - H. Family - new shoreham
+#349 - M. Rahn - Harrison Trail
+#350 - K. Sabatino - Lewis-Dickens Farm
+#351 - H. Black - Turnip Farm
+#355 - J. Newman - Old Pet Cemetery
+#356 - J. Phelps - Trail
+#358 - K. Anthony sammartano - legion park
+#361 - C. DeSousa - Dodge Cemetery
+#362 - O. Merolle - Old Mill Road
+#364 - T. Serio - Beach Ave
+#365 - C. Holland - Martin Trails
+#367 - D. Chiavaroli - Grace's Cove
+#368 - A. Thompson - Clay head trail
+#371 - A. Foulkrod - turnip farm
+#373 - H. Lemos - cooneymus beach
+#374 - A. MacDonnell - nathan mott park
+#375 - J. Bernier - Rodman's Hollow Trail
+#377 - S. Smiley - Beach Avenue
+#379 - A. Lyons - Gracies Cove
+#380 - K. Flanagan - Window sill in Mystic, CT
+#382 - L. Naarden - beach ave
+#384 - M. Costello - Visitor Center
+#390 - S. Moran - Trim's pond
+#393 - B. Kelly - Fresh Swamp
+#394 - C. DePari - Southeast light
+#397 - E. Emgushov - Harrison Loop
+#399 - L. Connolly - Marsh Hawk Hollow
+#400 - A. McManus - Rodman's Hollow
+#402 - M. Magnano - Old Mill road
+#404 - M. Hough - Enchanted Forest
+#407 - S. St Lawrence - Rodman's Hollow
+#412 - K. Arnold - Great Salt pond
+#414 - J. DelFino - Black Rock beach
+#415 - I. Ariel - trim's pond
+#416 - T. J - Turnip Farm
+#417 - A. Read - Fresh Pond
+#418 - S. DeAngelis - Nature Path by Nature Conservancy Gazebo
+#419 - A. Gurtowsky - Payne's Overlook
+#420 - J. Brightman - hodge family wildlife preserve
+#421 - B. Simkins - Old Mill Road
+#422 - E. Williams - Andy's way
+#423 - M. Murphy - Cannon at Legion Park
+#424 - G. Raffa - hodge family wildlife preserve
+#426 - J. Laney - Found in July 2022. In a tree near Middle Earth.
+#427 - R. Stover - fire department
+#429 - R. Burdick - Clay head trail
+#431 - J. Sundell - Sand by a walkway down from the pizza truck
+#434 - J. McMahon - West Beach
+#435 - M. Berge - Mohegan Bluffs
+#436 - P. Young - The beach ?
+#437 - J. Marshall - Beach Avenue
+#438 - A. Correia - hodge family wildlife preserve
+#439 - D. Elsworth - Mohegan bluffs
+#440 - A. Queer Block Island - dodge cemetery
+#441 - T. Nigrelli - West Beach
+#443 - L. Nigrelli - Rodman's Hollow
+#444 - D. Berthiaume - Second Bluffs
+#447 - M. Obivore - Win Dodge
+#448 - L. Farrell - Clay head trail
+#450 - G. Swienton - settler's rock
+#451 - M. Casey - Southeast Light
+#452 - R. Richardson - Scotch Beach
+#453 - S. Brightman - hodge family wildlife preserve
+#456 - G. Andrews - Greenway
+#457 - A. Johnson - West Beach
+#458 - M. Blake - Beach in front of the national
+#460 - C. Renne - Fresh swamp
+#463 - J. Hovanec - Dickens trail
+#464 - G. Birke - Southeast Light
+#465 - J. Rojas - Fred Benson Town Beach
+#466 - P. Dansereau - Greenway
+#468 - A. Diclemente - Clay head trail
+#469 - L. Salcedo - Rebecca Statue
+#470 - M. Goodmaster - new shoreham
+#471 - T. OConnor - payne overlook
+#473 - C. Keen - Clayhead Trail
+#474 - A. Panton-Lula - South East Lighthouse Rock
+#476 - J. Shakeri - hodge family wildlife preserve
+#478 - J. Marshall - 'indian' cemetery
+#479 - A. Mullen - Hyland Trail
+#482 - S. Hooper - Nathan Mott Park
+#482 - D. Morel - dinhgy beach
+#483 - E. Auer - Labyrinth
+#484 - K. Carey - new shoreham
+#485 - E. Rabby - legion park
+#486 - G. Swain - Andy's Way
+#487 - E. Baish - Fresh Swamp
+#488 - C. Wadelin - New Harbor
+#491 - T. Davis - Hodge family wildlife preserve
+#492 - I. Aboelnour - Scotch Beach
+#494 - N. Emrick - Clayhead Trail
+#495 - S. Bratko - new shoreham
+#497 - T. Owen - Greenaway
+#500 - L. Santarpio - Ocean Ave
+#501 - M. Carter - Crescent Beach
+#502 - C. Pike - Dinghy Beach
+#503 - T. Sanford - Andy's Way
+#509 - B. Elgart - clay head trail
+#510 - A. Only - West beach
+#511 - T. Dillon - Scotch Beach
+#514 - B. Lees - Great Salt Pond
+#515 - J. Sordillo - beane point
+#516 - D. Matera - new shoreham
+#517 - T. Asaro - Crescent beach
+#518 - A. Doll - fred benson town beach
+#519 - S. Hatter - Mohegan Bluffs
+#520 - A. Arms - Mohegan Bluff
+#521 - S. DelCastillo - Rodmans hollow
+#523 - K. Eichelberg - Clayhead Trail
+#524 - J. Eckert - Pebbly Beach
+#525 - B. Cooper - Greenway trail
+#529 - M. McIntyre - ballard's beach
+#530 - L. Dunham - Spring pond
+#531 - R. Naughton - Island Cemetery
+#532 - D. Jezek - Greenway Trail
+#533 - J. Albert - The Maze
+#535 - C. Badolato - legion park
+#536 - R. Cordano - Clayhead Trail
+#538 - M. Goodmaster - Walkers Welcome
+#539 - A. Rodriques - Hodge preserve
+#541 - C. Jones - Mohegan Bluffs
+#542 - S. Ariel - Harrison Trail
+#543 - D. Duarte - Tom's point
+#545 - M. Morrissette - The Maze
+#548 - S. Goldbach - Crescent Beach
+#549 - J. Wielblad - Dinghy Beach
+#550 - L. Hasselmann - Scotch Beach
