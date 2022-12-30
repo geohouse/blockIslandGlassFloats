@@ -1,108 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!--Makes a Twitter Card that appears in any Tweet with a link to the site-->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@geohouseblend">
-        <meta name="twitter:creator" content="@geohouseblend">
-        <meta name="twitter:title" content="Interactive map - Glass floats on Block Island, RI">
-        <meta name="twitter:description" content="Each summer since 2012, Eben Horton and others with the Block Island Glass Float Project hand-make and hide hundreds of glass floats around Block Island to be found by 'orbivores' (people who celebrate finding their 1 orb to keep per year).">
-        <meta name="twitter:image" content="https://geohouse.github.io/images/BlockIslandGlassFloat_thumbnail_v4.png">
-        
-        <!--Import Google font for the title-->
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap&text=Block%20Island%20Glass%20Floats');
-        </style> 
-        <title>Block Island float location map</title>
+  <head>
+    <meta charset="utf-8" />
+    <!--Makes a Twitter Card that appears in any Tweet with a link to the site-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@geohouseblend" />
+    <meta name="twitter:creator" content="@geohouseblend" />
+    <meta
+      name="twitter:title"
+      content="Interactive map - Glass floats on Block Island, RI"
+    />
+    <meta
+      name="twitter:description"
+      content="Each summer since 2012, Eben Horton and others with the Block Island Glass Float Project hand-make and hide hundreds of glass floats around Block Island to be found by 'orbivores' (people who celebrate finding their 1 orb to keep per year)."
+    />
+    <meta
+      name="twitter:image"
+      content="https://geohouse.github.io/images/BlockIslandGlassFloat_thumbnail_v4.png"
+    />
 
-        <!--[if IE]>
-            <script src="html5shiv.googlecode.com/svn/trunk/html5.js">
-            </script>
-        <![endif]-->
-        <!--stylesheets-->
-        <link rel="stylesheet" href="css/leaflet.css">
-        <link rel="stylesheet" href="css/style.css">
-        
-        <script src="js/leaflet-src.js"></script>
-        <!--
+    <!--Import Google font for the title-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap&text=Block%20Island%20Glass%20Floats");
+    </style>
+    <title>Block Island float location map</title>
+
+    <!--[if IE]>
+      <script src="html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--stylesheets-->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/leaflet-src.js"></script>
+    <!--
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
         -->
-    </head>
-    <body>
-        <script src="js/jquery.js"></script>
-        <!--To layout the 3 vertical divs using a flexbox-->
-        <div class="box">
-            <div id = "title">
-                <h1>Block Island Glass Floats</h1>
-            </div>
-            <div id = "intro">
-                <p>
-                    Each year since 2012, glass floats made by artists Eben Horton, Jennifer Nauck and the glassblowers at <a href=https://theglassstationstudio.com/collections/glass-float-project>The Glass Station Studio and Gallery</a> in Wakefield, Rhode Island have been hidden on Block Island as part of the <a href=https://www.blockislandinfo.com/glass-float-project>Block Island Glass Floats project</a>. 
-                    Each float is individually numbered and dated. Most of these floats are made from clear glass, but each year the first several glass floats 
-                    (same as the number of years after 2000, so for 2023 there will be 23) are extra fancy floats with bright colors and decorations. Anyone who finds a glass float is asked to register the year and number on their float and 
-                    where on the island they found it.
-                    This interactive map uses <a href="https://www.blockislandinfo.com/glass-float-project/found-floats">that information </a>to show where the regular and fancy floats have been found on the island each year, and how many have been found in each area.
-                </p>
-
-            </div>
-        </div>
-        <!--This commented out code section is now depolyed as a Leaflet custom control on the map-->
-        <!--
-        <section id="slide-section">
-            <div class="slider-div">
-                <label id="slide-label" for="slider">Years to map</label>
-                <div class="sliderTicks">
-                    <p class="sliderTick">2012</p>
-                    <p class="sliderTick">2013</p>
-                    <p class="sliderTick">2014</p>
-                    <p class="sliderTick">2015</p>
-                    <p class="sliderTick">2016</p>
-                    <p class="sliderTick">2017</p>
-                    <p class="sliderTick">2018</p>
-                    <p class="sliderTick">2019</p>
-                    <p class="sliderTick">2020</p>
-                    <p class="sliderTick">2021</p>
-                    <p class="sliderTick">All years</p>
-                </div>
-                <input type = "range" id = "slider" name = "slider" min="1" max="11" step="1" value="1">
-                
-            </div>
-        </section>
-        -->
-
-        <!--
-        <div id = "button-div">
-            <p>What kind of floats do you want to map?</p>
-            <form>
-                <input type="checkbox" id="regular" name="regular" checked>
-                <label for="regular">Regular floats</label>
-                <input type="checkbox" id="fancy" name="fancy" checked>
-                <label for="fancy">Fancy floats</label>
-            </form>
-        </div>
-    -->
-    <!--
-        <div id = "background-div">
-            <p>Choose a background map</p>
-            <form id = "background-select">
-                <input type="radio" id="watercolor" name="background" value="watercolor" checked>
-                <label for="watercolor">Watercolor</label>
-
-                <input type="radio" id="aerial" name="background" value="aerial">
-                <label for="aerial">Aerial</label>
-
-                <input type="radio" id="blackwhite" name="background" value="blackwhite">
-                <label for="blackwhite">Black and White</label>
-            </form>
-        </div>
-    -->
-
-            <div id = "map">
-                    
-            </div>
-        </div>
-        <script src="js/main.js"></script>
-    </body>
+  </head>
+  <body>
+    <!-- <script src="js/jquery.js"></script> -->
+    <!--To layout the 3 vertical divs using a flexbox-->
+    <div class="box">
+      <div id="title">
+        <h1>Block Island Glass Floats</h1>
+      </div>
+      <div id="intro">
+        <p>
+          Each year since 2012, glass floats made by artists Eben Horton,
+          Jennifer Nauck and the glassblowers at
+          <a
+            href="https://theglassstationstudio.com/collections/glass-float-project"
+            >The Glass Station Studio and Gallery</a
+          >
+          in Wakefield, Rhode Island have been hidden on Block Island as part of
+          the
+          <a href="https://www.blockislandinfo.com/glass-float-project"
+            >Block Island Glass Floats project</a
+          >. Each float is individually numbered and dated. Most of these floats
+          are made from clear glass, but each year the first several glass
+          floats (same as the number of years after 2000, so for 2023 there will
+          be 23) are extra fancy floats with bright colors and decorations.
+          Anyone who finds a glass float is asked to register the year and
+          number on their float and where on the island they found it. This
+          interactive map uses
+          <a
+            href="https://www.blockislandinfo.com/glass-float-project/found-floats"
+            >that information </a
+          >to show where the regular and fancy floats have been found on the
+          island each year, and how many have been found in each area.
+        </p>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
